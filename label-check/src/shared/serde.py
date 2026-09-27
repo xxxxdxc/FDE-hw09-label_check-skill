@@ -6,7 +6,7 @@ from dataclasses import asdict, is_dataclass
 
 from .models import (
     Basis, BoxPx, Claim, Evidence, Facts, FieldValue, ImageInfo,
-    LabelDocument, NutritionRow, NutritionTable,
+    LabelDocument, NutritionRow, NutritionTable, TableDiagnostic,
 )
 
 
@@ -56,4 +56,10 @@ def document_from_dict(data: dict) -> LabelDocument:
         evidence=evidence, facts=facts,
         unassignedEvidenceIds=data["unassignedEvidenceIds"],
         productIdSource=data.get("productIdSource", "provided" if data.get("productId") else "unknown"),
+        tableDiagnostics=[TableDiagnostic(
+            code=item["code"], status=item["status"], message=item["message"],
+            imageId=item["imageId"],
+            boxPx=BoxPx(**item["boxPx"]) if item.get("boxPx") else None,
+            evidenceRefs=item.get("evidenceRefs", []), tableId=item.get("tableId"),
+        ) for item in data.get("tableDiagnostics", [])],
     )

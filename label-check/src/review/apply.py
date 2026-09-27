@@ -51,7 +51,8 @@ def apply_decisions(doc: LabelDocument, image_bytes: bytes, decisions: dict) -> 
         raise ValueError("A named reviewer is required")
     queue = {item["path"]: item for item in collect_review_items(reviewed)}
     rows = decisions.get("decisions")
-    if not isinstance(rows, list) or not rows:
+    table_rows = decisions.get("tableDecisions", [])
+    if not isinstance(rows, list) or not isinstance(table_rows, list) or not (rows or table_rows):
         raise ValueError("There are no completed review decisions")
     seen: set[str] = set()
     for row in rows:
@@ -108,6 +109,34 @@ def apply_decisions(doc: LabelDocument, image_bytes: bytes, decisions: dict) -> 
             if reviewed.facts.claims[claim_index].category == "front_title" and reviewed.productIdSource == "unknown":
                 reviewed.productId = value
                 reviewed.productIdSource = "human_reviewed_title"
+    seen_tables: set[str] = set()
+    for decision in table_rows:
+        if not isinstance(decision, dict) or decision.get("action") != "confirm_complete":
+            raise ValueError("Invalid table-completeness decision")
+        table_id = decision.get("tableId")
+        if not isinstance(table_id, str) or table_id in seen_tables:
+            raise ValueError("Duplicate or missing table decision")
+        seen_tables.add(table_id)
+        diagnostic = next((item for item in reviewed.tableDiagnostics
+                           if item.tableId == table_id and item.status == "needs_review"), None)
+        table = next((item for item in reviewed.facts.nutritionTables if item.id == table_id), None)
+        if (diagnostic is None or table is None or decision.get("originalCode") != diagnostic.code
+                or decision.get("sourceEvidenceRefs") != diagnostic.evidenceRefs):
+            raise ValueError(f"Stale table decision: {table_id}")
+        if not table.rows or table.basis.status != "ready" or any(
+            field.status != "ready" for row in table.rows
+            for field in (row.nutrient, row.amount, row.nrvPercent) if field is not None
+        ):
+            raise ValueError(f"Confirm all table fields before table completeness: {table_id}")
+        evidence_id = f"manual-review:{len(reviewed.evidence) + 1}"
+        while any(item.id == evidence_id for item in reviewed.evidence):
+            evidence_id = f"manual-review:{int(evidence_id.split(':')[1]) + 1}"
+        reviewed.evidence.append(Evidence(evidence_id, None, "manual",
+                                          f"{decisions['reviewer']} confirmed complete table {table_id}", None, None))
+        diagnostic.status = "ok"
+        diagnostic.code = "HUMAN_REVIEWED_TABLE"
+        diagnostic.message = "Human reviewer confirmed every row and column against the original image"
+        diagnostic.evidenceRefs.append(evidence_id)
     validate_document(reviewed)
     return reviewed
 

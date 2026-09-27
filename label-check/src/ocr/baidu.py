@@ -49,7 +49,7 @@ def _post(url: str, data: dict[str, str]) -> dict:
     return payload
 
 
-def recognize_accurate(image_path: Path, project_root: Path) -> dict:
+def _access_token(project_root: Path) -> str:
     _load_local_env(project_root)
     api_key = os.environ.get("BAIDU_API_KEY")
     secret_key = os.environ.get("BAIDU_SECRET_KEY")
@@ -63,6 +63,11 @@ def recognize_accurate(image_path: Path, project_root: Path) -> dict:
     token = token_data.get("access_token")
     if not token:
         raise OcrServiceError("Baidu OCR token response had no access_token")
+    return token
+
+
+def recognize_accurate(image_path: Path, project_root: Path) -> dict:
+    token = _access_token(project_root)
     image_b64 = base64.b64encode(image_path.read_bytes()).decode("ascii")
     payload = _post(ACCURATE_URL + "?access_token=" + token, {
         "image": image_b64,

@@ -40,13 +40,15 @@ def validate_document(doc: LabelDocument) -> None:
     if len(ids) != len(doc.evidence):
         raise ValueError("Duplicate evidence IDs")
     for entry in doc.evidence:
-        if entry.sourceType not in {"baidu_accurate", "baidu_table_v2", "manual"}:
+        if entry.sourceType not in {"baidu_accurate", "baidu_table_v2", "codex_vision", "manual"}:
             raise ValueError(f"Unknown evidence source: {entry.sourceType}")
         if entry.sourceType == "manual":
             if entry.imageId is not None or entry.boxPx is not None or entry.ocrConfidence is not None:
                 raise ValueError("Manual evidence cannot claim image coordinates or OCR confidence")
         elif entry.imageId not in images:
             raise ValueError(f"Unknown imageId: {entry.imageId}")
+        if entry.sourceType in {"baidu_table_v2", "codex_vision"} and entry.ocrConfidence is not None:
+            raise ValueError("Table V2 and vision candidates do not provide OCR confidence")
         if entry.ocrConfidence is not None and not 0 <= entry.ocrConfidence <= 1:
             raise ValueError("ocrConfidence must lie in [0, 1]")
         if entry.boxPx is not None:
@@ -58,12 +60,17 @@ def validate_document(doc: LabelDocument) -> None:
 
     def uncertain_ocr(refs):
         has_manual_review = any(evidence_by_id[ref].sourceType == "manual" for ref in refs)
-        return not has_manual_review and any(
-            evidence_by_id[ref].sourceType != "manual" and
-            (evidence_by_id[ref].ocrConfidence is None or
-             evidence_by_id[ref].ocrConfidence < LOW_OCR_CONFIDENCE)
-            for ref in refs
-        )
+        if has_manual_review:
+            return False
+        accurate = [evidence_by_id[ref] for ref in refs if evidence_by_id[ref].sourceType == "baidu_accurate"]
+        if any(e.ocrConfidence is None or e.ocrConfidence < LOW_OCR_CONFIDENCE for e in accurate):
+            return True
+        # A vision candidate is never verified without a separate human record.
+        if any(evidence_by_id[ref].sourceType == "codex_vision" for ref in refs):
+            return True
+        # V2 has no confidence score; it needs a high-confidence accurate line.
+        return (any(evidence_by_id[ref].sourceType == "baidu_table_v2" for ref in refs)
+                and not accurate)
 
     def check_field(value: FieldValue, path: str, numeric=False, unit=False):
         if value.status not in FIELD_STATES:
@@ -127,3 +134,13 @@ def validate_document(doc: LabelDocument) -> None:
             raise ValueError("Title-derived productId must match a ready front-title claim")
     if any(ref not in ids for ref in doc.unassignedEvidenceIds):
         raise ValueError("Unknown unassignedEvidenceId")
+    for diagnostic in doc.tableDiagnostics:
+        if diagnostic.status not in {"ok", "needs_vision", "needs_review"}:
+            raise ValueError("Invalid table diagnostic status")
+        if diagnostic.imageId not in images or any(ref not in ids for ref in diagnostic.evidenceRefs):
+            raise ValueError("Invalid table diagnostic reference")
+        if diagnostic.boxPx is not None:
+            box, image = diagnostic.boxPx, images[diagnostic.imageId]
+            if (min(box.left, box.top) < 0 or min(box.width, box.height) <= 0 or
+                box.left + box.width > image.widthPx or box.top + box.height > image.heightPx):
+                raise ValueError("Table diagnostic box outside original image")

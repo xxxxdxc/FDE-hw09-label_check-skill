@@ -4,7 +4,7 @@
 
 本项目在已有的 `SKILL.md` 基础上，尝试解决包装标签初检中的三类问题：**图片里的文字和数字读错、营养数据算错、包装不同位置的信息对不上**。目标流程是：包装图片或人工录入 → 统一结构化数据 → 确定性计算 → 跨位置核对 → 带证据位置的初检报告。
 
-**当前完成第一段：OCR 识别、结构化和人工复核。** `SKILL.md` 已加入该流程入口；计算、矛盾核对和报告模块尚未实现。现阶段的 JSON 是“从包装提取的事实”，不能当作合规审核结论。
+**当前完成第一段：双路 OCR、结构化、表格异常诊断与人工复核。** `SKILL.md` 已加入该流程入口；计算、矛盾核对和报告模块尚未实现。现阶段的 JSON 是“从包装提取的事实”，不能当作合规审核结论。
 
 ## 当前代码结构
 
@@ -15,8 +15,12 @@ label-check/
 │   ├── main.py               当前的命令行入口；未来可串联整个流程
 │   ├── ocr/
 │   │   ├── baidu.py           调用百度高精度含位置版 OCR
+│   │   ├── table_v2.py        调用百度表格文字识别 V2
+│   │   ├── crop.py            大图表格区域裁剪及原图坐标映射
+│   │   ├── dual.py            两路单元格/文字交叉核对与结构诊断
+│   │   ├── vision.py          导入 Codex 看图给出的待确认候选表
 │   │   ├── images.py          读取 PNG/JPEG 原图尺寸
-│   │   └── parser.py          解析文字、营养表行列、单位及宣称
+│   │   └── parser.py          解析全文文字、产品信息和非表格字段
 │   ├── review/
 │   │   ├── page.py            生成原图标注与人工输入的离线 HTML
 │   │   ├── template.html      复核页面模板
@@ -25,13 +29,14 @@ label-check/
 │       ├── models.py          组内共用的数据类
 │       ├── serde.py           数据类与 JSON 相互转换
 │       ├── confidence.py      统一的 OCR 人工复核阈值
-│       ├── review.py          待复核清单与下游检查门禁
+│       ├── review.py          待复核清单与字段/整表门禁
 │       ├── validation.py      检查字段、来源引用和坐标
 │       └── CONTRACT.md        完整的数据格式定义
 └── tests/
     ├── test_ocr_structure.py  结构化解析测试
     ├── test_review_page.py    复核页面生成测试
     ├── test_review_apply.py   人工决定应用测试
+    ├── test_dual_ocr.py       真实 V2 响应回放与兜底闭环测试
     └── fixtures/             OCR 行级数据及结构化结果样例
 ```
 
@@ -39,33 +44,34 @@ label-check/
 
 ## OCR 模块目前做了什么
 
-1. 读取整张包装图片，调用百度 OCR 获取每行文字、原图坐标及服务返回的行级置信度。也可以读取保存的 OCR 响应离线解析，便于其他组员不消耗接口额度就能联调。
-2. 将**全部**识别行保存为 `evidence`；定位营养成分表后，用“项目／每份／NRV%”列标题限定表格范围，再按行列关系配对营养素、含量、单位和印刷的 NRV%。同时提取产品名、净含量、配料段、过敏原段、正面标题、条码及可识别的宣传语。
-3. 输出 `LabelDocument` JSON。每个字段保留原文、解析值、状态及 `sourceRefs`；通过引用可找到 OCR 行和原图像素坐标。暂时无法归类的行进入 `unassignedEvidenceIds`，不会丢失。
+1. 全文高精度 OCR 取得每行文字、原图坐标与行级分数；图片较大时裁出营养表区域，再调用表格文字识别 V2 获取单元格、行列关系。裁剪图坐标换回原图像素。可分别保存两路原始响应，供离线复现。
+2. `evidence` 保留两路原始证据。V2 提供营养表候选行列；同位置、同内容的全文 OCR 行提供置信度佐证。表头混入数据、错单位、少行、零行或两路冲突会被拦下；产品信息、配料、宣称、条码仍由全文 OCR 解析。
+3. 输出 `LabelDocument` JSON。字段包含原文、值、状态与来源；`tableDiagnostics` 记录整表结构状态。待分类行进入 `unassignedEvidenceIds`。低分字段送人工；`needs_vision` 表格送当前 Codex Skill 看原图并提出候选，之后仍由人工确认每个字段和整表完整性。
 
-字段状态为 `ready`、`needs_review`、`missing`。数值在 JSON 中保存为十进制字符串（如 `"2.6"`），后续计算模块应转为 `Decimal`。目前所有 OCR 来源的结构化字段统一检查行级平均置信度：只要任一来源行**低于 0.96**，就标 `OCR_LOW_CONFIDENCE`；接口未返回分数则标 `OCR_CONFIDENCE_MISSING`。缺单位、同一行多个候选值、未知营养素或明显的配料文本异常也会独立触发复核。人工输入来源不套用 OCR 分数阈值。**0.96 是待更多样本验证的人工复核触发值，不是“正确率 96%”；高分也不能消除其他解析问题。**
+字段状态为 `ready`、`needs_review`、`missing`；数值用十进制字符串。全文 OCR 行低于 **0.96** 或缺分数会触发人工复核。V2 不返回同类分数，不能把它的 `null` 当作置信度；V2 单元格只有得到高置信度全文行佐证，才可自动 `ready`。即使两路分数都高，也要过结构质量门槛。**0.96 是待标注样本验证的分流阈值，不是“正确率 96%”。**
 
-`collect_review_items(document)` 从 `needs_review` 字段生成清单，包括字段路径、原因、当前结构化值、证据 ID、图片 ID、原图坐标和 OCR 分数。命令行可用 `--review-output review.json` 保存该清单，并在标准错误输出显示待复核字段数。`src/review/` 提供离线复核页和人工决定应用器；软件只提供定位、记录与校验，**不会替人判断原图究竟写了什么**。
+`collect_review_items(document)` 生成字段复核清单；`--vision-task-output` 保存结构异常表格的原图区域和证据 ID。复核页可逐项修改字段，视觉候选还需勾选“已检查全部行列”。程序不会替人确认包装究竟写了什么。
 
 正面标题保存在 `claims[]` 的 `front_title` 项中；未指定 `--product-id` 且标题为 `ready` 时，也会成为临时 `productId`，并标记 `productIdSource: ocr_front_title`。人工复核后可标为 `human_reviewed_title`。跨图片核对前仍需人工确认产品身份；显式传入的 `--product-id` 优先。条码数字单独保存在 `facts.barcodes[]`，保留每段来源和校验位结果。
 
-用现有龙井厚乳包装图实测：返回 57 条 OCR 证据，解析出 1 张营养成分表及 8 行营养数据。配料文字中的括号异常被标为待确认。另一张“原味咸甜 72g”图片属于不同产品，不能和龙井厚乳 43g 的数据合并核对。这只是样图联调结果，尚不能证明作业要求的总体准确率。
+真实 V2 联调：一张规则整齐的营养表成功配出 6 行及各 NRV%；龙井厚乳图的 V2 把“糖、钠”合为“糖钠”，被标为 `needs_vision`，不会把错行数据交给计算模块。另有一张弯曲表格因表头数据混入、能量单位错位被拦下。这些只是联调样例，尚不能证明作业要求的总体准确率。
 
 ## 如何运行
 
-在 `label-check/` 目录打开 PowerShell。直接识别图片需要在项目上级目录的本地 `.env` 中配置 `BAIDU_API_KEY`、`BAIDU_SECRET_KEY`，或设置同名环境变量。`.env` 已被 Git 忽略。
+在 `label-check/` 目录打开 PowerShell。大图裁剪需要安装 `requirements.txt` 中的 Pillow；直接识别图片需要在项目上级目录的本地 `.env` 中配置 `BAIDU_API_KEY`、`BAIDU_SECRET_KEY`，或设置同名环境变量。`.env` 已被 Git 忽略。
 
 ```powershell
-python -m src.main --image '..\M2-包装设计稿正面.png' --product-id longjing-43g --output structured.json --review-output review.json
+python -m pip install -r requirements.txt
+python -m src.main --image '..\M2-包装设计稿正面.png' --product-id longjing-43g --output structured.json --review-output review.json --vision-task-output vision-tasks.json
 ```
 
-使用仓库内的 OCR 行级数据样例离线复现，无需再请求百度：
+两路已保存响应离线复现，无需再请求百度；V2 包装文件含裁剪坐标映射：
 
 ```powershell
-python -m src.main --image '..\M2-包装设计稿正面.png' --ocr-json 'tests\fixtures\front_accurate.json' --product-id longjing-43g --output structured.json --review-output review.json
+python -m src.main --image '..\M2-包装设计稿正面.png' --ocr-json 'tests\fixtures\front_accurate.json' --table-v2-json 'tests\fixtures\front_table_v2_crop.json' --product-id longjing-43g --output structured.json --review-output review.json --vision-task-output vision-tasks.json
 ```
 
-不写 `--output` 时，JSON 只打印到终端；指定后才写入该文件。运行测试：
+实时运行时也可用 `--accurate-raw-output`、`--table-v2-raw-output` 保存两路原始返回。只给 `--ocr-json` 会沿用旧单路解析，不会请求 V2。未指定 `--output` 时，结构化 JSON 只打印到终端。运行测试：
 
 ```powershell
 python -m unittest discover -s tests -v
@@ -83,7 +89,7 @@ python -m src.review.page --document structured.json --image '..\M2-包装设计
 python -m src.review.apply --document structured.json --image '..\M2-包装设计稿正面.png' --decisions review-decisions-m2-front.json --output reviewed.json
 ```
 
-保留 `structured.json` 和决定 JSON 作为审计材料。已确认字段保留原 OCR 引用及坐标，并追加 `manual` 证据；未处理项继续 `needs_review`。具体操作见 [OCR 人工复核说明](references/ocr-review.md)。
+当 `vision-tasks.json` 有任务时，按 [双路 OCR 与视觉候选交接](docs/OCR_DUAL_WORKFLOW.md) 让当前 Codex Skill 查看原图并写候选表，再用 `python -m src.ocr.vision` 导入为**待人工复核**字段。人工复核页需逐字段确认，同时确认整张表的行列完整性。保留原始、候选、决定和复核后 JSON 作为审计材料。具体操作见 [OCR 人工复核说明](references/ocr-review.md)。
 
 OCR 验收指标可运行 `python -m tests.acceptance_eval --output tests/acceptance_report.json`。当前样本、人工标注范围和未满足的 50 图要求见 [验收测试说明](tests/ACCEPTANCE.md)；不能用单张样图的正确率宣称项目已通过验收。
 
@@ -99,10 +105,14 @@ OCR 验收指标可运行 `python -m tests.acceptance_eval --output tests/accept
 | `checker/`（未实现） | 同一产品的表格、宣传语、脚注及其位置 | 跨位置一致性 `CheckResult`；基准不明确时标待确认 |
 | `report/`（未实现） | 原始证据、结构化字段、各模块的检查结果 | 汇总状态、依据及所有相关原图位置 |
 
-`CheckResult` 的约定状态为 `pass`、`fail`、`needs_review`、`insufficient_data`、`not_applicable`。后续模块在计算或判定前应调用 `gate_check(check_id, {字段路径: 字段对象})`：全部 `ready` 时返回 `None`，有待复核输入时返回 `needs_review`，有必需字段缺失时返回 `insufficient_data`。OCR 阶段自身**不产生合规审核结论**。后续开发优先复用 `src/shared/models.py` 和 [数据契约](src/shared/CONTRACT.md)，需要增加字段时同步修改契约、校验及测试样例。旧 `SKILL.md` 中“每份必须先折算每100g再算 NRV%”的表述不能直接作为计算规则。
+`CheckResult` 的约定状态为 `pass`、`fail`、`needs_review`、`insufficient_data`、`not_applicable`。营养计算和核对须先调用 `gate_nutrition_table(document, table_id, check_id)`，同时检查表格结构与各字段；其他字段仍用 `gate_check`。OCR 阶段自身**不产生合规审核结论**。后续开发优先复用 `src/shared/models.py` 和 [数据契约](src/shared/CONTRACT.md)。旧 `SKILL.md` 中“每份必须先折算每100g再算 NRV%”的表述不能直接作为计算规则。
 
 按现有草拟分工，A 交付并维护 `LabelDocument`，B、C 可先基于 `tests/fixtures/front_structured.json` 并行开发；联调时再将样例输入替换为实际 OCR 输出。
 
 ## 当前边界
 
-表格文字识别 V2 的自动补识别、独立人工录入入口、计算、交叉核对及报告都待后续实现。人工复核页只列结构化字段的待复核项；`unassignedEvidenceIds` 中的潜在漏项仍需另行检查。尚无 50 张人工标注标签的完整验收数据；项目提供的课程图片仅用于联调，不能据此宣称达到题目指标。
+通用表格解析已有两路识别与结构门槛，但复杂弯曲版面仍需 Skill 看图及人工确认。`unassignedEvidenceIds` 中的潜在漏项需抽查；计算、交叉核对和报告仍待实现。现有 50 图缺完整人工逐字、逐表标注，不能据此宣称达到 98%/95% 等作业验收指标。
+
+## 本次更新
+
+双路 OCR、漏行检测及视觉候选复核的简要说明见 [CHANGELOG.md](CHANGELOG.md)。完整回归测试依赖本地样例数据；测试结果与密钥不随代码提交。

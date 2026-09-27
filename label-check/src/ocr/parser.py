@@ -16,7 +16,25 @@ NUTRIENTS = {
     "能量": "energy", "蛋白质": "protein", "脂肪": "fat",
     "饱和脂肪": "saturated_fat", "饱和脂肪酸": "saturated_fat",
     "反式脂肪酸": "trans_fat", "碳水化合物": "carbohydrate",
-    "糖": "sugar", "钠": "sodium", "膳食纤维": "dietary_fiber",
+    "糖": "sugar", "钠": "sodium", "钙": "calcium", "膳食纤维": "dietary_fiber",
+    "反式脂肪": "trans_fat", "反式脂肪（酸）": "trans_fat",
+    "维生素A": "vitamin_a", "维生素D": "vitamin_d", "维生素E": "vitamin_e",
+    "维生素B1": "vitamin_b1", "维生素B2": "vitamin_b2", "铁": "iron", "锌": "zinc", "硒": "selenium",
+}
+NUTRIENT_ALIASES = {
+    "energy": "energy", "energie": "energy", "energia": "energy",
+    "protein": "protein", "proteines": "protein", "proteine": "protein", "proteina": "protein",
+    "eiweiß": "protein", "eiweib": "protein",
+    "fat": "fat", "fett": "fat", "grassi": "fat", "graisses": "fat", "grasas": "fat",
+    "matieres grasses": "fat", "grasas fat": "fat",
+    "carbohydrate": "carbohydrate", "carbohydrates": "carbohydrate", "carboidrati": "carbohydrate",
+    "kohlenhydrate": "carbohydrate", "glucides": "carbohydrate",
+    "sodium": "sodium", "calcium": "calcium",
+    "salt": "salt", "sal": "salt", "sel": "salt", "sale": "salt", "salz": "salt",
+    "sugars": "sugar", "sugar": "sugar", "dont sucres": "sugar", "davon zucker": "sugar",
+    "di cui zuccheri": "sugar", "of which sugars": "sugar",
+    "saturated": "saturated_fat", "saturadas": "saturated_fat",
+    "dont acides gras satures": "saturated_fat", "davon gesattigte fettsauren": "saturated_fat",
 }
 UNIT_NAMES = {
     "千焦": "kJ", "kJ": "kJ", "克": "g", "g": "g",
@@ -24,7 +42,7 @@ UNIT_NAMES = {
     "毫升": "mL", "ml": "mL", "mL": "mL", "大卡": "kcal", "千卡": "kcal", "kcal": "kcal",
 }
 NUMBER_UNIT = re.compile(r"(?P<number>\d+(?:\.\d+)?)\s*(?P<unit>千焦|毫克|微克|毫升|大卡|千卡|kcal|kJ|mg|mL|ml|µg|μg|克|g)", re.I)
-SERVING = re.compile(r"每\s*份\s*(\d+(?:\.\d+)?)\s*(克|g|毫升|mL|ml)", re.I)
+SERVING = re.compile(r"每\s*份\s*[:：（(]?\s*(\d+(?:\.\d+)?)\s*(克|g|毫升|mL|ml)", re.I)
 
 
 def _center_x(item: Evidence) -> float:
@@ -37,9 +55,9 @@ def _center_y(item: Evidence) -> float:
 
 def _field(raw: str, value: str | None, unit: str | None, entries: list[Evidence], numeric=False, extra=None) -> FieldValue:
     reasons = list(extra or [])
-    if any(e.sourceType != "manual" and e.ocrConfidence is None for e in entries):
+    if any(e.sourceType == "baidu_accurate" and e.ocrConfidence is None for e in entries):
         reasons.append("OCR_CONFIDENCE_MISSING")
-    if any(e.sourceType != "manual" and e.ocrConfidence is not None and e.ocrConfidence < LOW_OCR_CONFIDENCE for e in entries):
+    if any(e.sourceType == "baidu_accurate" and e.ocrConfidence is not None and e.ocrConfidence < LOW_OCR_CONFIDENCE for e in entries):
         reasons.append("OCR_LOW_CONFIDENCE")
     if any(e.sourceType != "manual" and e.boxPx is None for e in entries):
         reasons.append("LOCATION_UNKNOWN")
@@ -49,12 +67,21 @@ def _field(raw: str, value: str | None, unit: str | None, entries: list[Evidence
 
 
 def _quantity(item: Evidence) -> FieldValue:
-    match = NUMBER_UNIT.search(item.text)
+    if re.search(r"视黄醇|生育酚|[µμ]g\s*RE|mg\s*[αa]-?TE", item.text, re.I):
+        return _field(item.text, None, None, [item], numeric=True,
+                      extra=["UNSUPPORTED_EQUIVALENT_UNIT"])
+    normalized = re.sub(r"(?<=\d),(?=\d)", ".", item.text)
+    normalized = re.sub(r"(?<=\d)\s+(?=\d{3}(?:\D|$))", "", normalized)
+    matches = list(NUMBER_UNIT.finditer(normalized))
+    match = matches[0] if matches else None
+    if match and (len(matches) > 1 or re.search(r"[<>≤≥]", normalized)):
+        return _field(item.text, None, None, [item], numeric=True,
+                      extra=["MULTIPLE_QUANTITIES" if len(matches) > 1 else "UNSUPPORTED_COMPARATOR"])
     if not match:
         number = re.search(r"\d+(?:\.\d+)?", item.text)
         return _field(item.text, number.group(0) if number else None, None, [item], numeric=True,
                       extra=[] if number else ["NUMBER_OR_UNIT_UNREADABLE"])
-    unit = UNIT_NAMES.get(match.group("unit"))
+    unit = next((value for key, value in UNIT_NAMES.items() if key.casefold() == match.group("unit").casefold()), None)
     return _field(item.text, match.group("number"), unit, [item], numeric=True)
 
 
@@ -142,12 +169,29 @@ def _basis(candidates: list[Evidence]) -> Basis:
             return Basis("per_100g", text, [entry.id], _field(text, text, None, [entry]).status)
         if re.search(r"每100\s*(?:毫升|mL|ml)", text, re.I):
             return Basis("per_100ml", text, [entry.id], _field(text, text, None, [entry]).status)
+        if re.search(r"(?:per|pro|pour)100g\b", text, re.I):
+            return Basis("per_100g", entry.text, [entry.id], _field(entry.text, entry.text, None, [entry]).status)
+        if re.search(r"(?:per|pro|pour)100ml\b", text, re.I):
+            return Basis("per_100ml", entry.text, [entry.id], _field(entry.text, entry.text, None, [entry]).status)
     return Basis("unknown", None, [], "needs_review")
 
 
 def _nutrient_code(text: str) -> str | None:
-    clean = re.sub(r"^[\s\-—－·]+", "", text).replace(" ", "").strip("：:")
-    return NUTRIENTS.get(clean)
+    clean = re.sub(r"^[\s\-—－·一]+", "", text).strip("：: ")
+    if NUMBER_UNIT.search(clean) or "%" in clean:
+        return None
+    compact = re.sub(r"\s+", "", clean)
+    if compact in NUTRIENTS:
+        return NUTRIENTS[compact]
+    # Exact bilingual tokens are safe aliases; concatenated Chinese row names
+    # such as 钠钙 must remain unresolved instead of matching one substring.
+    codes = set()
+    for token in re.split(r"[/\n]", clean):
+        token = re.sub(r"\s+", " ", token).strip().casefold()
+        code = NUTRIENTS.get(token.replace(" ", "")) or NUTRIENT_ALIASES.get(token)
+        if code:
+            codes.add(code)
+    return codes.pop() if len(codes) == 1 else None
 
 
 def _assign_by_row(items: list[Evidence], labels: list[Evidence]) -> dict[str, list[Evidence]]:

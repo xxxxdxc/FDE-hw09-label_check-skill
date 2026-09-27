@@ -75,3 +75,26 @@ def gate_check(check_id: str, inputs: Mapping[str, FieldValue | Basis]) -> Check
         inputPaths=[path for path, _ in blocked],
         evidenceRefs=refs,
     )
+
+
+def gate_nutrition_table(doc: LabelDocument, table_id: str, check_id: str) -> CheckResult | None:
+    """Block downstream calculations on unresolved table structure or fields."""
+    table = next((item for item in doc.facts.nutritionTables if item.id == table_id), None)
+    if table is None:
+        unresolved = next((item for item in doc.tableDiagnostics if item.status != "ok" and item.tableId is None), None)
+        if unresolved:
+            return CheckResult(check_id, "needs_review", "疑似营养表尚待看原图确认", [], unresolved.evidenceRefs)
+        return CheckResult(check_id, "insufficient_data", "营养表缺失", [], [])
+    diagnostic = next((item for item in doc.tableDiagnostics
+                       if item.status != "ok" and item.tableId in {table_id, None}), None)
+    if diagnostic and diagnostic.status != "ok":
+        index = doc.facts.nutritionTables.index(table)
+        return CheckResult(check_id, "needs_review", "营养表行列结构待复核", [f"facts.nutritionTables[{index}]"],
+                           diagnostic.evidenceRefs)
+    inputs: dict[str, FieldValue | Basis] = {"basis": table.basis}
+    for index, row in enumerate(table.rows):
+        inputs[f"rows[{index}].nutrient"] = row.nutrient
+        inputs[f"rows[{index}].amount"] = row.amount
+        if row.nrvPercent is not None:
+            inputs[f"rows[{index}].nrvPercent"] = row.nrvPercent
+    return gate_check(check_id, inputs)

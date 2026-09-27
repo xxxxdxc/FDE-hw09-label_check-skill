@@ -71,6 +71,17 @@ class NutritionTable:
 
 
 @dataclass
+class TableDiagnostic:
+    code: str
+    status: str
+    message: str
+    imageId: str
+    boxPx: BoxPx | None
+    evidenceRefs: list[str] = field(default_factory=list)
+    tableId: str | None = None
+
+
+@dataclass
 class Claim:
     id: str
     category: str
@@ -100,6 +111,7 @@ class LabelDocument:
     facts: Facts
     unassignedEvidenceIds: list[str]
     productIdSource: str = "unknown"
+    tableDiagnostics: list[TableDiagnostic] = field(default_factory=list)
 
 
 @dataclass

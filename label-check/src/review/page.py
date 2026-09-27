@@ -41,6 +41,10 @@ def render_page(document_path: Path, image_path: Path) -> tuple[str, int]:
         "imageHeight": height,
         "threshold": LOW_OCR_CONFIDENCE,
         "items": collect_review_items(document),
+        "tableItems": [{
+            "tableId": item.tableId, "code": item.code, "message": item.message,
+            "evidenceRefs": item.evidenceRefs, "boxPx": vars(item.boxPx) if item.boxPx else None,
+        } for item in document.tableDiagnostics if item.status == "needs_review" and item.tableId],
     }
     payload = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")
     rendered = (TEMPLATE.read_text(encoding="utf-8")
