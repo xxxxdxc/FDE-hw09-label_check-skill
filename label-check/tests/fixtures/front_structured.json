@@ -1,0 +1,1272 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "m2-front",
+  "productId": "longjing-43g",
+  "images": [
+    {
+      "id": "front",
+      "fileName": "M2-包装设计稿正面.png",
+      "widthPx": 3000,
+      "heightPx": 3000
+    }
+  ],
+  "evidence": [
+    {
+      "id": "front:1",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "龙井厚乳",
+      "boxPx": {
+        "left": 828,
+        "top": 598,
+        "width": 643,
+        "height": 183
+      },
+      "ocrConfidence": 0.9920410514
+    },
+    {
+      "id": "front:2",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "食验室",
+      "boxPx": {
+        "left": 1945,
+        "top": 666,
+        "width": 322,
+        "height": 121
+      },
+      "ocrConfidence": 0.9997408986
+    },
+    {
+      "id": "front:3",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "玉米片",
+      "boxPx": {
+        "left": 838,
+        "top": 775,
+        "width": 630,
+        "height": 250
+      },
+      "ocrConfidence": 0.995277822
+    },
+    {
+      "id": "front:4",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "添加龙井",
+      "boxPx": {
+        "left": 1981,
+        "top": 922,
+        "width": 188,
+        "height": 55
+      },
+      "ocrConfidence": 0.9998220801
+    },
+    {
+      "id": "front:5",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "嚼到悠悠茶香",
+      "boxPx": {
+        "left": 1981,
+        "top": 971,
+        "width": 273,
+        "height": 57
+      },
+      "ocrConfidence": 0.9987967014
+    },
+    {
+      "id": "front:6",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "非油炸",
+      "boxPx": {
+        "left": 1691,
+        "top": 1175,
+        "width": 145,
+        "height": 57
+      },
+      "ocrConfidence": 0.999494493
+    },
+    {
+      "id": "front:7",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "一片约9大卡`",
+      "boxPx": {
+        "left": 1689,
+        "top": 1219,
+        "width": 315,
+        "height": 61
+      },
+      "ocrConfidence": 0.9464565516
+    },
+    {
+      "id": "front:8",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "0反式脂肪酸",
+      "boxPx": {
+        "left": 1985,
+        "top": 1456,
+        "width": 261,
+        "height": 58
+      },
+      "ocrConfidence": 0.9969055057
+    },
+    {
+      "id": "front:9",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "0产品名称：龙井厚乳玉米片○净含量：43g○产品类型：膨化食品○产品标准",
+      "boxPx": {
+        "left": 847,
+        "top": 1661,
+        "width": 606,
+        "height": 35
+      },
+      "ocrConfidence": 0.9949609041
+    },
+    {
+      "id": "front:10",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "营养成分表",
+      "boxPx": {
+        "left": 1906,
+        "top": 1655,
+        "width": 139,
+        "height": 39
+      },
+      "ocrConfidence": 0.9998716116
+    },
+    {
+      "id": "front:11",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "号：GB/T22699○配料表：玉米糁（≥45%）、低聚果糖、椰子油、水（泡绿茶虎跑泉水",
+      "boxPx": {
+        "left": 843,
+        "top": 1694,
+        "width": 608,
+        "height": 34
+      },
+      "ocrConfidence": 0.9974214435
+    },
+    {
+      "id": "front:12",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "项目",
+      "boxPx": {
+        "left": 1706,
+        "top": 1706,
+        "width": 57,
+        "height": 35
+      },
+      "ocrConfidence": 0.9999866486
+    },
+    {
+      "id": "front:13",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "0.5%)、龙井芝士复合调味料（含磷脂、食用香精）、全脂乳粉（≥1.5%）、龙井茶粉（≥",
+      "boxPx": {
+        "left": 842,
+        "top": 1728,
+        "width": 610,
+        "height": 34
+      },
+      "ocrConfidence": 0.9988018274
+    },
+    {
+      "id": "front:14",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "每份43克(g)",
+      "boxPx": {
+        "left": 1915,
+        "top": 1704,
+        "width": 153,
+        "height": 39
+      },
+      "ocrConfidence": 0.9995459914
+    },
+    {
+      "id": "front:15",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "NRV%",
+      "boxPx": {
+        "left": 2172,
+        "top": 1701,
+        "width": 74,
+        "height": 36
+      },
+      "ocrConfidence": 0.990459621
+    },
+    {
+      "id": "front:16",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "(4%)、芝士粉（再制干酪）○致敏原信息：本产品含有乳及乳制品，本生产线也加工",
+      "boxPx": {
+        "left": 844,
+        "top": 1761,
+        "width": 608,
+        "height": 35
+      },
+      "ocrConfidence": 0.9904138446
+    },
+    {
+      "id": "front:17",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "能量",
+      "boxPx": {
+        "left": 1707,
+        "top": 1749,
+        "width": 51,
+        "height": 35
+      },
+      "ocrConfidence": 0.9997338057
+    },
+    {
+      "id": "front:18",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "822千焦(kJ)",
+      "boxPx": {
+        "left": 1919,
+        "top": 1747,
+        "width": 149,
+        "height": 39
+      },
+      "ocrConfidence": 0.9931692481
+    },
+    {
+      "id": "front:19",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "10%",
+      "boxPx": {
+        "left": 2198,
+        "top": 1747,
+        "width": 48,
+        "height": 31
+      },
+      "ocrConfidence": 0.9999282956
+    },
+    {
+      "id": "front:20",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "麸质的谷物及其制品、甲壳纲类动物及其制品的食品○贮藏条件：密封存放于",
+      "boxPx": {
+        "left": 843,
+        "top": 1794,
+        "width": 609,
+        "height": 35
+      },
+      "ocrConfidence": 0.9990572929
+    },
+    {
+      "id": "front:21",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "蛋白质",
+      "boxPx": {
+        "left": 1707,
+        "top": 1782,
+        "width": 77,
+        "height": 38
+      },
+      "ocrConfidence": 0.9998111725
+    },
+    {
+      "id": "front:22",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "2.6克(g)",
+      "boxPx": {
+        "left": 1966,
+        "top": 1782,
+        "width": 101,
+        "height": 38
+      },
+      "ocrConfidence": 0.9946728349
+    },
+    {
+      "id": "front:23",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "4%",
+      "boxPx": {
+        "left": 2206,
+        "top": 1781,
+        "width": 37,
+        "height": 30
+      },
+      "ocrConfidence": 0.9990732074
+    },
+    {
+      "id": "front:24",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "晾干燥处○食用方法：开袋即食，拆封后请尽快食用○保质期：9个月○委托方：",
+      "boxPx": {
+        "left": 841,
+        "top": 1828,
+        "width": 609,
+        "height": 36
+      },
+      "ocrConfidence": 0.9885246754
+    },
+    {
+      "id": "front:25",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "脂肪",
+      "boxPx": {
+        "left": 1708,
+        "top": 1817,
+        "width": 52,
+        "height": 35
+      },
+      "ocrConfidence": 0.9993692636
+    },
+    {
+      "id": "front:26",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "5.8克(g)",
+      "boxPx": {
+        "left": 1966,
+        "top": 1816,
+        "width": 99,
+        "height": 36
+      },
+      "ocrConfidence": 0.9807924628
+    },
+    {
+      "id": "front:27",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "10%",
+      "boxPx": {
+        "left": 2200,
+        "top": 1814,
+        "width": 46,
+        "height": 30
+      },
+      "ocrConfidence": 0.9998919964
+    },
+    {
+      "id": "front:28",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "洲银河山田食品科技有限公司○地址：浙江省杭州市建德市梅城镇葛家村锦峰",
+      "boxPx": {
+        "left": 842,
+        "top": 1862,
+        "width": 610,
+        "height": 35
+      },
+      "ocrConfidence": 0.9921095371
+    },
+    {
+      "id": "front:29",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "-饱和脂肪",
+      "boxPx": {
+        "left": 1711,
+        "top": 1848,
+        "width": 107,
+        "height": 37
+      },
+      "ocrConfidence": 0.9925842285
+    },
+    {
+      "id": "front:30",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "4.9克(g)",
+      "boxPx": {
+        "left": 1967,
+        "top": 1850,
+        "width": 100,
+        "height": 34
+      },
+      "ocrConfidence": 0.9988099337
+    },
+    {
+      "id": "front:31",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "25%",
+      "boxPx": {
+        "left": 2196,
+        "top": 1849,
+        "width": 50,
+        "height": 28
+      },
+      "ocrConfidence": 0.9999181628
+    },
+    {
+      "id": "front:32",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "108号梅城创e工场04号办公室-4号○委托方电话：400-800-4052○受托方：",
+      "boxPx": {
+        "left": 839,
+        "top": 1895,
+        "width": 613,
+        "height": 35
+      },
+      "ocrConfidence": 0.9970490932
+    },
+    {
+      "id": "front:33",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "-反式脂肪酸",
+      "boxPx": {
+        "left": 1713,
+        "top": 1883,
+        "width": 124,
+        "height": 34
+      },
+      "ocrConfidence": 0.9950614572
+    },
+    {
+      "id": "front:34",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "0克(g)",
+      "boxPx": {
+        "left": 1996,
+        "top": 1883,
+        "width": 70,
+        "height": 33
+      },
+      "ocrConfidence": 0.991692543
+    },
+    {
+      "id": "front:35",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "验室（阳新）食品科技有限公司（工厂代码A)○地址：湖北省黄石市阳新县率洲管",
+      "boxPx": {
+        "left": 838,
+        "top": 1928,
+        "width": 615,
+        "height": 36
+      },
+      "ocrConfidence": 0.9958768487
+    },
+    {
+      "id": "front:36",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "碳水化合物",
+      "boxPx": {
+        "left": 1707,
+        "top": 1914,
+        "width": 124,
+        "height": 37
+      },
+      "ocrConfidence": 0.9998717308
+    },
+    {
+      "id": "front:37",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "33.1克(g)",
+      "boxPx": {
+        "left": 1955,
+        "top": 1914,
+        "width": 112,
+        "height": 38
+      },
+      "ocrConfidence": 0.9984826446
+    },
+    {
+      "id": "front:38",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "11%",
+      "boxPx": {
+        "left": 2203,
+        "top": 1912,
+        "width": 45,
+        "height": 30
+      },
+      "ocrConfidence": 0.9998367429
+    },
+    {
+      "id": "front:39",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "区农科大道3号（农产品加工产业园2期4号厂房）；湖北省黄石市阳新县率洲管理",
+      "boxPx": {
+        "left": 836,
+        "top": 1962,
+        "width": 616,
+        "height": 36
+      },
+      "ocrConfidence": 0.9999433756
+    },
+    {
+      "id": "front:40",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "-糖",
+      "boxPx": {
+        "left": 1708,
+        "top": 1948,
+        "width": 38,
+        "height": 38
+      },
+      "ocrConfidence": 0.9697793126
+    },
+    {
+      "id": "front:41",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "5.2克(g)",
+      "boxPx": {
+        "left": 1967,
+        "top": 1948,
+        "width": 101,
+        "height": 35
+      },
+      "ocrConfidence": 0.999050796
+    },
+    {
+      "id": "front:42",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "区农科大道8号（综合楼）○食品生产许可证编号：SC10342022250875○产地：湖",
+      "boxPx": {
+        "left": 833,
+        "top": 1994,
+        "width": 620,
+        "height": 35
+      },
+      "ocrConfidence": 0.9979900718
+    },
+    {
+      "id": "front:43",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "钠",
+      "boxPx": {
+        "left": 1705,
+        "top": 1984,
+        "width": 32,
+        "height": 37
+      },
+      "ocrConfidence": 0.9966715574
+    },
+    {
+      "id": "front:44",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "42毫克(mg)",
+      "boxPx": {
+        "left": 1925,
+        "top": 1982,
+        "width": 141,
+        "height": 37
+      },
+      "ocrConfidence": 0.9955924749
+    },
+    {
+      "id": "front:45",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "2%",
+      "boxPx": {
+        "left": 2203,
+        "top": 1979,
+        "width": 38,
+        "height": 31
+      },
+      "ocrConfidence": 0.9996777773
+    },
+    {
+      "id": "front:46",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "北省黄石市○受托方：山东航冠食品有限公司（工厂代码D)○地址：山东省临沂市",
+      "boxPx": {
+        "left": 830,
+        "top": 2029,
+        "width": 624,
+        "height": 35
+      },
+      "ocrConfidence": 0.9996753335
+    },
+    {
+      "id": "front:47",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "儿童青少年应避免过量摄入盐油糖",
+      "boxPx": {
+        "left": 1710,
+        "top": 2024,
+        "width": 270,
+        "height": 30
+      },
+      "ocrConfidence": 0.9998791814
+    },
+    {
+      "id": "front:48",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "沂水县经济开发区鑫华路以南、东二环路以西○食品生产许可证编号：",
+      "boxPx": {
+        "left": 828,
+        "top": 2063,
+        "width": 626,
+        "height": 33
+      },
+      "ocrConfidence": 0.9993245006
+    },
+    {
+      "id": "front:49",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "SC10237132302720○产地：山东省临沂市",
+      "boxPx": {
+        "left": 826,
+        "top": 2094,
+        "width": 325,
+        "height": 32
+      },
+      "ocrConfidence": 0.9995578527
+    },
+    {
+      "id": "front:50",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "西湖双绝由杭州西湖风景名胜区国有资本投资运营有限公司授权使用。西湖双绝活",
+      "boxPx": {
+        "left": 832,
+        "top": 2125,
+        "width": 619,
+        "height": 30
+      },
+      "ocrConfidence": 0.9998818636
+    },
+    {
+      "id": "front:51",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "动期间(2026年4月15日~2026年6月30日)，关注“食验室零食”微博官方账号，",
+      "boxPx": {
+        "left": 827,
+        "top": 2153,
+        "width": 623,
+        "height": 31
+      },
+      "ocrConfidence": 0.9903513193
+    },
+    {
+      "id": "front:52",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "值666元西湖双绝礼品，礼品总计10份。开奖时间、开奖方式：2026年7月1日中午",
+      "boxPx": {
+        "left": 828,
+        "top": 2189,
+        "width": 623,
+        "height": 30
+      },
+      "ocrConfidence": 0.9998477101
+    },
+    {
+      "id": "front:53",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "最终解释权归食验室主办方所有。*指西湖双绝活动礼品。*1片约9大卡数据来",
+      "boxPx": {
+        "left": 829,
+        "top": 2228,
+        "width": 624,
+        "height": 29
+      },
+      "ocrConfidence": 0.9968234301
+    },
+    {
+      "id": "front:54",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "源：每袋43g热量约为196kcal,约23片/袋(43g),每片热量约为9大卡。",
+      "boxPx": {
+        "left": 828,
+        "top": 2251,
+        "width": 554,
+        "height": 30
+      },
+      "ocrConfidence": 0.9996150136
+    },
+    {
+      "id": "front:55",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "6",
+      "boxPx": {
+        "left": 1784,
+        "top": 2276,
+        "width": 29,
+        "height": 35
+      },
+      "ocrConfidence": 0.999977231
+    },
+    {
+      "id": "front:56",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "973029307235",
+      "boxPx": {
+        "left": 1839,
+        "top": 2274,
+        "width": 288,
+        "height": 36
+      },
+      "ocrConfidence": 0.9999728799
+    },
+    {
+      "id": "front:57",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "食验室®是国家知识产权局认证的注册商标",
+      "boxPx": {
+        "left": 955,
+        "top": 2321,
+        "width": 366,
+        "height": 31
+      },
+      "ocrConfidence": 0.9723069072
+    }
+  ],
+  "facts": {
+    "productName": {
+      "raw": "产品名称：龙井厚乳玉米片",
+      "value": "龙井厚乳玉米片",
+      "unit": null,
+      "sourceRefs": [
+        "front:9"
+      ],
+      "status": "ready",
+      "reviewReasons": []
+    },
+    "netContent": {
+      "raw": "净含量：43g",
+      "value": "43",
+      "unit": "g",
+      "sourceRefs": [
+        "front:9"
+      ],
+      "status": "ready",
+      "reviewReasons": []
+    },
+    "ingredientsText": {
+      "raw": "玉米糁（≥45%）、低聚果糖、椰子油、水（泡绿茶虎跑泉水\n0.5%)、龙井芝士复合调味料（含磷脂、食用香精）、全脂乳粉（≥1.5%）、龙井茶粉（≥\n(4%)、芝士粉（再制干酪）",
+      "value": "玉米糁（≥45%）、低聚果糖、椰子油、水（泡绿茶虎跑泉水0.5%)、龙井芝士复合调味料（含磷脂、食用香精）、全脂乳粉（≥1.5%）、龙井茶粉（≥(4%)、芝士粉（再制干酪）",
+      "unit": null,
+      "sourceRefs": [
+        "front:11",
+        "front:13",
+        "front:16"
+      ],
+      "status": "needs_review",
+      "reviewReasons": [
+        "OCR_TEXT_ANOMALY"
+      ]
+    },
+    "allergenText": {
+      "raw": "本产品含有乳及乳制品，本生产线也加工\n麸质的谷物及其制品、甲壳纲类动物及其制品的食品",
+      "value": "本产品含有乳及乳制品，本生产线也加工麸质的谷物及其制品、甲壳纲类动物及其制品的食品",
+      "unit": null,
+      "sourceRefs": [
+        "front:16",
+        "front:20"
+      ],
+      "status": "ready",
+      "reviewReasons": []
+    },
+    "nutritionTables": [
+      {
+        "id": "table:1",
+        "basis": {
+          "kind": "per_serving",
+          "raw": "每份43克",
+          "sourceRefs": [
+            "front:14",
+            "front:10",
+            "front:12",
+            "front:15"
+          ],
+          "status": "ready",
+          "servingSize": {
+            "raw": "每份43克",
+            "value": "43",
+            "unit": "g",
+            "sourceRefs": [
+              "front:14"
+            ],
+            "status": "ready",
+            "reviewReasons": []
+          }
+        },
+        "rows": [
+          {
+            "nutrient": {
+              "raw": "能量",
+              "value": "energy",
+              "unit": null,
+              "sourceRefs": [
+                "front:17"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "822千焦(kJ)",
+              "value": "822",
+              "unit": "kJ",
+              "sourceRefs": [
+                "front:18"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "10%",
+              "value": "10",
+              "unit": "%",
+              "sourceRefs": [
+                "front:19"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "蛋白质",
+              "value": "protein",
+              "unit": null,
+              "sourceRefs": [
+                "front:21"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "2.6克(g)",
+              "value": "2.6",
+              "unit": "g",
+              "sourceRefs": [
+                "front:22"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "4%",
+              "value": "4",
+              "unit": "%",
+              "sourceRefs": [
+                "front:23"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "脂肪",
+              "value": "fat",
+              "unit": null,
+              "sourceRefs": [
+                "front:25"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "5.8克(g)",
+              "value": "5.8",
+              "unit": "g",
+              "sourceRefs": [
+                "front:26"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "10%",
+              "value": "10",
+              "unit": "%",
+              "sourceRefs": [
+                "front:27"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "-饱和脂肪",
+              "value": "saturated_fat",
+              "unit": null,
+              "sourceRefs": [
+                "front:29"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "4.9克(g)",
+              "value": "4.9",
+              "unit": "g",
+              "sourceRefs": [
+                "front:30"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "25%",
+              "value": "25",
+              "unit": "%",
+              "sourceRefs": [
+                "front:31"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "-反式脂肪酸",
+              "value": "trans_fat",
+              "unit": null,
+              "sourceRefs": [
+                "front:33"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "0克(g)",
+              "value": "0",
+              "unit": "g",
+              "sourceRefs": [
+                "front:34"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "碳水化合物",
+              "value": "carbohydrate",
+              "unit": null,
+              "sourceRefs": [
+                "front:36"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "33.1克(g)",
+              "value": "33.1",
+              "unit": "g",
+              "sourceRefs": [
+                "front:37"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "11%",
+              "value": "11",
+              "unit": "%",
+              "sourceRefs": [
+                "front:38"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "-糖",
+              "value": "sugar",
+              "unit": null,
+              "sourceRefs": [
+                "front:40"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "5.2克(g)",
+              "value": "5.2",
+              "unit": "g",
+              "sourceRefs": [
+                "front:41"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "钠",
+              "value": "sodium",
+              "unit": null,
+              "sourceRefs": [
+                "front:43"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "42毫克(mg)",
+              "value": "42",
+              "unit": "mg",
+              "sourceRefs": [
+                "front:44"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "2%",
+              "value": "2",
+              "unit": "%",
+              "sourceRefs": [
+                "front:45"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          }
+        ],
+        "sourceRefs": [
+          "front:10",
+          "front:12",
+          "front:15"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:front-title",
+        "category": "front_title",
+        "text": {
+          "raw": "龙井厚乳玉米片",
+          "value": "龙井厚乳玉米片",
+          "unit": null,
+          "sourceRefs": [
+            "front:1",
+            "front:3"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "quantity": null,
+        "basis": "none"
+      },
+      {
+        "id": "claim:1",
+        "category": "process",
+        "text": {
+          "raw": "非油炸",
+          "value": "非油炸",
+          "unit": null,
+          "sourceRefs": [
+            "front:6"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "quantity": null,
+        "basis": "none"
+      },
+      {
+        "id": "claim:2",
+        "category": "energy_per_piece",
+        "text": {
+          "raw": "一片约9大卡",
+          "value": "一片约9大卡",
+          "unit": null,
+          "sourceRefs": [
+            "front:7"
+          ],
+          "status": "needs_review",
+          "reviewReasons": [
+            "OCR_LOW_CONFIDENCE"
+          ]
+        },
+        "quantity": {
+          "raw": "9",
+          "value": "9",
+          "unit": "kcal",
+          "sourceRefs": [
+            "front:7"
+          ],
+          "status": "needs_review",
+          "reviewReasons": [
+            "OCR_LOW_CONFIDENCE"
+          ]
+        },
+        "basis": "per_piece"
+      },
+      {
+        "id": "claim:3",
+        "category": "trans_fat_zero",
+        "text": {
+          "raw": "0反式脂肪酸",
+          "value": "0反式脂肪酸",
+          "unit": null,
+          "sourceRefs": [
+            "front:8"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "quantity": {
+          "raw": "0",
+          "value": "0",
+          "unit": "g",
+          "sourceRefs": [
+            "front:8"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "basis": "unknown"
+      },
+      {
+        "id": "claim:4",
+        "category": "energy_per_piece",
+        "text": {
+          "raw": "每片热量约为9大卡",
+          "value": "每片热量约为9大卡",
+          "unit": null,
+          "sourceRefs": [
+            "front:54"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "quantity": {
+          "raw": "9",
+          "value": "9",
+          "unit": "kcal",
+          "sourceRefs": [
+            "front:54"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "basis": "per_piece"
+      },
+      {
+        "id": "claim:5",
+        "category": "energy_per_bag",
+        "text": {
+          "raw": "每袋43g热量约为196kcal",
+          "value": "每袋43g热量约为196kcal",
+          "unit": null,
+          "sourceRefs": [
+            "front:54"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "quantity": {
+          "raw": "热量约为196kcal",
+          "value": "196",
+          "unit": "kcal",
+          "sourceRefs": [
+            "front:54"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "basis": "per_bag"
+      },
+      {
+        "id": "claim:6",
+        "category": "piece_count",
+        "text": {
+          "raw": "约23片/袋",
+          "value": "约23片/袋",
+          "unit": null,
+          "sourceRefs": [
+            "front:54"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "quantity": {
+          "raw": "23",
+          "value": "23",
+          "unit": "piece",
+          "sourceRefs": [
+            "front:54"
+          ],
+          "status": "ready",
+          "reviewReasons": []
+        },
+        "basis": "per_bag"
+      }
+    ],
+    "barcodes": [
+      {
+        "raw": "6 973029307235",
+        "value": "6973029307235",
+        "unit": null,
+        "sourceRefs": [
+          "front:55",
+          "front:56"
+        ],
+        "status": "ready",
+        "reviewReasons": []
+      }
+    ]
+  },
+  "unassignedEvidenceIds": [
+    "front:2",
+    "front:4",
+    "front:5",
+    "front:24",
+    "front:28",
+    "front:32",
+    "front:35",
+    "front:39",
+    "front:42",
+    "front:46",
+    "front:47",
+    "front:48",
+    "front:49",
+    "front:50",
+    "front:51",
+    "front:52",
+    "front:53",
+    "front:57"
+  ],
+  "productIdSource": "provided"
+}

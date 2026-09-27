@@ -1,0 +1,54 @@
+{
+  "annotationVersion": "1.0",
+  "notes": "Manually transcribed from the original Longjing 43 g packaging image. Only the nutrition-table digits and the listed OCR lines are in scope; the second 72 g image has no saved OCR response and is not counted.",
+  "cases": [
+    {
+      "image": "../../../M2-包装设计稿正面.png",
+      "ocrResponse": "front_accurate.json",
+      "productId": "longjing-43g",
+      "numericCells": [
+        {"evidenceId": "front:14", "digits": "43", "role": "serving_size"},
+        {"evidenceId": "front:18", "digits": "822", "role": "energy_amount"},
+        {"evidenceId": "front:19", "digits": "10", "role": "energy_nrv"},
+        {"evidenceId": "front:22", "digits": "2.6", "role": "protein_amount"},
+        {"evidenceId": "front:23", "digits": "4", "role": "protein_nrv"},
+        {"evidenceId": "front:26", "digits": "5.8", "role": "fat_amount"},
+        {"evidenceId": "front:27", "digits": "10", "role": "fat_nrv"},
+        {"evidenceId": "front:30", "digits": "4.9", "role": "saturated_fat_amount"},
+        {"evidenceId": "front:31", "digits": "25", "role": "saturated_fat_nrv"},
+        {"evidenceId": "front:34", "digits": "0", "role": "trans_fat_amount"},
+        {"evidenceId": "front:37", "digits": "33.1", "role": "carbohydrate_amount"},
+        {"evidenceId": "front:38", "digits": "11", "role": "carbohydrate_nrv"},
+        {"evidenceId": "front:41", "digits": "5.2", "role": "sugar_amount"},
+        {"evidenceId": "front:44", "digits": "42", "role": "sodium_amount"},
+        {"evidenceId": "front:45", "digits": "2", "role": "sodium_nrv"}
+      ],
+      "nutritionTable": {
+        "basisKind": "per_serving",
+        "servingSize": "43",
+        "servingUnit": "g",
+        "rows": [
+          {"nutrient": "energy", "amount": "822", "unit": "kJ", "nrvPercent": "10"},
+          {"nutrient": "protein", "amount": "2.6", "unit": "g", "nrvPercent": "4"},
+          {"nutrient": "fat", "amount": "5.8", "unit": "g", "nrvPercent": "10"},
+          {"nutrient": "saturated_fat", "amount": "4.9", "unit": "g", "nrvPercent": "25"},
+          {"nutrient": "trans_fat", "amount": "0", "unit": "g", "nrvPercent": null},
+          {"nutrient": "carbohydrate", "amount": "33.1", "unit": "g", "nrvPercent": "11"},
+          {"nutrient": "sugar", "amount": "5.2", "unit": "g", "nrvPercent": null},
+          {"nutrient": "sodium", "amount": "42", "unit": "mg", "nrvPercent": "2"}
+        ]
+      },
+      "confidenceAudit": [
+        {"evidenceId": "front:7", "humanNeedsReview": true, "note": "The OCR line has a trailing backtick absent from the printed claim."},
+        {"evidenceId": "front:40", "humanNeedsReview": false, "note": "Printed sugar row label is readable as -糖."},
+        {"evidenceId": "front:57", "humanNeedsReview": false, "note": "Trademark sentence is readable and matches the OCR text."},
+        {"evidenceId": "front:14", "humanNeedsReview": false, "note": "Serving-size header is readable."},
+        {"evidenceId": "front:18", "humanNeedsReview": false, "note": "Energy amount is readable."},
+        {"evidenceId": "front:22", "humanNeedsReview": false, "note": "Protein amount is readable."},
+        {"evidenceId": "front:30", "humanNeedsReview": false, "note": "Saturated-fat amount is readable."},
+        {"evidenceId": "front:37", "humanNeedsReview": false, "note": "Carbohydrate amount is readable."},
+        {"evidenceId": "front:44", "humanNeedsReview": false, "note": "Sodium amount is readable."}
+      ]
+    }
+  ]
+}

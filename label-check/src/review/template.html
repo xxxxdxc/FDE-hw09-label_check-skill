@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>标签人工复核 · __TITLE__</title>
+<style>
+  :root{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#202124;background:#f7f8fa}
+  body{margin:0} header{padding:14px 22px;background:#263047;color:#fff;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  h1{font-size:19px;margin:0} header small{opacity:.85} button{cursor:pointer;border:0;border-radius:7px;padding:9px 14px;background:#1769aa;color:white;font-size:14px}
+  main{display:grid;grid-template-columns:minmax(420px,58%) minmax(320px,42%);gap:14px;padding:14px;align-items:start}
+  .image-panel{position:sticky;top:14px;height:calc(100vh - 28px);min-height:480px;display:flex;flex-direction:column;overflow:hidden;background:white;border:1px solid #ddd;border-radius:8px}
+  .selected-caption{padding:12px 16px;background:#eaf2ff;border-bottom:2px solid #1769d2;color:#0849bd;font-size:16px;font-weight:750;line-height:1.45;word-break:break-word}
+  .zoom-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:8px 10px;border-bottom:1px solid #d9dfec;background:#f8fbff}
+  .zoom-toolbar button{padding:5px 10px;min-width:38px}.zoom-toolbar input[type=range]{width:150px;padding:0;cursor:pointer}.zoom-toolbar output{min-width:50px;color:#0849bd;font-weight:700;font-size:13px}
+  .focus-preview{padding:8px 10px;border-bottom:1px solid #d9dfec;background:#fff}.focus-preview[hidden]{display:none}.preview-title{color:#0849bd;font-size:13px;font-weight:700;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:6px}
+  .focus-preview canvas{display:block;width:100%;height:160px;background:#f5f5f5;border:1px solid #ddd;border-radius:5px}
+  .image-viewport{flex:1;min-height:0;overflow:auto;background:#eceff3;cursor:grab;touch-action:none}.image-viewport.dragging{cursor:grabbing}
+  .stage{position:relative;width:100%;line-height:0}.stage img{width:100%;height:auto;display:block}
+  .stage img{user-select:none;-webkit-user-drag:none}
+  .box{display:none;position:absolute;box-sizing:border-box;pointer-events:none}
+  .box.active{display:block;border:5px solid #ed1717;border-radius:9999px;background:rgba(255,255,255,.08);box-shadow:0 0 0 3px white,0 0 0 7px rgba(237,23,23,.45);z-index:3}
+  .box-label{position:absolute;left:0;bottom:calc(100% + 12px);max-width:320px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:7px 10px;border:2px solid #1769d2;border-radius:6px;background:#fff;color:#0849bd;font-size:15px;font-weight:750;line-height:1.3;box-shadow:0 2px 8px #0003}
+  .box-label.below{bottom:auto;top:calc(100% + 12px)}
+  .side{display:flex;flex-direction:column;gap:12px}.intro,.card{background:white;border:1px solid #ddd;border-radius:8px;padding:14px}.intro p{margin:8px 0}.card{cursor:pointer}.card.active{border-color:#e02b2b;box-shadow:0 0 0 2px #e02b2b22}
+  .path{font-family:ui-monospace,Consolas,monospace;font-size:12px;color:#555;word-break:break-all}.raw{white-space:pre-wrap;word-break:break-word;background:#f4f5f8;padding:9px;border-radius:5px;margin:9px 0}.card.active .raw{color:#0849bd;background:#eaf2ff;border-left:5px solid #1769d2;font-weight:750}.meta{font-size:12px;color:#695300}
+  label{display:block;font-size:13px;margin-top:10px} input,select,textarea{box-sizing:border-box;width:100%;padding:8px;border:1px solid #aaa;border-radius:5px;font:inherit;background:#fff}textarea{min-height:55px;resize:vertical}
+  .pair{display:grid;grid-template-columns:1fr 90px;gap:7px}.hint{font-size:12px;color:#666}.error{color:#ad1b1b;font-weight:600}
+  @media(max-width:850px){main{display:block}.image-panel{position:static;height:70vh;min-height:420px;margin-bottom:14px}.zoom-toolbar input[type=range]{width:100px}}
+</style>
+</head>
+<body>
+<header><h1>标签 OCR 人工复核 · __TITLE__</h1><small id="summary"></small></header>
+<main>
+  <section class="image-panel"><div id="selected-caption" class="selected-caption">选择右侧字段查看原图位置</div><div class="zoom-toolbar"><button id="zoom-out" type="button" aria-label="缩小图片">−</button><input id="zoom-slider" type="range" min="1" max="8" step="0.1" value="1" aria-label="图片缩放比例"><button id="zoom-in" type="button" aria-label="放大图片">＋</button><button id="zoom-fit" type="button">适应整图</button><output id="zoom-value">100%</output><span class="hint">滚轮缩放 · 拖动查看</span></div><div id="focus-preview" class="focus-preview" hidden><div id="preview-title" class="preview-title"></div><canvas id="preview-canvas" aria-label="选中字段的原图局部放大"></canvas></div><div id="image-viewport" class="image-viewport"><div class="stage" id="stage"><img id="source-image" alt="原始标签图" src="__IMAGE_DATA__" draggable="false"><div id="boxes"></div></div></div></section>
+  <section class="side"><div class="intro"><p>点击右侧字段后，左图会自动放大并定位到红圈区域，上方同时显示局部放大图。还可用滚轮或缩放控件自由放大，按住图片拖动查看周围内容。</p><p class="hint">蓝字是 OCR 识别内容，仅作核对提示；原始图片与 OCR JSON 均不改动。缺少坐标的字段只能通过原文定位。营养素结构化值使用已有英文代码，例如 fat。</p><label>复核人<input id="reviewer" placeholder="请填写姓名或组内编号"></label><p><button id="export">导出已完成的复核决定 JSON</button></p><p id="message" class="error"></p></div><div id="cards"></div></section>
+</main>
+<script id="review-data" type="application/json">__REVIEW_DATA__</script>
+<script>
+const data=JSON.parse(document.getElementById('review-data').textContent);
+const items=data.items;
+const cards=document.getElementById('cards'),boxes=document.getElementById('boxes');
+const viewport=document.getElementById('image-viewport'),stage=document.getElementById('stage'),sourceImage=document.getElementById('source-image');
+const preview=document.getElementById('focus-preview'),previewCanvas=document.getElementById('preview-canvas');
+const zoomSlider=document.getElementById('zoom-slider'),zoomValue=document.getElementById('zoom-value');
+document.getElementById('summary').textContent=`${data.imageName} · 阈值 ${Math.round(data.threshold*100)}% · ${items.length} 个待复核字段`;
+const control=[];let fitWidth=0,zoom=1,activeIndex=0;
+function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n}
+function setZoom(value,anchorX=viewport.clientWidth/2,anchorY=viewport.clientHeight/2){
+  if(!fitWidth)return;
+  const next=Math.max(1,Math.min(8,Math.round(value*100)/100));
+  const oldWidth=stage.offsetWidth,oldHeight=stage.offsetHeight;
+  const relativeX=(viewport.scrollLeft+anchorX)/Math.max(1,oldWidth);
+  const relativeY=(viewport.scrollTop+anchorY)/Math.max(1,oldHeight);
+  zoom=next;stage.style.width=`${Math.round(fitWidth*zoom)}px`;
+  viewport.scrollLeft=relativeX*stage.offsetWidth-anchorX;
+  viewport.scrollTop=relativeY*stage.offsetHeight-anchorY;
+  zoomSlider.value=String(zoom);zoomValue.value=`${Math.round(zoom*100)}%`;
+}
+function centerOnItem(index){
+  const visible=[...document.querySelectorAll(`.box[data-index="${index}"]`)];
+  if(!visible.length)return;
+  const left=Math.min(...visible.map(b=>b.offsetLeft)),right=Math.max(...visible.map(b=>b.offsetLeft+b.offsetWidth));
+  const top=Math.min(...visible.map(b=>b.offsetTop)),bottom=Math.max(...visible.map(b=>b.offsetTop+b.offsetHeight));
+  viewport.scrollLeft=(left+right)/2-viewport.clientWidth/2;
+  viewport.scrollTop=(top+bottom)/2-viewport.clientHeight/2;
+}
+function drawPreview(index){
+  const evidence=items[index].evidence.filter(e=>e.boxPx).map(e=>e.boxPx);
+  preview.hidden=!evidence.length||!sourceImage.naturalWidth;
+  if(preview.hidden)return;
+  document.getElementById('preview-title').textContent=`局部放大：${items[index].raw??'(无原文)'}`;
+  const dpr=Math.min(2,window.devicePixelRatio||1);
+  previewCanvas.width=Math.round(previewCanvas.clientWidth*dpr);
+  previewCanvas.height=Math.round(previewCanvas.clientHeight*dpr);
+  const ctx=previewCanvas.getContext('2d'),w=previewCanvas.width,h=previewCanvas.height;
+  const left=Math.min(...evidence.map(b=>b.left)),top=Math.min(...evidence.map(b=>b.top));
+  const right=Math.max(...evidence.map(b=>b.left+b.width)),bottom=Math.max(...evidence.map(b=>b.top+b.height));
+  const sx=Math.max(0,left-45),sy=Math.max(0,top-35);
+  const ex=Math.min(data.imageWidth,right+45),ey=Math.min(data.imageHeight,bottom+35);
+  const sw=ex-sx,sh=ey-sy,scale=Math.min(w/sw,h/sh),dx=(w-sw*scale)/2,dy=(h-sh*scale)/2;
+  ctx.fillStyle='#f5f5f5';ctx.fillRect(0,0,w,h);
+  ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';
+  ctx.drawImage(sourceImage,sx,sy,sw,sh,dx,dy,sw*scale,sh*scale);
+  ctx.strokeStyle='#ed1717';ctx.lineWidth=4*dpr;ctx.beginPath();
+  ctx.ellipse(dx+((left+right)/2-sx)*scale,dy+((top+bottom)/2-sy)*scale,(right-left)*scale/2+9*dpr,(bottom-top)*scale/2+9*dpr,0,0,Math.PI*2);ctx.stroke();
+}
+function focus(index){
+  activeIndex=index;
+  document.querySelectorAll('.card').forEach((n,i)=>n.classList.toggle('active',i===index));
+  document.querySelectorAll('.box').forEach(n=>n.classList.toggle('active',Number(n.dataset.index)===index));
+  const item=items[index],box=document.querySelector(`.box[data-index="${index}"]`);
+  document.getElementById('selected-caption').textContent=box?`当前核对：${item.raw??'(无原文)'}`:`当前核对：${item.raw??'(无原文)'}（没有可用坐标）`;
+  if(sourceImage.naturalWidth){drawPreview(index);if(box){setZoom(Math.max(zoom,Math.min(8,Math.max(2.5,data.imageWidth/fitWidth))));centerOnItem(index)}}
+}
+items.forEach((item,index)=>{
+  const card=el('article','card');card.addEventListener('click',()=>focus(index));
+  card.append(el('div','path',item.path),el('div','raw',item.raw??'(无原文)'));
+  card.append(el('div','meta',`原因：${item.reviewReasons.join('、')} · OCR分数：${item.evidence.map(e=>e.ocrConfidence===null?'缺失':e.ocrConfidence.toFixed(4)).join('、')||'无'}`));
+  const actionLabel=el('label','', '处理决定');const action=el('select');
+  for(const [value,label] of [['pending','待处理'],['confirm','确认原值'],['correct','修正识别结果']]){const o=el('option','',label);o.value=value;action.append(o)}actionLabel.append(action);card.append(actionLabel);
+  const rawLabel=el('label','', '人工辨认的原图文字');const manualText=el('textarea');manualText.value=item.raw??'';rawLabel.append(manualText);card.append(rawLabel);
+  const valueLabel=el('label','', '修正后的结构化值与单位');const pair=el('div','pair');const value=el('input');value.value=item.value??'';const unit=el('input');unit.value=item.unit??'';unit.placeholder='单位';pair.append(value,unit);valueLabel.append(pair);card.append(valueLabel);
+  const noteLabel=el('label','', '备注（可选）');const note=el('textarea');noteLabel.append(note);card.append(noteLabel);cards.append(card);control.push({action,manualText,value,unit,note});
+  const located=item.evidence.filter(e=>e.boxPx).map(e=>e.boxPx);
+  if(located.length){const left=Math.min(...located.map(b=>b.left)),top=Math.min(...located.map(b=>b.top)),right=Math.max(...located.map(b=>b.left+b.width)),bottom=Math.max(...located.map(b=>b.top+b.height));const b=el('div','box');b.dataset.index=index;b.style.left=`calc(${100*left/data.imageWidth}% - 12px)`;b.style.top=`calc(${100*top/data.imageHeight}% - 12px)`;b.style.width=`calc(${100*(right-left)/data.imageWidth}% + 24px)`;b.style.height=`calc(${100*(bottom-top)/data.imageHeight}% + 24px)`;const label=el('span','box-label',item.raw??'(无原文)');if(top/data.imageHeight<.08)label.classList.add('below');label.title=item.raw??'';b.append(label);boxes.append(b)}
+});
+function initImage(){fitWidth=viewport.clientWidth;stage.style.width=`${fitWidth}px`;setZoom(1);if(items.length)focus(activeIndex)}
+if(sourceImage.complete&&sourceImage.naturalWidth)initImage();else sourceImage.addEventListener('load',initImage,{once:true});
+if(!items.length)cards.append(el('p','intro','当前没有待复核字段。'));
+document.getElementById('zoom-in').addEventListener('click',()=>setZoom(zoom*1.25));
+document.getElementById('zoom-out').addEventListener('click',()=>setZoom(zoom/1.25));
+document.getElementById('zoom-fit').addEventListener('click',()=>{setZoom(1);viewport.scrollTo(0,0)});
+zoomSlider.addEventListener('input',()=>setZoom(Number(zoomSlider.value)));
+viewport.addEventListener('wheel',event=>{event.preventDefault();const r=viewport.getBoundingClientRect();setZoom(zoom*(event.deltaY<0?1.18:1/1.18),event.clientX-r.left,event.clientY-r.top)},{passive:false});
+let drag=null;
+viewport.addEventListener('pointerdown',event=>{if(event.button!==0)return;drag={x:event.clientX,y:event.clientY,left:viewport.scrollLeft,top:viewport.scrollTop};viewport.classList.add('dragging');viewport.setPointerCapture(event.pointerId)});
+viewport.addEventListener('pointermove',event=>{if(!drag)return;viewport.scrollLeft=drag.left+drag.x-event.clientX;viewport.scrollTop=drag.top+drag.y-event.clientY});
+function stopDrag(){drag=null;viewport.classList.remove('dragging')}
+viewport.addEventListener('pointerup',stopDrag);viewport.addEventListener('pointercancel',stopDrag);
+window.addEventListener('resize',()=>{if(!sourceImage.naturalWidth)return;fitWidth=viewport.clientWidth;stage.style.width=`${Math.round(fitWidth*zoom)}px`;if(items.length){centerOnItem(activeIndex);drawPreview(activeIndex)}});
+document.getElementById('export').addEventListener('click',()=>{
+  const reviewer=document.getElementById('reviewer').value.trim(),message=document.getElementById('message');message.textContent='';
+  if(!reviewer){message.textContent='请先填写复核人。';return}
+  const decisions=[];
+  for(let i=0;i<items.length;i++){
+    const item=items[i],c=control[i];if(c.action.value==='pending')continue;
+    const manualText=c.action.value==='confirm'?item.raw:c.manualText.value.trim();
+    const correctedValue=c.action.value==='confirm'?item.value:c.value.value.trim();
+    const correctedUnit=c.action.value==='confirm'?item.unit:(c.unit.value.trim()||null);
+    if(!manualText||correctedValue===null||correctedValue===''){message.textContent=`${item.path} 缺少人工识别文字或结构化值。`;focus(i);return}
+    decisions.push({path:item.path,action:c.action.value,originalRaw:item.raw,originalValue:item.value,originalUnit:item.unit,manualText,correctedValue,correctedUnit,sourceEvidenceRefs:item.evidence.map(e=>e.id),note:c.note.value.trim()});
+  }
+  if(!decisions.length){message.textContent='至少完成一个字段后才能导出。';return}
+  const result={reviewSchemaVersion:'1.0',documentId:data.documentId,productId:data.productId,imageName:data.imageName,imageSha256:data.imageSha256,threshold:data.threshold,reviewer,reviewedAt:new Date().toISOString(),decisions};
+  const blob=new Blob([JSON.stringify(result,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=el('a');
+  link.href=url;link.download=`review-decisions-${data.documentId}.json`;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  message.style.color='#166b38';message.textContent=`已导出 ${decisions.length} 项；其余 ${items.length-decisions.length} 项仍待处理。`;
+});
+</script>
+</body>
+</html>

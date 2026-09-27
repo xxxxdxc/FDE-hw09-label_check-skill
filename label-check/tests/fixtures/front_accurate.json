@@ -1,0 +1,689 @@
+{
+  "words_result": [
+    {
+      "words": "龙井厚乳",
+      "location": {
+        "top": 598,
+        "left": 828,
+        "width": 643,
+        "height": 183
+      },
+      "probability": {
+        "average": 0.9920410514
+      }
+    },
+    {
+      "words": "食验室",
+      "location": {
+        "top": 666,
+        "left": 1945,
+        "width": 322,
+        "height": 121
+      },
+      "probability": {
+        "average": 0.9997408986
+      }
+    },
+    {
+      "words": "玉米片",
+      "location": {
+        "top": 775,
+        "left": 838,
+        "width": 630,
+        "height": 250
+      },
+      "probability": {
+        "average": 0.995277822
+      }
+    },
+    {
+      "words": "添加龙井",
+      "location": {
+        "top": 922,
+        "left": 1981,
+        "width": 188,
+        "height": 55
+      },
+      "probability": {
+        "average": 0.9998220801
+      }
+    },
+    {
+      "words": "嚼到悠悠茶香",
+      "location": {
+        "top": 971,
+        "left": 1981,
+        "width": 273,
+        "height": 57
+      },
+      "probability": {
+        "average": 0.9987967014
+      }
+    },
+    {
+      "words": "非油炸",
+      "location": {
+        "top": 1175,
+        "left": 1691,
+        "width": 145,
+        "height": 57
+      },
+      "probability": {
+        "average": 0.999494493
+      }
+    },
+    {
+      "words": "一片约9大卡`",
+      "location": {
+        "top": 1219,
+        "left": 1689,
+        "width": 315,
+        "height": 61
+      },
+      "probability": {
+        "average": 0.9464565516
+      }
+    },
+    {
+      "words": "0反式脂肪酸",
+      "location": {
+        "top": 1456,
+        "left": 1985,
+        "width": 261,
+        "height": 58
+      },
+      "probability": {
+        "average": 0.9969055057
+      }
+    },
+    {
+      "words": "0产品名称：龙井厚乳玉米片○净含量：43g○产品类型：膨化食品○产品标准",
+      "location": {
+        "top": 1661,
+        "left": 847,
+        "width": 606,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9949609041
+      }
+    },
+    {
+      "words": "营养成分表",
+      "location": {
+        "top": 1655,
+        "left": 1906,
+        "width": 139,
+        "height": 39
+      },
+      "probability": {
+        "average": 0.9998716116
+      }
+    },
+    {
+      "words": "号：GB/T22699○配料表：玉米糁（≥45%）、低聚果糖、椰子油、水（泡绿茶虎跑泉水",
+      "location": {
+        "top": 1694,
+        "left": 843,
+        "width": 608,
+        "height": 34
+      },
+      "probability": {
+        "average": 0.9974214435
+      }
+    },
+    {
+      "words": "项目",
+      "location": {
+        "top": 1706,
+        "left": 1706,
+        "width": 57,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9999866486
+      }
+    },
+    {
+      "words": "0.5%)、龙井芝士复合调味料（含磷脂、食用香精）、全脂乳粉（≥1.5%）、龙井茶粉（≥",
+      "location": {
+        "top": 1728,
+        "left": 842,
+        "width": 610,
+        "height": 34
+      },
+      "probability": {
+        "average": 0.9988018274
+      }
+    },
+    {
+      "words": "每份43克(g)",
+      "location": {
+        "top": 1704,
+        "left": 1915,
+        "width": 153,
+        "height": 39
+      },
+      "probability": {
+        "average": 0.9995459914
+      }
+    },
+    {
+      "words": "NRV%",
+      "location": {
+        "top": 1701,
+        "left": 2172,
+        "width": 74,
+        "height": 36
+      },
+      "probability": {
+        "average": 0.990459621
+      }
+    },
+    {
+      "words": "(4%)、芝士粉（再制干酪）○致敏原信息：本产品含有乳及乳制品，本生产线也加工",
+      "location": {
+        "top": 1761,
+        "left": 844,
+        "width": 608,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9904138446
+      }
+    },
+    {
+      "words": "能量",
+      "location": {
+        "top": 1749,
+        "left": 1707,
+        "width": 51,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9997338057
+      }
+    },
+    {
+      "words": "822千焦(kJ)",
+      "location": {
+        "top": 1747,
+        "left": 1919,
+        "width": 149,
+        "height": 39
+      },
+      "probability": {
+        "average": 0.9931692481
+      }
+    },
+    {
+      "words": "10%",
+      "location": {
+        "top": 1747,
+        "left": 2198,
+        "width": 48,
+        "height": 31
+      },
+      "probability": {
+        "average": 0.9999282956
+      }
+    },
+    {
+      "words": "麸质的谷物及其制品、甲壳纲类动物及其制品的食品○贮藏条件：密封存放于",
+      "location": {
+        "top": 1794,
+        "left": 843,
+        "width": 609,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9990572929
+      }
+    },
+    {
+      "words": "蛋白质",
+      "location": {
+        "top": 1782,
+        "left": 1707,
+        "width": 77,
+        "height": 38
+      },
+      "probability": {
+        "average": 0.9998111725
+      }
+    },
+    {
+      "words": "2.6克(g)",
+      "location": {
+        "top": 1782,
+        "left": 1966,
+        "width": 101,
+        "height": 38
+      },
+      "probability": {
+        "average": 0.9946728349
+      }
+    },
+    {
+      "words": "4%",
+      "location": {
+        "top": 1781,
+        "left": 2206,
+        "width": 37,
+        "height": 30
+      },
+      "probability": {
+        "average": 0.9990732074
+      }
+    },
+    {
+      "words": "晾干燥处○食用方法：开袋即食，拆封后请尽快食用○保质期：9个月○委托方：",
+      "location": {
+        "top": 1828,
+        "left": 841,
+        "width": 609,
+        "height": 36
+      },
+      "probability": {
+        "average": 0.9885246754
+      }
+    },
+    {
+      "words": "脂肪",
+      "location": {
+        "top": 1817,
+        "left": 1708,
+        "width": 52,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9993692636
+      }
+    },
+    {
+      "words": "5.8克(g)",
+      "location": {
+        "top": 1816,
+        "left": 1966,
+        "width": 99,
+        "height": 36
+      },
+      "probability": {
+        "average": 0.9807924628
+      }
+    },
+    {
+      "words": "10%",
+      "location": {
+        "top": 1814,
+        "left": 2200,
+        "width": 46,
+        "height": 30
+      },
+      "probability": {
+        "average": 0.9998919964
+      }
+    },
+    {
+      "words": "洲银河山田食品科技有限公司○地址：浙江省杭州市建德市梅城镇葛家村锦峰",
+      "location": {
+        "top": 1862,
+        "left": 842,
+        "width": 610,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9921095371
+      }
+    },
+    {
+      "words": "-饱和脂肪",
+      "location": {
+        "top": 1848,
+        "left": 1711,
+        "width": 107,
+        "height": 37
+      },
+      "probability": {
+        "average": 0.9925842285
+      }
+    },
+    {
+      "words": "4.9克(g)",
+      "location": {
+        "top": 1850,
+        "left": 1967,
+        "width": 100,
+        "height": 34
+      },
+      "probability": {
+        "average": 0.9988099337
+      }
+    },
+    {
+      "words": "25%",
+      "location": {
+        "top": 1849,
+        "left": 2196,
+        "width": 50,
+        "height": 28
+      },
+      "probability": {
+        "average": 0.9999181628
+      }
+    },
+    {
+      "words": "108号梅城创e工场04号办公室-4号○委托方电话：400-800-4052○受托方：",
+      "location": {
+        "top": 1895,
+        "left": 839,
+        "width": 613,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9970490932
+      }
+    },
+    {
+      "words": "-反式脂肪酸",
+      "location": {
+        "top": 1883,
+        "left": 1713,
+        "width": 124,
+        "height": 34
+      },
+      "probability": {
+        "average": 0.9950614572
+      }
+    },
+    {
+      "words": "0克(g)",
+      "location": {
+        "top": 1883,
+        "left": 1996,
+        "width": 70,
+        "height": 33
+      },
+      "probability": {
+        "average": 0.991692543
+      }
+    },
+    {
+      "words": "验室（阳新）食品科技有限公司（工厂代码A)○地址：湖北省黄石市阳新县率洲管",
+      "location": {
+        "top": 1928,
+        "left": 838,
+        "width": 615,
+        "height": 36
+      },
+      "probability": {
+        "average": 0.9958768487
+      }
+    },
+    {
+      "words": "碳水化合物",
+      "location": {
+        "top": 1914,
+        "left": 1707,
+        "width": 124,
+        "height": 37
+      },
+      "probability": {
+        "average": 0.9998717308
+      }
+    },
+    {
+      "words": "33.1克(g)",
+      "location": {
+        "top": 1914,
+        "left": 1955,
+        "width": 112,
+        "height": 38
+      },
+      "probability": {
+        "average": 0.9984826446
+      }
+    },
+    {
+      "words": "11%",
+      "location": {
+        "top": 1912,
+        "left": 2203,
+        "width": 45,
+        "height": 30
+      },
+      "probability": {
+        "average": 0.9998367429
+      }
+    },
+    {
+      "words": "区农科大道3号（农产品加工产业园2期4号厂房）；湖北省黄石市阳新县率洲管理",
+      "location": {
+        "top": 1962,
+        "left": 836,
+        "width": 616,
+        "height": 36
+      },
+      "probability": {
+        "average": 0.9999433756
+      }
+    },
+    {
+      "words": "-糖",
+      "location": {
+        "top": 1948,
+        "left": 1708,
+        "width": 38,
+        "height": 38
+      },
+      "probability": {
+        "average": 0.9697793126
+      }
+    },
+    {
+      "words": "5.2克(g)",
+      "location": {
+        "top": 1948,
+        "left": 1967,
+        "width": 101,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.999050796
+      }
+    },
+    {
+      "words": "区农科大道8号（综合楼）○食品生产许可证编号：SC10342022250875○产地：湖",
+      "location": {
+        "top": 1994,
+        "left": 833,
+        "width": 620,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9979900718
+      }
+    },
+    {
+      "words": "钠",
+      "location": {
+        "top": 1984,
+        "left": 1705,
+        "width": 32,
+        "height": 37
+      },
+      "probability": {
+        "average": 0.9966715574
+      }
+    },
+    {
+      "words": "42毫克(mg)",
+      "location": {
+        "top": 1982,
+        "left": 1925,
+        "width": 141,
+        "height": 37
+      },
+      "probability": {
+        "average": 0.9955924749
+      }
+    },
+    {
+      "words": "2%",
+      "location": {
+        "top": 1979,
+        "left": 2203,
+        "width": 38,
+        "height": 31
+      },
+      "probability": {
+        "average": 0.9996777773
+      }
+    },
+    {
+      "words": "北省黄石市○受托方：山东航冠食品有限公司（工厂代码D)○地址：山东省临沂市",
+      "location": {
+        "top": 2029,
+        "left": 830,
+        "width": 624,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.9996753335
+      }
+    },
+    {
+      "words": "儿童青少年应避免过量摄入盐油糖",
+      "location": {
+        "top": 2024,
+        "left": 1710,
+        "width": 270,
+        "height": 30
+      },
+      "probability": {
+        "average": 0.9998791814
+      }
+    },
+    {
+      "words": "沂水县经济开发区鑫华路以南、东二环路以西○食品生产许可证编号：",
+      "location": {
+        "top": 2063,
+        "left": 828,
+        "width": 626,
+        "height": 33
+      },
+      "probability": {
+        "average": 0.9993245006
+      }
+    },
+    {
+      "words": "SC10237132302720○产地：山东省临沂市",
+      "location": {
+        "top": 2094,
+        "left": 826,
+        "width": 325,
+        "height": 32
+      },
+      "probability": {
+        "average": 0.9995578527
+      }
+    },
+    {
+      "words": "西湖双绝由杭州西湖风景名胜区国有资本投资运营有限公司授权使用。西湖双绝活",
+      "location": {
+        "top": 2125,
+        "left": 832,
+        "width": 619,
+        "height": 30
+      },
+      "probability": {
+        "average": 0.9998818636
+      }
+    },
+    {
+      "words": "动期间(2026年4月15日~2026年6月30日)，关注“食验室零食”微博官方账号，",
+      "location": {
+        "top": 2153,
+        "left": 827,
+        "width": 623,
+        "height": 31
+      },
+      "probability": {
+        "average": 0.9903513193
+      }
+    },
+    {
+      "words": "值666元西湖双绝礼品，礼品总计10份。开奖时间、开奖方式：2026年7月1日中午",
+      "location": {
+        "top": 2189,
+        "left": 828,
+        "width": 623,
+        "height": 30
+      },
+      "probability": {
+        "average": 0.9998477101
+      }
+    },
+    {
+      "words": "最终解释权归食验室主办方所有。*指西湖双绝活动礼品。*1片约9大卡数据来",
+      "location": {
+        "top": 2228,
+        "left": 829,
+        "width": 624,
+        "height": 29
+      },
+      "probability": {
+        "average": 0.9968234301
+      }
+    },
+    {
+      "words": "源：每袋43g热量约为196kcal,约23片/袋(43g),每片热量约为9大卡。",
+      "location": {
+        "top": 2251,
+        "left": 828,
+        "width": 554,
+        "height": 30
+      },
+      "probability": {
+        "average": 0.9996150136
+      }
+    },
+    {
+      "words": "6",
+      "location": {
+        "top": 2276,
+        "left": 1784,
+        "width": 29,
+        "height": 35
+      },
+      "probability": {
+        "average": 0.999977231
+      }
+    },
+    {
+      "words": "973029307235",
+      "location": {
+        "top": 2274,
+        "left": 1839,
+        "width": 288,
+        "height": 36
+      },
+      "probability": {
+        "average": 0.9999728799
+      }
+    },
+    {
+      "words": "食验室®是国家知识产权局认证的注册商标",
+      "location": {
+        "top": 2321,
+        "left": 955,
+        "width": 366,
+        "height": 31
+      },
+      "probability": {
+        "average": 0.9723069072
+      }
+    }
+  ],
+  "words_result_num": 57
+}

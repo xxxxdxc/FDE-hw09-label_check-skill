@@ -1,6 +1,7 @@
 ---
 name: label-check
-version: 1.1.0
+metadata:
+  version: "1.2.0"
 description: 标签合规性检测与质检 Skill。在需要对产品标签、包装文案、配料表进行合规性检查时触发，包括：(1) 检查标签宣称是否符合法规（有机、低GI、0添加等敏感宣称）；(2) 检查配料表表述是否规范（香精香料、营养成分等）；(3) 检查过敏原标注是否完整；(4) 根据产品类型和目标渠道列出所需检测报告清单；(5) 提供线下渠道特殊要求（如低聚果糖标注、低GI宣称替代方案）；(6) 能量与NRV%计算校验；(7) 文字校对（错别字、遗漏、多字、表达不顺畅）；(8) 基于历史案例给出标签文案优化建议。触发场景：「检查标签合规」「这个包装有什么风险」「需要哪些检测报告」「帮我质检一下标签」「校对文案」「检查错别字」「帮我检查标签有没有问题」「这个宣传语能用吗」「过敏原标注对吗」「帮我计算一下能量」
 ---
 
@@ -9,6 +10,16 @@ description: 标签合规性检测与质检 Skill。在需要对产品标签、�
 ## Overview
 
 对产品标签、包装文案进行全方位合规性检测，基于 SOP `30-sop/label-and-compliance` 和历史案例沉淀，提供风险识别、修改建议、检测报告清单。
+
+## 图片 OCR 与人工复核（当前可运行）
+
+收到包装图后，先运行 `python -m src.main --image <原图> --output <结构化.json> --review-output <清单.json>`。OCR 行级 `probability.average` **低于 0.96**（0.96 本身不触发）或缺失时，相关字段进入 `needs_review`；错行、缺单位等结构问题也可能触发复核。不要把 OCR 分数当作文字正确的概率。
+
+有待复核字段时，运行 `python -m src.review.page --document <结构化.json> --image <原图> --output <复核页.html>`，向用户展示这个离线页面：点击右侧字段会自动放大并定位到红圈区域，同时显示局部放大图和蓝色识别文字；用户还可滚轮缩放、拖动原图。用户在旁边填写人工辨认的原文、结构化值和单位，选择“确认原值”或“修正”，填写复核人并导出决定 JSON。**不要由模型猜测并代填人工结论**。没有原图坐标的字段要明确说明无法高亮，仍可人工核对原图。
+
+收到人工决定后，运行 `python -m src.review.apply --document <结构化.json> --image <原图> --decisions <决定.json> --output <复核后.json>`。命令会核对文档、原图 SHA-256、原值和证据引用，只生成新文件；原 OCR 与结构化文件保留。已确认字段保留原图 OCR 引用并追加 `manual` 证据，状态变为 `ready`；未处理字段继续 `needs_review`。后续计算或矛盾核对必须先调用 `gate_check`，不能对待复核字段给出确定结论。
+
+具体命令、决定文件格式和复核边界见 [OCR 人工复核说明](references/ocr-review.md)。
 
 ## Core Capabilities
 
@@ -159,6 +170,7 @@ description: 标签合规性检测与质检 Skill。在需要对产品标签、�
 | 历史案例参考 | case-studies.md |
 | 完整质检流程 | check-list |
 | GB 7718基础规范 | gb7718-summary.md |
+| OCR 与人工复核 | ocr-review.md |
 
 ---
 
@@ -235,10 +247,15 @@ description: 标签合规性检测与质检 Skill。在需要对产品标签、�
 - [check-list](references/check-list) - 员工质检清单
 - [channel-requirements.md](references/channel-requirements.md) - 渠道特殊要求
 - [case-studies.md](references/case-studies.md) - 历史案例库
+- [ocr-review.md](references/ocr-review.md) - OCR 置信度与人工复核操作
 
 ---
 
 ## Changelog
+
+### 1.2.0 (2026-09-27)
+- 新增图片 OCR 与人工复核入口：低于 96% 进入复核，离线页面标注原图位置并收集人工决定。
+- 复核决定经校验后生成新结构化文件，保留原始 OCR 证据及未处理字段状态。
 
 ### 1.1.0 (2026-04-10)
 - 新增标签图片查看要求（必须先仔细查看图片获取完整信息）

@@ -1,0 +1,90 @@
+[
+  {
+    "path": "facts.ingredientsText",
+    "raw": "玉米糁（≥45%）、低聚果糖、椰子油、水（泡绿茶虎跑泉水\n0.5%)、龙井芝士复合调味料（含磷脂、食用香精）、全脂乳粉（≥1.5%）、龙井茶粉（≥\n(4%)、芝士粉（再制干酪）",
+    "value": "玉米糁（≥45%）、低聚果糖、椰子油、水（泡绿茶虎跑泉水0.5%)、龙井芝士复合调味料（含磷脂、食用香精）、全脂乳粉（≥1.5%）、龙井茶粉（≥(4%)、芝士粉（再制干酪）",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_TEXT_ANOMALY"
+    ],
+    "evidence": [
+      {
+        "id": "front:11",
+        "imageId": "front",
+        "boxPx": {
+          "left": 843,
+          "top": 1694,
+          "width": 608,
+          "height": 34
+        },
+        "ocrConfidence": 0.9974214435
+      },
+      {
+        "id": "front:13",
+        "imageId": "front",
+        "boxPx": {
+          "left": 842,
+          "top": 1728,
+          "width": 610,
+          "height": 34
+        },
+        "ocrConfidence": 0.9988018274
+      },
+      {
+        "id": "front:16",
+        "imageId": "front",
+        "boxPx": {
+          "left": 844,
+          "top": 1761,
+          "width": 608,
+          "height": 35
+        },
+        "ocrConfidence": 0.9904138446
+      }
+    ]
+  },
+  {
+    "path": "facts.claims[2].text",
+    "raw": "一片约9大卡",
+    "value": "一片约9大卡",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:7",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1689,
+          "top": 1219,
+          "width": 315,
+          "height": 61
+        },
+        "ocrConfidence": 0.9464565516
+      }
+    ]
+  },
+  {
+    "path": "facts.claims[2].quantity",
+    "raw": "9",
+    "value": "9",
+    "unit": "kcal",
+    "reviewReasons": [
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:7",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1689,
+          "top": 1219,
+          "width": 315,
+          "height": 61
+        },
+        "ocrConfidence": 0.9464565516
+      }
+    ]
+  }
+]
