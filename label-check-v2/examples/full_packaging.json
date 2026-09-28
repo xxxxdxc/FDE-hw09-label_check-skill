@@ -1,0 +1,39 @@
+{
+  "product_id": "DEMO-FULL",
+  "revision": "v1",
+  "basis": "per_100g",
+  "table_header": "每100g",
+  "nutrients": {
+    "energy": {"value": "1537", "unit": "kJ", "nrv_percent": "18"},
+    "protein": {"value": "7.25", "unit": "g", "nrv_percent": "12"},
+    "fat": {"value": "10", "unit": "g", "nrv_percent": "17"},
+    "saturated_fat": {"value": "2", "unit": "g", "nrv_percent": "10"},
+    "carbohydrate": {"value": "60", "unit": "g", "nrv_percent": "20"},
+    "fiber": {"value": "3", "unit": "g", "nrv_percent": "12"},
+    "sugar": {"value": "4", "unit": "g", "nrv_percent": "—"},
+    "sodium": {"value": "100", "unit": "mg", "nrv_percent": "5"}
+  },
+  "nutrition_complete": true,
+  "actual_per_100g": {"energy": "1500", "protein": "7", "fat": "10.5", "saturated_fat": "2.1", "carbohydrate": "59", "fiber": "2.8", "sugar": "4.2", "sodium": "110"},
+  "claims": ["low_sugar"],
+  "packaging": {
+    "complete": true,
+    "fields": {
+      "food_name": "玉米片",
+      "ingredients_text": "玉米、小麦、牛奶、食用盐",
+      "net_content": "100g",
+      "producer": "示例食品工厂及地址",
+      "shelf_life": "12个月",
+      "storage": "阴凉干燥处保存",
+      "license_number": "示例许可信息"
+    },
+    "ingredients": [
+      {"name": "玉米", "amount_percent": "55"},
+      {"name": "小麦", "amount_percent": "20"},
+      {"name": "牛奶", "amount_percent": "10"},
+      {"name": "食用盐", "amount_percent": "1"}
+    ],
+    "allergen_declarations": ["gluten", "milk"]
+  },
+  "subjective_questions": ["包装主视觉是否符合品牌调性？"]
+}

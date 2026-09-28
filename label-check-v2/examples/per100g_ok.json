@@ -1,0 +1,16 @@
+{
+  "product_id": "DEMO-OK",
+  "revision": "v1",
+  "basis": "per_100g",
+  "table_header": "每100g",
+  "nutrients": {
+    "energy": {"value": "1537", "unit": "kJ", "nrv_percent": "18"},
+    "protein": {"value": "7.25", "unit": "g", "nrv_percent": "12"},
+    "fat": {"value": "10", "unit": "g", "nrv_percent": "17"},
+    "carbohydrate": {"value": "60", "unit": "g", "nrv_percent": "20"},
+    "fiber": {"value": "3", "unit": "g", "nrv_percent": "12"},
+    "sugar": {"value": "4", "unit": "g"},
+    "sodium": {"value": "100", "unit": "mg", "nrv_percent": "5"}
+  },
+  "claims": ["low_sugar"]
+}

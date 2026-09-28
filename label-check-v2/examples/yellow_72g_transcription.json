@@ -1,0 +1,19 @@
+{
+  "product_id": "M2-YELLOW-72G",
+  "revision": "example",
+  "basis": "per_serving",
+  "serving_g": "72",
+  "table_header": "每份72克(g)",
+  "nutrients": {
+    "energy": {"value": "1420", "unit": "kJ", "nrv_percent": "17"},
+    "protein": {"value": "4.1", "unit": "g", "nrv_percent": "7"},
+    "fat": {"value": "13.5", "unit": "g", "nrv_percent": "22"},
+    "saturated_fat": {"value": "5.9", "unit": "g", "nrv_percent": "29"},
+    "carbohydrate": {"value": "48.0", "unit": "g", "nrv_percent": "16"},
+    "sugar": {"value": "8.7", "unit": "g"},
+    "fiber": {"value": "4.1", "unit": "g", "nrv_percent": "17"},
+    "sodium": {"value": "407", "unit": "mg", "nrv_percent": "20"}
+  },
+  "claims": ["high_fiber"],
+  "subjective_questions": ["配料与品牌表述是否适合目标渠道，需要具名渠道文件和质量负责人判断。"]
+}

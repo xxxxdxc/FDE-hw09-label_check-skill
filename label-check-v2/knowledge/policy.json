@@ -1,0 +1,63 @@
+{
+  "version": "scene09-2026-09-27-v1",
+  "output_basis": "per_100g",
+  "rounding": "ROUND_HALF_UP",
+  "sources": {
+    "course": {
+      "authority": "course_requirement",
+      "reference": "教师确认：营养表明确标每100g，所有核心计算统一每100g；2026-09-27"
+    },
+    "nutrition": {
+      "authority": "national_standard",
+      "reference": "GB 28050—2025: 2.3, 2.6, 6.7, 附录A、C",
+      "effective_date": "2027-03-16"
+    }
+  },
+  "course_rules": [
+    {
+      "id": "COURSE-100G-001",
+      "formula_id": "normalize_per_100g",
+      "require_header": "每100g",
+      "source": "course",
+      "severity": "error"
+    }
+  ],
+  "energy_factors_kj_per_g": {
+    "protein": "17",
+    "fat": "37",
+    "carbohydrate": "17",
+    "fiber": "8"
+  },
+  "nrv": {
+    "energy": {"value": "8400", "unit": "kJ", "source": "nutrition:A.1"},
+    "protein": {"value": "60", "unit": "g", "source": "nutrition:A.1"},
+    "fat": {"value": "60", "unit": "g", "source": "nutrition:A.1"},
+    "saturated_fat": {"value": "20", "unit": "g", "source": "nutrition:A.1"},
+    "carbohydrate": {"value": "300", "unit": "g", "source": "nutrition:A.1"},
+    "fiber": {"value": "25", "unit": "g", "source": "nutrition:A.1"},
+    "sodium": {"value": "2000", "unit": "mg", "source": "nutrition:A.1"},
+    "calcium": {"value": "800", "unit": "mg", "source": "nutrition:A.1"},
+    "iron": {"value": "15", "unit": "mg", "source": "nutrition:A.1"},
+    "zinc": {"value": "11", "unit": "mg", "source": "nutrition:A.1"}
+  },
+  "nrv_not_defined": ["sugar"],
+  "actual_tolerance": {
+    "protein": {"direction": "min", "factor": "0.8", "source": "nutrition:6.7-table-2"},
+    "carbohydrate": {"direction": "min", "factor": "0.8", "source": "nutrition:6.7-table-2"},
+    "fiber": {"direction": "min", "factor": "0.8", "source": "nutrition:6.7-table-2"},
+    "calcium": {"direction": "min", "factor": "0.8", "source": "nutrition:6.7-table-2"},
+    "iron": {"direction": "min", "factor": "0.8", "source": "nutrition:6.7-table-2"},
+    "zinc": {"direction": "min", "factor": "0.8", "source": "nutrition:6.7-table-2"},
+    "energy": {"direction": "max", "factor": "1.2", "source": "nutrition:6.7-table-2"},
+    "fat": {"direction": "max", "factor": "1.2", "source": "nutrition:6.7-table-2"},
+    "saturated_fat": {"direction": "max", "factor": "1.2", "source": "nutrition:6.7-table-2"},
+    "sugar": {"direction": "max", "factor": "1.2", "source": "nutrition:6.7-table-2"},
+    "sodium": {"direction": "max", "factor": "1.2", "source": "nutrition:6.7-table-2"}
+  },
+  "claims": {
+    "high_fiber": {"nutrient": "fiber", "min_per_100g": "6", "min_per_420kj": "3", "source": "nutrition:C.1"},
+    "high_protein": {"nutrient": "protein", "min_per_100g": "12", "min_per_420kj": "6", "source": "nutrition:C.1"},
+    "low_sugar": {"nutrient": "sugar", "max_per_100g": "5", "source": "nutrition:C.1"},
+    "sugar_free": {"nutrient": "sugar", "max_per_100g": "0.5", "source": "nutrition:C.1"}
+  }
+}

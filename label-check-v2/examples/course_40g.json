@@ -1,0 +1,10 @@
+{
+  "product_id": "COURSE-EXAMPLE",
+  "revision": "v1",
+  "basis": "per_serving",
+  "serving_g": "40",
+  "table_header": "每份40g",
+  "nutrients": {
+    "protein": {"value": "2.9", "unit": "g", "nrv_percent": "5", "source_text": "每份40g，蛋白质2.9g，NRV 5%"}
+  }
+}
