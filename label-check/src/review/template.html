@@ -33,11 +33,13 @@
 <header><h1>标签 OCR 人工复核 · __TITLE__</h1><small id="summary"></small></header>
 <main>
   <section class="image-panel"><div id="selected-caption" class="selected-caption">选择右侧字段查看原图位置</div><div class="zoom-toolbar"><button id="zoom-out" type="button" aria-label="缩小图片">−</button><input id="zoom-slider" type="range" min="1" max="8" step="0.1" value="1" aria-label="图片缩放比例"><button id="zoom-in" type="button" aria-label="放大图片">＋</button><button id="zoom-fit" type="button">适应整图</button><output id="zoom-value">100%</output><span class="hint">滚轮缩放 · 拖动查看</span></div><div id="focus-preview" class="focus-preview" hidden><div id="preview-title" class="preview-title"></div><canvas id="preview-canvas" aria-label="选中字段的原图局部放大"></canvas></div><div id="image-viewport" class="image-viewport"><div class="stage" id="stage"><img id="source-image" alt="原始标签图" src="__IMAGE_DATA__" draggable="false"><div id="boxes"></div></div></div></section>
-  <section class="side"><div class="intro"><p>点击右侧字段后，左图会自动放大并定位到红圈区域，上方同时显示局部放大图。还可用滚轮或缩放控件自由放大，按住图片拖动查看周围内容。</p><p class="hint">蓝字是 OCR 或视觉候选内容，仅作核对提示；原始图片与 OCR JSON 均不改动。视觉候选的红圈可能覆盖整张表，不代表精确字框。缺少坐标的字段只能通过原文定位。营养素结构化值使用已有英文代码，例如 fat。</p><label>复核人<input id="reviewer" placeholder="请填写姓名或组内编号"></label><p><button id="export">导出已完成的复核决定 JSON</button></p><p id="message" class="error"></p></div><div id="table-tasks"></div><div id="cards"></div></section>
+  <section class="side"><div class="intro"><p>点击右侧字段后，左图会自动放大并定位到红圈区域，上方同时显示局部放大图。还可用滚轮或缩放控件自由放大，按住图片拖动查看周围内容。</p><p class="hint">蓝字是 OCR 或视觉候选内容，仅作核对提示；原始图片与 OCR JSON 均不改动。视觉候选的红圈可能覆盖整张表，不代表精确字框。缺少坐标的字段只能通过原文定位。营养素结构化值使用已有英文代码，例如 fat。</p><label>复核人<input id="reviewer" placeholder="请填写姓名或组内编号"></label><p><button id="export">导出已完成的复核决定 JSON</button> <button id="submit-demo" type="button" hidden>应用复核并进入规则校验</button></p><p id="message" class="error"></p><div id="handoff-result"></div></div><div id="table-tasks"></div><div id="cards"></div></section>
 </main>
 <script id="review-data" type="application/json">__REVIEW_DATA__</script>
 <script>
 const data=JSON.parse(document.getElementById('review-data').textContent);
+const submitUrl=__SUBMIT_URL__;
+if(submitUrl)document.getElementById('submit-demo').hidden=false;
 const items=data.items;
 const tableItems=data.tableItems||[];
 const cards=document.getElementById('cards'),boxes=document.getElementById('boxes');
@@ -122,24 +124,49 @@ viewport.addEventListener('pointermove',event=>{if(!drag)return;viewport.scrollL
 function stopDrag(){drag=null;viewport.classList.remove('dragging')}
 viewport.addEventListener('pointerup',stopDrag);viewport.addEventListener('pointercancel',stopDrag);
 window.addEventListener('resize',()=>{if(!sourceImage.naturalWidth)return;fitWidth=viewport.clientWidth;stage.style.width=`${Math.round(fitWidth*zoom)}px`;if(items.length){centerOnItem(activeIndex);drawPreview(activeIndex)}});
-document.getElementById('export').addEventListener('click',()=>{
+function collectDecisions(){
   const reviewer=document.getElementById('reviewer').value.trim(),message=document.getElementById('message');message.textContent='';
-  if(!reviewer){message.textContent='请先填写复核人。';return}
+  if(!reviewer){message.textContent='请先填写复核人。';return null}
   const decisions=[];
   for(let i=0;i<items.length;i++){
     const item=items[i],c=control[i];if(c.action.value==='pending')continue;
     const manualText=c.action.value==='confirm'?item.raw:c.manualText.value.trim();
     const correctedValue=c.action.value==='confirm'?item.value:c.value.value.trim();
     const correctedUnit=c.action.value==='confirm'?item.unit:(c.unit.value.trim()||null);
-    if(!manualText||correctedValue===null||correctedValue===''){message.textContent=`${item.path} 缺少人工识别文字或结构化值。`;focus(i);return}
+    if(!manualText||correctedValue===null||correctedValue===''){message.textContent=`${item.path} 缺少人工识别文字或结构化值。`;focus(i);return null}
     decisions.push({path:item.path,action:c.action.value,originalRaw:item.raw,originalValue:item.value,originalUnit:item.unit,manualText,correctedValue,correctedUnit,sourceEvidenceRefs:item.evidence.map(e=>e.id),note:c.note.value.trim()});
   }
   const tableDecisions=tableItems.filter((item,i)=>tableChecks[i].checked).map(item=>({tableId:item.tableId,originalCode:item.code,sourceEvidenceRefs:item.evidenceRefs,action:'confirm_complete'}));
-  if(!decisions.length&&!tableDecisions.length){message.textContent='至少完成一个字段或一张表格后才能导出。';return}
-  const result={reviewSchemaVersion:'1.0',documentId:data.documentId,productId:data.productId,imageName:data.imageName,imageSha256:data.imageSha256,threshold:data.threshold,reviewer,reviewedAt:new Date().toISOString(),decisions,tableDecisions};
-  const blob=new Blob([JSON.stringify(result,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=el('a');
-  link.href=url;link.download=`review-decisions-${data.documentId}.json`;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
-  message.style.color='#166b38';message.textContent=`已导出 ${decisions.length} 个字段和 ${tableDecisions.length} 张表格的决定；其余项目仍待处理。`;
+  if(!decisions.length&&!tableDecisions.length){message.textContent='至少完成一个字段或一张表格后才能继续。';return null}
+  return {reviewSchemaVersion:'1.0',documentId:data.documentId,productId:data.productId,imageName:data.imageName,imageSha256:data.imageSha256,threshold:data.threshold,reviewer,reviewedAt:new Date().toISOString(),decisions,tableDecisions};
+}
+function downloadJson(value,name){
+  const blob=new Blob([JSON.stringify(value,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=el('a');
+  link.href=url;link.download=name;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+document.getElementById('export').addEventListener('click',()=>{
+  const result=collectDecisions();if(!result)return;
+  downloadJson(result,`review-decisions-${data.documentId}.json`);
+  const message=document.getElementById('message');message.style.color='#166b38';message.textContent=`已导出 ${result.decisions.length} 个字段和 ${result.tableDecisions.length} 张表格的决定；其余项目仍待处理。`;
+});
+document.getElementById('submit-demo').addEventListener('click',async()=>{
+  const decisions=collectDecisions();if(!decisions)return;
+  const button=document.getElementById('submit-demo'),message=document.getElementById('message'),target=document.getElementById('handoff-result');
+  button.disabled=true;button.textContent='正在应用决定…';target.replaceChildren();
+  try{
+    const response=await fetch(submitUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(decisions)});
+    const result=await response.json();if(!response.ok)throw Error(result.error||'复核决定未被接受');
+    downloadJson(decisions,`review-decisions-${data.documentId}.json`);
+    downloadJson(result.reviewedDocument,`reviewed-${data.documentId}.json`);
+    message.style.color='#166b38';message.textContent='决定已应用到新的结构化文档；两份 JSON 已下载，原始 OCR 数据未修改。';
+    const box=el('div','intro');box.append(el('strong','',result.report?'已进入优化2：确定性规则校验':'仍停在优化1：人工复核门禁'));
+    box.append(el('p','hint',result.gate.message));
+    if(result.report){box.append(el('p','hint',`初检状态：${result.report.status}；只检查已提供的营养字段。`));
+      for(const finding of result.report.findings){box.append(el('p','hint',`${finding.status} · ${finding.rule_id} · ${finding.message}`))}}
+    else{box.append(el('p','hint','请继续核对其余字段和整表完整性。当前页面的下一次提交仍基于原始候选；要保留逐次进度，请使用已下载的 JSON 在本地应用。'))}
+    const link=el('a','', '返回 OCR 链路总览');link.href='/ocr';box.append(link);target.append(box);
+  }catch(error){message.style.color='#ad1b1b';message.textContent=error.message}
+  finally{button.disabled=false;button.textContent='应用复核并进入规则校验'}
 });
 </script>
 </body>

@@ -1,0 +1,1185 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6938866513607",
+  "productId": "6938866513607",
+  "images": [
+    {
+      "id": "front",
+      "fileName": "6938866513607.jpg",
+      "widthPx": 2629,
+      "heightPx": 1858
+    }
+  ],
+  "evidence": [
+    {
+      "id": "front:1",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "营养成分表",
+      "boxPx": {
+        "left": 724,
+        "top": 97,
+        "width": 1070,
+        "height": 201
+      },
+      "ocrConfidence": 0.9998574257
+    },
+    {
+      "id": "front:2",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "项目",
+      "boxPx": {
+        "left": 138,
+        "top": 355,
+        "width": 257,
+        "height": 162
+      },
+      "ocrConfidence": 0.9999909401
+    },
+    {
+      "id": "front:3",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "每100g",
+      "boxPx": {
+        "left": 844,
+        "top": 357,
+        "width": 458,
+        "height": 185
+      },
+      "ocrConfidence": 0.999358952
+    },
+    {
+      "id": "front:4",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "营养素参考值%",
+      "boxPx": {
+        "left": 1593,
+        "top": 360,
+        "width": 822,
+        "height": 166
+      },
+      "ocrConfidence": 0.9997919202
+    },
+    {
+      "id": "front:5",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "能量",
+      "boxPx": {
+        "left": 129,
+        "top": 550,
+        "width": 266,
+        "height": 162
+      },
+      "ocrConfidence": 0.9999338388
+    },
+    {
+      "id": "front:6",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "266kJ",
+      "boxPx": {
+        "left": 838,
+        "top": 566,
+        "width": 398,
+        "height": 142
+      },
+      "ocrConfidence": 0.9991172552
+    },
+    {
+      "id": "front:7",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "3%",
+      "boxPx": {
+        "left": 1895,
+        "top": 567,
+        "width": 216,
+        "height": 144
+      },
+      "ocrConfidence": 0.9999919534
+    },
+    {
+      "id": "front:8",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "蛋白质",
+      "boxPx": {
+        "left": 119,
+        "top": 739,
+        "width": 404,
+        "height": 167
+      },
+      "ocrConfidence": 0.999954164
+    },
+    {
+      "id": "front:9",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "3.0g",
+      "boxPx": {
+        "left": 824,
+        "top": 754,
+        "width": 309,
+        "height": 177
+      },
+      "ocrConfidence": 0.99502635
+    },
+    {
+      "id": "front:10",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "5%",
+      "boxPx": {
+        "left": 1897,
+        "top": 756,
+        "width": 222,
+        "height": 153
+      },
+      "ocrConfidence": 0.999977529
+    },
+    {
+      "id": "front:11",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "脂肪",
+      "boxPx": {
+        "left": 104,
+        "top": 934,
+        "width": 272,
+        "height": 170
+      },
+      "ocrConfidence": 0.9989753962
+    },
+    {
+      "id": "front:12",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "3.6g",
+      "boxPx": {
+        "left": 818,
+        "top": 947,
+        "width": 314,
+        "height": 183
+      },
+      "ocrConfidence": 0.994817555
+    },
+    {
+      "id": "front:13",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "6%",
+      "boxPx": {
+        "left": 1904,
+        "top": 953,
+        "width": 218,
+        "height": 158
+      },
+      "ocrConfidence": 0.9999687076
+    },
+    {
+      "id": "front:14",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "碳水化合物",
+      "boxPx": {
+        "left": 91,
+        "top": 1134,
+        "width": 652,
+        "height": 171
+      },
+      "ocrConfidence": 0.9998428226
+    },
+    {
+      "id": "front:15",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "4.8g",
+      "boxPx": {
+        "left": 815,
+        "top": 1146,
+        "width": 315,
+        "height": 185
+      },
+      "ocrConfidence": 0.9906108379
+    },
+    {
+      "id": "front:16",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "2%",
+      "boxPx": {
+        "left": 1906,
+        "top": 1156,
+        "width": 220,
+        "height": 161
+      },
+      "ocrConfidence": 0.9999935031
+    },
+    {
+      "id": "front:17",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "钠",
+      "boxPx": {
+        "left": 75,
+        "top": 1322,
+        "width": 159,
+        "height": 197
+      },
+      "ocrConfidence": 0.9979295731
+    },
+    {
+      "id": "front:18",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "60mg",
+      "boxPx": {
+        "left": 807,
+        "top": 1348,
+        "width": 408,
+        "height": 192
+      },
+      "ocrConfidence": 0.9996182919
+    },
+    {
+      "id": "front:19",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "3%",
+      "boxPx": {
+        "left": 1909,
+        "top": 1363,
+        "width": 224,
+        "height": 159
+      },
+      "ocrConfidence": 0.9999867082
+    },
+    {
+      "id": "front:20",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "钙",
+      "boxPx": {
+        "left": 75,
+        "top": 1527,
+        "width": 156,
+        "height": 194
+      },
+      "ocrConfidence": 0.9994348884
+    },
+    {
+      "id": "front:21",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "100mg",
+      "boxPx": {
+        "left": 814,
+        "top": 1559,
+        "width": 453,
+        "height": 189
+      },
+      "ocrConfidence": 0.9998639226
+    },
+    {
+      "id": "front:22",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "13%",
+      "boxPx": {
+        "left": 1891,
+        "top": 1575,
+        "width": 283,
+        "height": 158
+      },
+      "ocrConfidence": 0.9999471307
+    },
+    {
+      "id": "front:v2part:1:1:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "项目",
+      "boxPx": {
+        "left": 143,
+        "top": 353,
+        "width": 249,
+        "height": 170
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:2:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "每100g",
+      "boxPx": {
+        "left": 847,
+        "top": 353,
+        "width": 451,
+        "height": 201
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:3:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "营养素参考值%",
+      "boxPx": {
+        "left": 1598,
+        "top": 354,
+        "width": 811,
+        "height": 181
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:4:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "能量",
+      "boxPx": {
+        "left": 133,
+        "top": 548,
+        "width": 260,
+        "height": 173
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:5:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "266kJ",
+      "boxPx": {
+        "left": 839,
+        "top": 562,
+        "width": 397,
+        "height": 153
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:6:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3%",
+      "boxPx": {
+        "left": 1897,
+        "top": 565,
+        "width": 214,
+        "height": 155
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:7:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "蛋白质",
+      "boxPx": {
+        "left": 123,
+        "top": 734,
+        "width": 397,
+        "height": 182
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:8:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3.0g",
+      "boxPx": {
+        "left": 829,
+        "top": 750,
+        "width": 300,
+        "height": 189
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:9:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "5%",
+      "boxPx": {
+        "left": 1903,
+        "top": 755,
+        "width": 214,
+        "height": 162
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:10:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "脂肪",
+      "boxPx": {
+        "left": 109,
+        "top": 929,
+        "width": 270,
+        "height": 182
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:11:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3.6g",
+      "boxPx": {
+        "left": 822,
+        "top": 944,
+        "width": 301,
+        "height": 193
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:12:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "6%",
+      "boxPx": {
+        "left": 1909,
+        "top": 953,
+        "width": 211,
+        "height": 163
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:13:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "碳水化合物",
+      "boxPx": {
+        "left": 96,
+        "top": 1124,
+        "width": 645,
+        "height": 193
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:14:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "4.8g",
+      "boxPx": {
+        "left": 821,
+        "top": 1145,
+        "width": 301,
+        "height": 194
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:15:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "2%",
+      "boxPx": {
+        "left": 1912,
+        "top": 1156,
+        "width": 212,
+        "height": 166
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:16:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "钠",
+      "boxPx": {
+        "left": 85,
+        "top": 1321,
+        "width": 141,
+        "height": 201
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:17:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "60mg",
+      "boxPx": {
+        "left": 814,
+        "top": 1345,
+        "width": 394,
+        "height": 203
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:18:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3%",
+      "boxPx": {
+        "left": 1915,
+        "top": 1360,
+        "width": 216,
+        "height": 167
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:19:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "钙",
+      "boxPx": {
+        "left": 82,
+        "top": 1525,
+        "width": 144,
+        "height": 202
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:20:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "100mg",
+      "boxPx": {
+        "left": 815,
+        "top": 1552,
+        "width": 449,
+        "height": 208
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:21:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "13%",
+      "boxPx": {
+        "left": 1895,
+        "top": 1572,
+        "width": 279,
+        "height": 168
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "项目",
+      "boxPx": {
+        "left": 143,
+        "top": 353,
+        "width": 249,
+        "height": 170
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:2",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "每100g",
+      "boxPx": {
+        "left": 847,
+        "top": 353,
+        "width": 451,
+        "height": 201
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:3",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "营养素参考值%",
+      "boxPx": {
+        "left": 1598,
+        "top": 354,
+        "width": 811,
+        "height": 181
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:4",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "能量",
+      "boxPx": {
+        "left": 133,
+        "top": 548,
+        "width": 260,
+        "height": 173
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:5",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "266kJ",
+      "boxPx": {
+        "left": 839,
+        "top": 562,
+        "width": 397,
+        "height": 153
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:6",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3%",
+      "boxPx": {
+        "left": 1897,
+        "top": 565,
+        "width": 214,
+        "height": 155
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:7",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "蛋白质",
+      "boxPx": {
+        "left": 123,
+        "top": 734,
+        "width": 397,
+        "height": 182
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:8",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3.0g",
+      "boxPx": {
+        "left": 829,
+        "top": 750,
+        "width": 300,
+        "height": 189
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:9",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "5%",
+      "boxPx": {
+        "left": 1903,
+        "top": 755,
+        "width": 214,
+        "height": 162
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:10",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "脂肪",
+      "boxPx": {
+        "left": 109,
+        "top": 929,
+        "width": 270,
+        "height": 182
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:11",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3.6g",
+      "boxPx": {
+        "left": 822,
+        "top": 944,
+        "width": 301,
+        "height": 193
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:12",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "6%",
+      "boxPx": {
+        "left": 1909,
+        "top": 953,
+        "width": 211,
+        "height": 163
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:13",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "碳水化合物",
+      "boxPx": {
+        "left": 96,
+        "top": 1124,
+        "width": 645,
+        "height": 193
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:14",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "4.8g",
+      "boxPx": {
+        "left": 821,
+        "top": 1145,
+        "width": 301,
+        "height": 194
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:15",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "2%",
+      "boxPx": {
+        "left": 1912,
+        "top": 1156,
+        "width": 212,
+        "height": 166
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:16",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "钠",
+      "boxPx": {
+        "left": 85,
+        "top": 1321,
+        "width": 141,
+        "height": 201
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:17",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "60mg",
+      "boxPx": {
+        "left": 814,
+        "top": 1345,
+        "width": 394,
+        "height": 203
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:18",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3%",
+      "boxPx": {
+        "left": 1915,
+        "top": 1360,
+        "width": 216,
+        "height": 167
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:19",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "钙",
+      "boxPx": {
+        "left": 82,
+        "top": 1525,
+        "width": 144,
+        "height": 202
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:20",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "100mg",
+      "boxPx": {
+        "left": 815,
+        "top": 1552,
+        "width": 449,
+        "height": 208
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:21",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "13%",
+      "boxPx": {
+        "left": 1895,
+        "top": 1572,
+        "width": 279,
+        "height": 168
+      },
+      "ocrConfidence": null
+    }
+  ],
+  "facts": {
+    "productName": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "netContent": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "ingredientsText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "allergenText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "nutritionTables": [
+      {
+        "id": "table:1",
+        "basis": {
+          "kind": "per_100g",
+          "raw": "每100g",
+          "sourceRefs": [
+            "front:v2:1:2",
+            "front:v2:1:1",
+            "front:v2:1:3",
+            "front:4",
+            "front:2",
+            "front:3"
+          ],
+          "status": "ready",
+          "servingSize": null
+        },
+        "rows": [
+          {
+            "nutrient": {
+              "raw": "能量",
+              "value": "energy",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:4",
+                "front:5"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "266kJ",
+              "value": "266",
+              "unit": "kJ",
+              "sourceRefs": [
+                "front:v2:1:5",
+                "front:6"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "3%",
+              "value": "3",
+              "unit": "%",
+              "sourceRefs": [
+                "front:v2:1:6",
+                "front:7"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "蛋白质",
+              "value": "protein",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:7",
+                "front:8"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "3.0g",
+              "value": "3.0",
+              "unit": "g",
+              "sourceRefs": [
+                "front:v2:1:8",
+                "front:9"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "5%",
+              "value": "5",
+              "unit": "%",
+              "sourceRefs": [
+                "front:v2:1:9",
+                "front:10"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "脂肪",
+              "value": "fat",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:10",
+                "front:11"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "3.6g",
+              "value": "3.6",
+              "unit": "g",
+              "sourceRefs": [
+                "front:v2:1:11",
+                "front:12"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "6%",
+              "value": "6",
+              "unit": "%",
+              "sourceRefs": [
+                "front:v2:1:12",
+                "front:13"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "碳水化合物",
+              "value": "carbohydrate",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:13",
+                "front:14"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "4.8g",
+              "value": "4.8",
+              "unit": "g",
+              "sourceRefs": [
+                "front:v2:1:14",
+                "front:15"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "2%",
+              "value": "2",
+              "unit": "%",
+              "sourceRefs": [
+                "front:v2:1:15",
+                "front:16"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "钠",
+              "value": "sodium",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:16",
+                "front:17"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "60mg",
+              "value": "60",
+              "unit": "mg",
+              "sourceRefs": [
+                "front:v2:1:17",
+                "front:18"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "3%",
+              "value": "3",
+              "unit": "%",
+              "sourceRefs": [
+                "front:v2:1:18",
+                "front:19"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "钙",
+              "value": "calcium",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:19",
+                "front:20"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "amount": {
+              "raw": "100mg",
+              "value": "100",
+              "unit": "mg",
+              "sourceRefs": [
+                "front:v2:1:20",
+                "front:21"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            },
+            "nrvPercent": {
+              "raw": "13%",
+              "value": "13",
+              "unit": "%",
+              "sourceRefs": [
+                "front:v2:1:21",
+                "front:22"
+              ],
+              "status": "ready",
+              "reviewReasons": []
+            }
+          }
+        ],
+        "sourceRefs": [
+          "front:v2:1:1",
+          "front:v2:1:2",
+          "front:v2:1:3",
+          "front:4",
+          "front:2",
+          "front:3"
+        ]
+      }
+    ],
+    "claims": [],
+    "barcodes": []
+  },
+  "unassignedEvidenceIds": [
+    "front:1",
+    "front:v2part:1:1:1",
+    "front:v2part:1:2:1",
+    "front:v2part:1:3:1",
+    "front:v2part:1:4:1",
+    "front:v2part:1:5:1",
+    "front:v2part:1:6:1",
+    "front:v2part:1:7:1",
+    "front:v2part:1:8:1",
+    "front:v2part:1:9:1",
+    "front:v2part:1:10:1",
+    "front:v2part:1:11:1",
+    "front:v2part:1:12:1",
+    "front:v2part:1:13:1",
+    "front:v2part:1:14:1",
+    "front:v2part:1:15:1",
+    "front:v2part:1:16:1",
+    "front:v2part:1:17:1",
+    "front:v2part:1:18:1",
+    "front:v2part:1:19:1",
+    "front:v2part:1:20:1",
+    "front:v2part:1:21:1"
+  ],
+  "productIdSource": "provided",
+  "tableDiagnostics": [
+    {
+      "code": "TABLE_PARSED",
+      "status": "ok",
+      "message": "Table V2 parsed 6 rows",
+      "imageId": "front",
+      "boxPx": {
+        "left": 81,
+        "top": 295,
+        "width": 2380,
+        "height": 1461
+      },
+      "evidenceRefs": [
+        "front:v2:1:1",
+        "front:v2:1:2",
+        "front:v2:1:3",
+        "front:v2:1:4",
+        "front:v2:1:5",
+        "front:v2:1:6",
+        "front:v2:1:7",
+        "front:v2:1:8",
+        "front:v2:1:9",
+        "front:v2:1:10",
+        "front:v2:1:11",
+        "front:v2:1:12",
+        "front:v2:1:13",
+        "front:v2:1:14",
+        "front:v2:1:15",
+        "front:v2:1:16",
+        "front:v2:1:17",
+        "front:v2:1:18",
+        "front:v2:1:19",
+        "front:v2:1:20",
+        "front:v2:1:21"
+      ],
+      "tableId": "table:1"
+    }
+  ]
+}

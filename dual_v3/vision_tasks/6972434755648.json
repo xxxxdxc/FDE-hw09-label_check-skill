@@ -1,0 +1,34 @@
+{
+  "documentId": "6972434755648",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\6972434755648.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_LAYOUT_RECOVERED",
+      "message": "Recovered 7 review-only rows from line positions; HEADER_DATA_MIXED; NUTRIENT_ROW_AMBIGUOUS; V2_MISSING_NUTRIENT_ROWS; Table V2 returned no usable table; full-text OCR recovered 3 review-only candidate rows; Full-image nutrient labels absent from structured rows: 碳水化合物, 钠, 维生素B1, 维生素B2",
+      "imageId": "front",
+      "boxPx": {
+        "left": 0,
+        "top": 60,
+        "width": 986,
+        "height": 920
+      },
+      "evidenceRefs": [
+        "front:1",
+        "front:2",
+        "front:3",
+        "front:4",
+        "front:5",
+        "front:6",
+        "front:10",
+        "front:14",
+        "front:16",
+        "front:17",
+        "front:19",
+        "front:23",
+        "front:27",
+        "front:34"
+      ],
+      "tableId": null
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "4891028720232",
+  "imageName": "4891028720232.jpg",
+  "imageSha256": "41d9991c81747aa9811eef0dcece21ff290344bc841996ced99f8e88f810f88c",
+  "humanVerified": false,
+  "notes": "",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:v2_parts:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100ml",
+        "raw": "Per 100ML",
+        "value": "per_100ml"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "Energia",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "158kJ",
+            "value": "158",
+            "unit": "kJ"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Grassi",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Di cui acidi grassi saturi",
+            "value": "saturated_fat"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Carboidrati",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "9.3g",
+            "value": "9.3",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Di cui zuccheri",
+            "value": "sugar"
+          },
+          "amount": {
+            "raw": "8.2g",
+            "value": "8.2",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Proteine",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Sale",
+            "value": "salt"
+          },
+          "amount": {
+            "raw": "63mg",
+            "value": "63",
+            "unit": "mg"
+          },
+          "nrvPercent": null
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 708,
+        "height": 436
+      }
+    }
+  ]
+}

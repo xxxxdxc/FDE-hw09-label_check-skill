@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "3161712996153",
+  "imageName": "3161712996153.jpg",
+  "imageSha256": "1e8c74a2604fa01967737dde8667ccf878f4622d04f4664112de7e765091fbae",
+  "humanVerified": false,
+  "notes": "蛋白质印为18 0克、脂肪28 0克，小数点不清；不根据常识或NRV倒算补点。",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100g",
+        "raw": "每100克",
+        "value": "per_100g"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "1359kJ",
+            "value": "1359",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "16%",
+            "value": "16",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "18 0克",
+            "value": null,
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "30%",
+            "value": "30",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "28 0克",
+            "value": null,
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "47%",
+            "value": "47",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "900mg",
+            "value": "900",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "40%",
+            "value": "40",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 920,
+        "height": 498
+      }
+    }
+  ]
+}

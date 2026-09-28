@@ -1,0 +1,42 @@
+{
+  "documentId": "6914973603394",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\6914973603394.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_LAYOUT_RECOVERED",
+      "message": "Recovered 9 review-only rows from line positions; Table V2 returned no usable table; full-text OCR recovered 6 review-only candidate rows; Full-image nutrient labels absent from structured rows: -反式脂肪",
+      "imageId": "front",
+      "boxPx": {
+        "left": 97,
+        "top": 148,
+        "width": 1840,
+        "height": 555
+      },
+      "evidenceRefs": [
+        "front:4",
+        "front:2",
+        "front:3",
+        "front:8",
+        "front:6",
+        "front:13",
+        "front:14",
+        "front:5",
+        "front:12",
+        "front:11",
+        "front:9",
+        "front:18",
+        "front:19",
+        "front:15",
+        "front:24",
+        "front:25",
+        "front:26",
+        "front:31",
+        "front:32",
+        "front:33",
+        "front:36",
+        "front:37"
+      ],
+      "tableId": null
+    }
+  ]
+}

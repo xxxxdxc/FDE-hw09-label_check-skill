@@ -1,0 +1,255 @@
+[
+  {
+    "path": "facts.nutritionTables[0].basis",
+    "raw": "每份(1.2g",
+    "value": "per_serving",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_TABLE_HEADER_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:3",
+        "imageId": "front",
+        "boxPx": {
+          "left": 169,
+          "top": 204,
+          "width": 305,
+          "height": 105
+        },
+        "ocrConfidence": 0.9996896982
+      },
+      {
+        "id": "front:2",
+        "imageId": "front",
+        "boxPx": {
+          "left": 5,
+          "top": 188,
+          "width": 107,
+          "height": 83
+        },
+        "ocrConfidence": 0.9999854565
+      },
+      {
+        "id": "front:4",
+        "imageId": "front",
+        "boxPx": {
+          "left": 493,
+          "top": 226,
+          "width": 134,
+          "height": 73
+        },
+        "ocrConfidence": 0.9999850392
+      },
+      {
+        "id": "front:5",
+        "imageId": "front",
+        "boxPx": {
+          "left": 717,
+          "top": 213,
+          "width": 249,
+          "height": 83
+        },
+        "ocrConfidence": 0.9295084476
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].nutrient",
+    "raw": "能量",
+    "value": "energy",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:6",
+        "imageId": "front",
+        "boxPx": {
+          "left": 9,
+          "top": 286,
+          "width": 104,
+          "height": 83
+        },
+        "ocrConfidence": 0.9995599985
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].nutrient",
+    "raw": "蛋白质",
+    "value": "protein",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:10",
+        "imageId": "front",
+        "boxPx": {
+          "left": 9,
+          "top": 384,
+          "width": 152,
+          "height": 91
+        },
+        "ocrConfidence": 0.9998605847
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].nutrient",
+    "raw": "脂肪",
+    "value": "fat",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:14",
+        "imageId": "front",
+        "boxPx": {
+          "left": 6,
+          "top": 474,
+          "width": 117,
+          "height": 94
+        },
+        "ocrConfidence": 0.9970651865
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].amount",
+    "raw": "16.00mg",
+    "value": "16.00",
+    "unit": "mg",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:16",
+        "imageId": "front",
+        "boxPx": {
+          "left": 753,
+          "top": 517,
+          "width": 202,
+          "height": 74
+        },
+        "ocrConfidence": 0.9979636073
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[3].nutrient",
+    "raw": "碳水化合物",
+    "value": "carbohydrate",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:17",
+        "imageId": "front",
+        "boxPx": {
+          "left": 12,
+          "top": 574,
+          "width": 248,
+          "height": 110
+        },
+        "ocrConfidence": 0.9992367625
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[4].nutrient",
+    "raw": "钠",
+    "value": "sodium",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:19",
+        "imageId": "front",
+        "boxPx": {
+          "left": 18,
+          "top": 663,
+          "width": 61,
+          "height": 84
+        },
+        "ocrConfidence": 0.9939308167
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[5].nutrient",
+    "raw": "维生素B1",
+    "value": "vitamin_b1",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:23",
+        "imageId": "front",
+        "boxPx": {
+          "left": 13,
+          "top": 757,
+          "width": 218,
+          "height": 111
+        },
+        "ocrConfidence": 0.9974457026
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[6].nutrient",
+    "raw": "维生素B2",
+    "value": "vitamin_b2",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:27",
+        "imageId": "front",
+        "boxPx": {
+          "left": 15,
+          "top": 849,
+          "width": 217,
+          "height": 111
+        },
+        "ocrConfidence": 0.9978969693
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[6].amount",
+    "raw": "50mg",
+    "value": "50",
+    "unit": "mg",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:34",
+        "imageId": "front",
+        "boxPx": {
+          "left": 806,
+          "top": 891,
+          "width": 131,
+          "height": 67
+        },
+        "ocrConfidence": 0.9912747145
+      }
+    ]
+  }
+]

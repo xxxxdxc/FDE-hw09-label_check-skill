@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6923644299774",
+  "imageName": "6923644299774.jpg",
+  "imageSha256": "52c14b0a86c5f7eeb9efd7d0e26ca9f2d204663ff2d2142259212928754bb4b7",
+  "humanVerified": false,
+  "notes": "",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:accurate:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100ml",
+        "raw": "每100mL",
+        "value": "per_100ml"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "309kJ",
+            "value": "309",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "4%",
+            "value": "4",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "3.6g",
+            "value": "3.6",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "6%",
+            "value": "6",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "4.4g",
+            "value": "4.4",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "7%",
+            "value": "7",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "5.0g",
+            "value": "5.0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "2%",
+            "value": "2",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "58mg",
+            "value": "58",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "3%",
+            "value": "3",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钙",
+            "value": "calcium"
+          },
+          "amount": {
+            "raw": "120mg",
+            "value": "120",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "15%",
+            "value": "15",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 1463,
+        "height": 1309
+      }
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "path": "facts.nutritionTables[0].basis.servingSize",
+    "raw": "70g",
+    "value": "70",
+    "unit": "g",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:61",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].nutrient",
+    "raw": "能量",
+    "value": "energy",
+    "unit": null,
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:62",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].amount",
+    "raw": "1558千焦",
+    "value": "1558",
+    "unit": "kJ",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:63",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].nrvPercent",
+    "raw": "19%",
+    "value": "19",
+    "unit": "%",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:64",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].nutrient",
+    "raw": "蛋白质",
+    "value": "protein",
+    "unit": null,
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:65",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].amount",
+    "raw": "2.8克",
+    "value": "2.8",
+    "unit": "g",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:66",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].nrvPercent",
+    "raw": "5%",
+    "value": "5",
+    "unit": "%",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:67",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].nutrient",
+    "raw": "脂肪",
+    "value": "fat",
+    "unit": null,
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:68",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].amount",
+    "raw": "21.3克",
+    "value": "21.3",
+    "unit": "g",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:69",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].nrvPercent",
+    "raw": "36%",
+    "value": "36",
+    "unit": "%",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:70",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[3].nutrient",
+    "raw": "反式脂肪",
+    "value": "trans_fat",
+    "unit": null,
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:71",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[3].amount",
+    "raw": "0克",
+    "value": "0",
+    "unit": "g",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:72",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[4].nutrient",
+    "raw": "碳水化合物",
+    "value": "carbohydrate",
+    "unit": null,
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:73",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[4].amount",
+    "raw": "42.5克",
+    "value": "42.5",
+    "unit": "g",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:74",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[4].nrvPercent",
+    "raw": "14%",
+    "value": "14",
+    "unit": "%",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:75",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[5].nutrient",
+    "raw": "钠",
+    "value": "sodium",
+    "unit": null,
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:76",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[5].amount",
+    "raw": "529毫克",
+    "value": "529",
+    "unit": "mg",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:77",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[5].nrvPercent",
+    "raw": "26%",
+    "value": "26",
+    "unit": "%",
+    "reviewReasons": [
+      "VISION_CANDIDATE_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "vision:78",
+        "imageId": "front",
+        "boxPx": {
+          "left": 0,
+          "top": 0,
+          "width": 3024,
+          "height": 4027
+        },
+        "ocrConfidence": null
+      }
+    ]
+  }
+]

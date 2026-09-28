@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6954767430461",
+  "imageName": "6954767430461.jpg",
+  "imageSha256": "7df2b3ab420a295f895a92fb470dc952d182ae38304aa5a3d92168ff2a67aeaf",
+  "humanVerified": false,
+  "notes": "",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100ml",
+        "raw": "每100毫升",
+        "value": "per_100ml"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "0kJ",
+            "value": "0",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "糖",
+            "value": "sugar"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "膳食纤维",
+            "value": "dietary_fiber"
+          },
+          "amount": {
+            "raw": "1.5g",
+            "value": "1.5",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "6%",
+            "value": "6",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "14mg",
+            "value": "14",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "1%",
+            "value": "1",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 3008,
+        "height": 4000
+      }
+    }
+  ]
+}

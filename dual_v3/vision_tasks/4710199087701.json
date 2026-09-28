@@ -1,0 +1,46 @@
+{
+  "documentId": "4710199087701",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\4710199087701.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_LAYOUT_RECOVERED",
+      "message": "Recovered 8 review-only rows from line positions; NRV_COLUMN_INFERRED_FROM_DATA; NUTRIENT_ROW_AMBIGUOUS; AMOUNT_MISSING_OR_UNREADABLE; V2_MISSING_NUTRIENT_ROWS; Full-image nutrient labels absent from structured rows: 饱和脂肪, 反式脂肪",
+      "imageId": "front",
+      "boxPx": {
+        "left": 178,
+        "top": 13,
+        "width": 1215,
+        "height": 1042
+      },
+      "evidenceRefs": [
+        "front:1",
+        "front:2",
+        "front:3",
+        "front:4",
+        "front:5",
+        "front:6",
+        "front:7",
+        "front:8",
+        "front:9",
+        "front:10",
+        "front:11",
+        "front:12",
+        "front:13",
+        "front:14",
+        "front:15",
+        "front:16",
+        "front:17",
+        "front:18",
+        "front:19",
+        "front:20",
+        "front:21",
+        "front:22",
+        "front:23",
+        "front:24",
+        "front:25",
+        "front:26"
+      ],
+      "tableId": null
+    }
+  ]
+}

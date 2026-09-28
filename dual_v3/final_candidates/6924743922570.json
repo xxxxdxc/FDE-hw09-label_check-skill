@@ -1,0 +1,1476 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6924743922570",
+  "productId": "6924743922570",
+  "images": [
+    {
+      "id": "front",
+      "fileName": "6924743922570.jpg",
+      "widthPx": 4032,
+      "heightPx": 3024
+    }
+  ],
+  "evidence": [
+    {
+      "id": "front:1",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "营养成分表",
+      "boxPx": {
+        "left": 1584,
+        "top": 547,
+        "width": 826,
+        "height": 202
+      },
+      "ocrConfidence": 0.9981402159
+    },
+    {
+      "id": "front:2",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "每份食用量：30克",
+      "boxPx": {
+        "left": 316,
+        "top": 745,
+        "width": 1192,
+        "height": 192
+      },
+      "ocrConfidence": 0.9996904731
+    },
+    {
+      "id": "front:3",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "项目",
+      "boxPx": {
+        "left": 321,
+        "top": 973,
+        "width": 321,
+        "height": 185
+      },
+      "ocrConfidence": 0.99998945
+    },
+    {
+      "id": "front:4",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "每份",
+      "boxPx": {
+        "left": 1888,
+        "top": 960,
+        "width": 337,
+        "height": 193
+      },
+      "ocrConfidence": 0.9997678399
+    },
+    {
+      "id": "front:5",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "营养素参考值%",
+      "boxPx": {
+        "left": 2609,
+        "top": 958,
+        "width": 1165,
+        "height": 202
+      },
+      "ocrConfidence": 0.9995612502
+    },
+    {
+      "id": "front:6",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "能量",
+      "boxPx": {
+        "left": 325,
+        "top": 1209,
+        "width": 321,
+        "height": 189
+      },
+      "ocrConfidence": 0.9998061657
+    },
+    {
+      "id": "front:7",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "678千焦",
+      "boxPx": {
+        "left": 1629,
+        "top": 1210,
+        "width": 606,
+        "height": 191
+      },
+      "ocrConfidence": 0.999874711
+    },
+    {
+      "id": "front:8",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "8%",
+      "boxPx": {
+        "left": 3496,
+        "top": 1214,
+        "width": 268,
+        "height": 200
+      },
+      "ocrConfidence": 0.9998261929
+    },
+    {
+      "id": "front:9",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "蛋白质",
+      "boxPx": {
+        "left": 312,
+        "top": 1406,
+        "width": 480,
+        "height": 190
+      },
+      "ocrConfidence": 0.9999347329
+    },
+    {
+      "id": "front:10",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "1.7克",
+      "boxPx": {
+        "left": 1839,
+        "top": 1404,
+        "width": 395,
+        "height": 190
+      },
+      "ocrConfidence": 0.9997239709
+    },
+    {
+      "id": "front:11",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "3%",
+      "boxPx": {
+        "left": 3487,
+        "top": 1419,
+        "width": 275,
+        "height": 201
+      },
+      "ocrConfidence": 0.9999809265
+    },
+    {
+      "id": "front:12",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "脂肪",
+      "boxPx": {
+        "left": 307,
+        "top": 1597,
+        "width": 329,
+        "height": 190
+      },
+      "ocrConfidence": 0.9991989136
+    },
+    {
+      "id": "front:13",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "10.0克",
+      "boxPx": {
+        "left": 1755,
+        "top": 1598,
+        "width": 478,
+        "height": 190
+      },
+      "ocrConfidence": 0.9994624853
+    },
+    {
+      "id": "front:14",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "17%",
+      "boxPx": {
+        "left": 3402,
+        "top": 1620,
+        "width": 358,
+        "height": 203
+      },
+      "ocrConfidence": 0.9999683499
+    },
+    {
+      "id": "front:15",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "-饱和脂肪酸",
+      "boxPx": {
+        "left": 313,
+        "top": 1787,
+        "width": 880,
+        "height": 184
+      },
+      "ocrConfidence": 0.9996619821
+    },
+    {
+      "id": "front:16",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "1.6克",
+      "boxPx": {
+        "left": 1845,
+        "top": 1791,
+        "width": 393,
+        "height": 187
+      },
+      "ocrConfidence": 0.997213006
+    },
+    {
+      "id": "front:17",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "8%",
+      "boxPx": {
+        "left": 3487,
+        "top": 1826,
+        "width": 269,
+        "height": 198
+      },
+      "ocrConfidence": 0.9999486208
+    },
+    {
+      "id": "front:18",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "碳水化合物",
+      "boxPx": {
+        "left": 320,
+        "top": 1974,
+        "width": 801,
+        "height": 188
+      },
+      "ocrConfidence": 0.9999189377
+    },
+    {
+      "id": "front:19",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "16.4克",
+      "boxPx": {
+        "left": 1763,
+        "top": 1980,
+        "width": 475,
+        "height": 194
+      },
+      "ocrConfidence": 0.9998137355
+    },
+    {
+      "id": "front:20",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "5%",
+      "boxPx": {
+        "left": 3479,
+        "top": 2023,
+        "width": 278,
+        "height": 207
+      },
+      "ocrConfidence": 0.9999853969
+    },
+    {
+      "id": "front:21",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "-糖",
+      "boxPx": {
+        "left": 343,
+        "top": 2155,
+        "width": 250,
+        "height": 185
+      },
+      "ocrConfidence": 0.9852150679
+    },
+    {
+      "id": "front:22",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "2.1克",
+      "boxPx": {
+        "left": 1839,
+        "top": 2174,
+        "width": 400,
+        "height": 191
+      },
+      "ocrConfidence": 0.9979393482
+    },
+    {
+      "id": "front:23",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "钠",
+      "boxPx": {
+        "left": 338,
+        "top": 2332,
+        "width": 198,
+        "height": 206
+      },
+      "ocrConfidence": 0.9984897375
+    },
+    {
+      "id": "front:24",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "158毫克",
+      "boxPx": {
+        "left": 1653,
+        "top": 2360,
+        "width": 588,
+        "height": 200
+      },
+      "ocrConfidence": 0.9987660646
+    },
+    {
+      "id": "front:25",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "8%",
+      "boxPx": {
+        "left": 3482,
+        "top": 2424,
+        "width": 267,
+        "height": 202
+      },
+      "ocrConfidence": 0.9998501539
+    },
+    {
+      "id": "front:v2part:1:1:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "项目",
+      "boxPx": {
+        "left": 325,
+        "top": 975,
+        "width": 319,
+        "height": 191
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:2:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "每份",
+      "boxPx": {
+        "left": 1894,
+        "top": 961,
+        "width": 333,
+        "height": 203
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:3:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "能量",
+      "boxPx": {
+        "left": 331,
+        "top": 1210,
+        "width": 318,
+        "height": 201
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:4:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "678千焦",
+      "boxPx": {
+        "left": 1629,
+        "top": 1207,
+        "width": 602,
+        "height": 207
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:5:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "蛋白质",
+      "boxPx": {
+        "left": 316,
+        "top": 1401,
+        "width": 478,
+        "height": 208
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:6:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "1.7克",
+      "boxPx": {
+        "left": 1846,
+        "top": 1401,
+        "width": 390,
+        "height": 205
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:7:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "脂肪",
+      "boxPx": {
+        "left": 309,
+        "top": 1596,
+        "width": 330,
+        "height": 203
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:8:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "10.0克",
+      "boxPx": {
+        "left": 1761,
+        "top": 1594,
+        "width": 478,
+        "height": 205
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:9:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "-饱和脂肪酸",
+      "boxPx": {
+        "left": 322,
+        "top": 1787,
+        "width": 871,
+        "height": 195
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:10:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "1.6克",
+      "boxPx": {
+        "left": 1851,
+        "top": 1790,
+        "width": 392,
+        "height": 198
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:11:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "碳水化合物",
+      "boxPx": {
+        "left": 328,
+        "top": 1972,
+        "width": 794,
+        "height": 203
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:12:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "16.4克",
+      "boxPx": {
+        "left": 1766,
+        "top": 1980,
+        "width": 474,
+        "height": 206
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:13:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "-糖",
+      "boxPx": {
+        "left": 349,
+        "top": 2158,
+        "width": 242,
+        "height": 192
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:14:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "2.1克",
+      "boxPx": {
+        "left": 1846,
+        "top": 2175,
+        "width": 395,
+        "height": 200
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:15:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "钠",
+      "boxPx": {
+        "left": 343,
+        "top": 2331,
+        "width": 191,
+        "height": 213
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:16:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "158毫克",
+      "boxPx": {
+        "left": 1657,
+        "top": 2358,
+        "width": 584,
+        "height": 215
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "项目",
+      "boxPx": {
+        "left": 325,
+        "top": 975,
+        "width": 319,
+        "height": 191
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:2",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "每份",
+      "boxPx": {
+        "left": 1894,
+        "top": 961,
+        "width": 333,
+        "height": 203
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:3",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "能量",
+      "boxPx": {
+        "left": 331,
+        "top": 1210,
+        "width": 318,
+        "height": 201
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:4",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "678千焦",
+      "boxPx": {
+        "left": 1629,
+        "top": 1207,
+        "width": 602,
+        "height": 207
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:5",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "蛋白质",
+      "boxPx": {
+        "left": 316,
+        "top": 1401,
+        "width": 478,
+        "height": 208
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:6",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "1.7克",
+      "boxPx": {
+        "left": 1846,
+        "top": 1401,
+        "width": 390,
+        "height": 205
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:7",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "脂肪",
+      "boxPx": {
+        "left": 309,
+        "top": 1596,
+        "width": 330,
+        "height": 203
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:8",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "10.0克",
+      "boxPx": {
+        "left": 1761,
+        "top": 1594,
+        "width": 478,
+        "height": 205
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:9",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "-饱和脂肪酸",
+      "boxPx": {
+        "left": 322,
+        "top": 1787,
+        "width": 871,
+        "height": 195
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:10",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "1.6克",
+      "boxPx": {
+        "left": 1851,
+        "top": 1790,
+        "width": 392,
+        "height": 198
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:11",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "碳水化合物",
+      "boxPx": {
+        "left": 328,
+        "top": 1972,
+        "width": 794,
+        "height": 203
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:12",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "16.4克",
+      "boxPx": {
+        "left": 1766,
+        "top": 1980,
+        "width": 474,
+        "height": 206
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:13",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "-糖",
+      "boxPx": {
+        "left": 349,
+        "top": 2158,
+        "width": 242,
+        "height": 192
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:14",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "2.1克",
+      "boxPx": {
+        "left": 1846,
+        "top": 2175,
+        "width": 395,
+        "height": 200
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:15",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "钠",
+      "boxPx": {
+        "left": 343,
+        "top": 2331,
+        "width": 191,
+        "height": 213
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:16",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "158毫克",
+      "boxPx": {
+        "left": 1657,
+        "top": 2358,
+        "width": 584,
+        "height": 215
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:58",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "每份30克",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:59",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "30g",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:60",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "能量",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:61",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "678kJ",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:62",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "8%",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:63",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "蛋白质",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:64",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "1.7g",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:65",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "3%",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:66",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "脂肪",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:67",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "10.0g",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:68",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "17%",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:69",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "饱和脂肪",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:70",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "1.6g",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:71",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "8%",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:72",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "碳水化合物",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:73",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "16.4g",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:74",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "5%",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:75",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "糖",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:76",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "2.1g",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:77",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "钠",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:78",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "158mg",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "vision:79",
+      "imageId": "front",
+      "sourceType": "codex_vision",
+      "text": "8%",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "ocrConfidence": null
+    }
+  ],
+  "facts": {
+    "productName": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "netContent": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "ingredientsText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "allergenText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "nutritionTables": [
+      {
+        "id": "table:vision:1",
+        "basis": {
+          "kind": "per_serving",
+          "raw": "每份30克",
+          "sourceRefs": [
+            "vision:58"
+          ],
+          "status": "needs_review",
+          "servingSize": {
+            "raw": "30g",
+            "value": "30",
+            "unit": "g",
+            "sourceRefs": [
+              "vision:59"
+            ],
+            "status": "needs_review",
+            "reviewReasons": [
+              "VISION_CANDIDATE_UNVERIFIED"
+            ]
+          }
+        },
+        "rows": [
+          {
+            "nutrient": {
+              "raw": "能量",
+              "value": "energy",
+              "unit": null,
+              "sourceRefs": [
+                "vision:60"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "678kJ",
+              "value": "678",
+              "unit": "kJ",
+              "sourceRefs": [
+                "vision:61"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "nrvPercent": {
+              "raw": "8%",
+              "value": "8",
+              "unit": "%",
+              "sourceRefs": [
+                "vision:62"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "蛋白质",
+              "value": "protein",
+              "unit": null,
+              "sourceRefs": [
+                "vision:63"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "1.7g",
+              "value": "1.7",
+              "unit": "g",
+              "sourceRefs": [
+                "vision:64"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "nrvPercent": {
+              "raw": "3%",
+              "value": "3",
+              "unit": "%",
+              "sourceRefs": [
+                "vision:65"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "脂肪",
+              "value": "fat",
+              "unit": null,
+              "sourceRefs": [
+                "vision:66"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "10.0g",
+              "value": "10.0",
+              "unit": "g",
+              "sourceRefs": [
+                "vision:67"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "nrvPercent": {
+              "raw": "17%",
+              "value": "17",
+              "unit": "%",
+              "sourceRefs": [
+                "vision:68"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "饱和脂肪",
+              "value": "saturated_fat",
+              "unit": null,
+              "sourceRefs": [
+                "vision:69"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "1.6g",
+              "value": "1.6",
+              "unit": "g",
+              "sourceRefs": [
+                "vision:70"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "nrvPercent": {
+              "raw": "8%",
+              "value": "8",
+              "unit": "%",
+              "sourceRefs": [
+                "vision:71"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "碳水化合物",
+              "value": "carbohydrate",
+              "unit": null,
+              "sourceRefs": [
+                "vision:72"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "16.4g",
+              "value": "16.4",
+              "unit": "g",
+              "sourceRefs": [
+                "vision:73"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "nrvPercent": {
+              "raw": "5%",
+              "value": "5",
+              "unit": "%",
+              "sourceRefs": [
+                "vision:74"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            }
+          },
+          {
+            "nutrient": {
+              "raw": "糖",
+              "value": "sugar",
+              "unit": null,
+              "sourceRefs": [
+                "vision:75"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "2.1g",
+              "value": "2.1",
+              "unit": "g",
+              "sourceRefs": [
+                "vision:76"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "钠",
+              "value": "sodium",
+              "unit": null,
+              "sourceRefs": [
+                "vision:77"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "158mg",
+              "value": "158",
+              "unit": "mg",
+              "sourceRefs": [
+                "vision:78"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            },
+            "nrvPercent": {
+              "raw": "8%",
+              "value": "8",
+              "unit": "%",
+              "sourceRefs": [
+                "vision:79"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "VISION_CANDIDATE_UNVERIFIED"
+              ]
+            }
+          }
+        ],
+        "sourceRefs": [
+          "front:v2:1:1",
+          "front:v2:1:2",
+          "front:v2:1:3",
+          "front:v2:1:4",
+          "front:v2:1:5",
+          "front:v2:1:6",
+          "front:v2:1:7",
+          "front:v2:1:8",
+          "front:v2:1:9",
+          "front:v2:1:10",
+          "front:v2:1:11",
+          "front:v2:1:12",
+          "front:v2:1:13",
+          "front:v2:1:14",
+          "front:v2:1:15",
+          "front:v2:1:16",
+          "vision:58"
+        ]
+      }
+    ],
+    "claims": [],
+    "barcodes": []
+  },
+  "unassignedEvidenceIds": [
+    "front:1",
+    "front:2",
+    "front:3",
+    "front:4",
+    "front:5",
+    "front:6",
+    "front:7",
+    "front:8",
+    "front:9",
+    "front:10",
+    "front:11",
+    "front:12",
+    "front:13",
+    "front:14",
+    "front:15",
+    "front:16",
+    "front:17",
+    "front:18",
+    "front:19",
+    "front:20",
+    "front:21",
+    "front:22",
+    "front:23",
+    "front:24",
+    "front:25",
+    "front:v2part:1:1:1",
+    "front:v2part:1:2:1",
+    "front:v2part:1:3:1",
+    "front:v2part:1:4:1",
+    "front:v2part:1:5:1",
+    "front:v2part:1:6:1",
+    "front:v2part:1:7:1",
+    "front:v2part:1:8:1",
+    "front:v2part:1:9:1",
+    "front:v2part:1:10:1",
+    "front:v2part:1:11:1",
+    "front:v2part:1:12:1",
+    "front:v2part:1:13:1",
+    "front:v2part:1:14:1",
+    "front:v2part:1:15:1",
+    "front:v2part:1:16:1"
+  ],
+  "productIdSource": "provided",
+  "tableDiagnostics": [
+    {
+      "code": "VISION_CANDIDATE_UNVERIFIED",
+      "status": "needs_review",
+      "message": "Codex vision proposed table rows; human must verify every field and row completeness; ; location is whole-image, not word-level",
+      "imageId": "front",
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      },
+      "evidenceRefs": [
+        "front:v2:1:1",
+        "front:v2:1:2",
+        "front:v2:1:3",
+        "front:v2:1:4",
+        "front:v2:1:5",
+        "front:v2:1:6",
+        "front:v2:1:7",
+        "front:v2:1:8",
+        "front:v2:1:9",
+        "front:v2:1:10",
+        "front:v2:1:11",
+        "front:v2:1:12",
+        "front:v2:1:13",
+        "front:v2:1:14",
+        "front:v2:1:15",
+        "front:v2:1:16",
+        "vision:60",
+        "vision:61",
+        "vision:62",
+        "vision:63",
+        "vision:64",
+        "vision:65",
+        "vision:66",
+        "vision:67",
+        "vision:68",
+        "vision:69",
+        "vision:70",
+        "vision:71",
+        "vision:72",
+        "vision:73",
+        "vision:74",
+        "vision:75",
+        "vision:76",
+        "vision:77",
+        "vision:78",
+        "vision:79"
+      ],
+      "tableId": "table:vision:1"
+    }
+  ]
+}

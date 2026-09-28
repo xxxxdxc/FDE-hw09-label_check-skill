@@ -1,0 +1,408 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6906839615771",
+  "productId": "6906839615771",
+  "images": [
+    {
+      "id": "front",
+      "fileName": "6906839615771.jpg",
+      "widthPx": 1442,
+      "heightPx": 1453
+    }
+  ],
+  "evidence": [
+    {
+      "id": "front:1",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "营养成分表",
+      "boxPx": {
+        "left": 493,
+        "top": 10,
+        "width": 526,
+        "height": 188
+      },
+      "ocrConfidence": 0.9974249005
+    },
+    {
+      "id": "front:2",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "05",
+      "boxPx": {
+        "left": 246,
+        "top": 305,
+        "width": 146,
+        "height": 97
+      },
+      "ocrConfidence": 0.7051857114
+    },
+    {
+      "id": "front:3",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "每100g",
+      "boxPx": {
+        "left": 571,
+        "top": 251,
+        "width": 237,
+        "height": 158
+      },
+      "ocrConfidence": 0.9678003192
+    },
+    {
+      "id": "front:4",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "营养素参考值",
+      "boxPx": {
+        "left": 852,
+        "top": 245,
+        "width": 453,
+        "height": 181
+      },
+      "ocrConfidence": 0.9961948991
+    },
+    {
+      "id": "front:5",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "能量",
+      "boxPx": {
+        "left": 221,
+        "top": 435,
+        "width": 192,
+        "height": 198
+      },
+      "ocrConfidence": 0.9962816238
+    },
+    {
+      "id": "front:6",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "255kJ",
+      "boxPx": {
+        "left": 572,
+        "top": 445,
+        "width": 253,
+        "height": 183
+      },
+      "ocrConfidence": 0.9573540688
+    },
+    {
+      "id": "front:7",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "蛋白质",
+      "boxPx": {
+        "left": 186,
+        "top": 620,
+        "width": 257,
+        "height": 176
+      },
+      "ocrConfidence": 0.9997634888
+    },
+    {
+      "id": "front:8",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "Og",
+      "boxPx": {
+        "left": 627,
+        "top": 617,
+        "width": 136,
+        "height": 214
+      },
+      "ocrConfidence": 0.2810934186
+    },
+    {
+      "id": "front:9",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "脂肪",
+      "boxPx": {
+        "left": 213,
+        "top": 787,
+        "width": 197,
+        "height": 194
+      },
+      "ocrConfidence": 0.9939486384
+    },
+    {
+      "id": "front:10",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "碳水化合物",
+      "boxPx": {
+        "left": 88,
+        "top": 970,
+        "width": 440,
+        "height": 182
+      },
+      "ocrConfidence": 0.9992576838
+    },
+    {
+      "id": "front:11",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "15.0g",
+      "boxPx": {
+        "left": 565,
+        "top": 975,
+        "width": 263,
+        "height": 196
+      },
+      "ocrConfidence": 0.9979416132
+    },
+    {
+      "id": "front:12",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "味头功",
+      "boxPx": {
+        "left": 1033,
+        "top": 447,
+        "width": 134,
+        "height": 898
+      },
+      "ocrConfidence": 0.4854342937
+    },
+    {
+      "id": "front:13",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "钠",
+      "boxPx": {
+        "left": 251,
+        "top": 1145,
+        "width": 114,
+        "height": 199
+      },
+      "ocrConfidence": 0.9952044487
+    },
+    {
+      "id": "front:14",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "15mg",
+      "boxPx": {
+        "left": 577,
+        "top": 1143,
+        "width": 238,
+        "height": 215
+      },
+      "ocrConfidence": 0.9951129556
+    }
+  ],
+  "facts": {
+    "productName": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "netContent": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "ingredientsText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "allergenText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "nutritionTables": [
+      {
+        "id": "table:accurate:1",
+        "basis": {
+          "kind": "per_100g",
+          "raw": "每100g",
+          "sourceRefs": [
+            "front:3",
+            "front:4"
+          ],
+          "status": "needs_review",
+          "servingSize": null
+        },
+        "rows": [
+          {
+            "nutrient": {
+              "raw": "能量",
+              "value": "energy",
+              "unit": null,
+              "sourceRefs": [
+                "front:5"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "LAYOUT_FALLBACK_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "255kJ",
+              "value": "255",
+              "unit": "kJ",
+              "sourceRefs": [
+                "front:6"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "LAYOUT_FALLBACK_UNVERIFIED",
+                "OCR_LOW_CONFIDENCE"
+              ]
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "蛋白质",
+              "value": "protein",
+              "unit": null,
+              "sourceRefs": [
+                "front:7"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "LAYOUT_FALLBACK_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": null,
+              "value": null,
+              "unit": null,
+              "sourceRefs": [],
+              "status": "missing",
+              "reviewReasons": []
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "脂肪",
+              "value": "fat",
+              "unit": null,
+              "sourceRefs": [
+                "front:9"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "LAYOUT_FALLBACK_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": null,
+              "value": null,
+              "unit": null,
+              "sourceRefs": [],
+              "status": "missing",
+              "reviewReasons": []
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "碳水化合物",
+              "value": "carbohydrate",
+              "unit": null,
+              "sourceRefs": [
+                "front:10"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "LAYOUT_FALLBACK_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "15.0g",
+              "value": "15.0",
+              "unit": "g",
+              "sourceRefs": [
+                "front:11"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "LAYOUT_FALLBACK_UNVERIFIED"
+              ]
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "钠",
+              "value": "sodium",
+              "unit": null,
+              "sourceRefs": [
+                "front:13"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "LAYOUT_FALLBACK_UNVERIFIED"
+              ]
+            },
+            "amount": {
+              "raw": "15mg",
+              "value": "15",
+              "unit": "mg",
+              "sourceRefs": [
+                "front:14"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "LAYOUT_FALLBACK_UNVERIFIED"
+              ]
+            },
+            "nrvPercent": null
+          }
+        ],
+        "sourceRefs": [
+          "front:1",
+          "front:3",
+          "front:4"
+        ]
+      }
+    ],
+    "claims": [],
+    "barcodes": []
+  },
+  "unassignedEvidenceIds": [
+    "front:2",
+    "front:8",
+    "front:12"
+  ],
+  "productIdSource": "provided",
+  "tableDiagnostics": [
+    {
+      "code": "TABLE_V2_NOT_FOUND",
+      "status": "needs_vision",
+      "message": "Table V2 returned no usable table; full-text OCR recovered 5 review-only candidate rows",
+      "imageId": "front",
+      "boxPx": {
+        "left": 473,
+        "top": 0,
+        "width": 852,
+        "height": 446
+      },
+      "evidenceRefs": [
+        "front:1",
+        "front:4"
+      ],
+      "tableId": null
+    }
+  ]
+}

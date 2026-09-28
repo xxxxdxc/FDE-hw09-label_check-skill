@@ -104,6 +104,14 @@ def apply_decisions(doc: LabelDocument, image_bytes: bytes, decisions: dict) -> 
             field.reviewReasons = []
         field.sourceRefs = list(dict.fromkeys([*field.sourceRefs, evidence_id]))
         field.status = "ready"
+        if path.endswith(".basis.servingSize"):
+            table_index = int(path.split("nutritionTables[")[1].split("]")[0])
+            basis = reviewed.facts.nutritionTables[table_index].basis
+            if basis.kind == "per_serving" and basis.status == "needs_review":
+                # The review queue intentionally uses the serving-size field for
+                # the same printed header; confirming it also resolves the basis.
+                basis.status = "ready"
+                basis.sourceRefs = list(dict.fromkeys([*basis.sourceRefs, evidence_id]))
         if path.startswith("facts.claims[") and path.endswith("].text"):
             claim_index = int(path.split("[")[1].split("]")[0])
             if reviewed.facts.claims[claim_index].category == "front_title" and reviewed.productIdSource == "unknown":

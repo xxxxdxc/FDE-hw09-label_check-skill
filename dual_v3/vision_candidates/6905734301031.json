@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6905734301031",
+  "imageName": "6905734301031.jpg",
+  "imageSha256": "c442ff9a46e1ce3c68bd5e4bdf987fc93d68f7be636aed24fd9eac0b343377ad",
+  "humanVerified": false,
+  "notes": "",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_serving",
+        "raw": "每份(70g)",
+        "value": "per_serving",
+        "servingSize": {
+          "raw": "70g",
+          "value": "70",
+          "unit": "g"
+        }
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "1463kJ",
+            "value": "1463",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "17%",
+            "value": "17",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "2.1g",
+            "value": "2.1",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "4%",
+            "value": "4",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "19.6g",
+            "value": "19.6",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "33%",
+            "value": "33",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "41.3g",
+            "value": "41.3",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "14%",
+            "value": "14",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "560mg",
+            "value": "560",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "28%",
+            "value": "28",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 1812,
+        "height": 1111
+      }
+    }
+  ]
+}

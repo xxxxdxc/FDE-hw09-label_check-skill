@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6902083922658",
+  "imageName": "6902083922658.jpg",
+  "imageSha256": "87584149d8de573842ff48b2fcd1255a7abd57d55004960ab7202b4b797f7860",
+  "humanVerified": false,
+  "notes": "补回钠112mg/6%；维生素A为µg RE，当前契约不支持当量单位计算。",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100ml",
+        "raw": "每100mL",
+        "value": "per_100ml"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "157kJ",
+            "value": "157",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "2%",
+            "value": "2",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "1.0g",
+            "value": "1.0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "2%",
+            "value": "2",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "0.7g",
+            "value": "0.7",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "1%",
+            "value": "1",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "6.0g",
+            "value": "6.0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "2%",
+            "value": "2",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "112mg",
+            "value": "112",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "6%",
+            "value": "6",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "维生素A",
+            "value": "vitamin_a"
+          },
+          "amount": {
+            "raw": "55µgRE",
+            "value": null,
+            "unit": null
+          },
+          "nrvPercent": {
+            "raw": "7%",
+            "value": "7",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "维生素D",
+            "value": "vitamin_d"
+          },
+          "amount": {
+            "raw": "1.7µg",
+            "value": "1.7",
+            "unit": "µg"
+          },
+          "nrvPercent": {
+            "raw": "34%",
+            "value": "34",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钙",
+            "value": "calcium"
+          },
+          "amount": {
+            "raw": "60mg",
+            "value": "60",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "8%",
+            "value": "8",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 987,
+        "height": 1416
+      }
+    }
+  ]
+}

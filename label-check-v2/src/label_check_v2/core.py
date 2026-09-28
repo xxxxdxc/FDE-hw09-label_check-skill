@@ -105,21 +105,21 @@ def normalize_item(metric, item, basis, serving_g):
     unit = item.get("unit", _expected_unit(metric))
     expected = _expected_unit(metric)
     value = _convert_unit(raw, unit, expected)
-    factor = _factor(basis, serving_g)
+    _factor(basis, serving_g)
     # The source precision is kept for energy-rounding review, not used to invent
     # a new nutritional value or a statutory tolerance.
     source_step = _convert_unit(_step(raw), unit, expected)
     return {
-        "value": value * factor,
+        "value": value if basis == "per_100g" else value * Decimal(100) / serving_g,
         "unit": expected,
-        "half_step": source_step * factor,
+        "half_step": source_step if basis == "per_100g" else source_step * Decimal(100) / serving_g,
         "input": item,
     }
 
 
 def _ev(item):
     evidence = {}
-    for key in ("source_text", "bbox", "source_file", "confidence"):
+    for key in ("source_text", "bbox", "source_file", "confidence", "source_refs", "review_status"):
         if key in item:
             evidence[key] = item[key]
     return [evidence] if evidence else []
@@ -238,7 +238,8 @@ def evaluate_l1(data, policy=None):
             findings.append(finding(
                 "L1", status, "ENERGY-ARITHMETIC",
                 "每100g能量按已标示供能项算得{}kJ，标签换算值为{}kJ。".format(computed, shown),
-                "national_standard", _ev(normalized["energy"]["input"]),
+                "national_standard", [entry for key in ("energy", *ingredients)
+                                      for entry in _ev(normalized[key]["input"])],
                 {"computed_kj_per_100g": str(computed), "shown_kj_per_100g": str(shown),
                  "rounding_interval_kj": str(uncertainty)},
             ))
@@ -344,6 +345,11 @@ def evaluate_l1(data, policy=None):
                                 {"values_per_100g": [str(x["value"]) for x in normalized_values],
                                  "range": [str(low), str(high)]}))
 
-    output = {metric: {"value": str(item["value"]), "unit": item["unit"], "basis": "per_100g"}
-              for metric, item in normalized.items()}
+    output = {}
+    for metric, item in normalized.items():
+        row = {"value": str(item["value"]), "unit": item["unit"], "basis": "per_100g"}
+        for key in ("confidence", "source_refs", "review_status"):
+            if key in item["input"]:
+                row[key] = item["input"][key]
+        output[metric] = row
     return output, findings

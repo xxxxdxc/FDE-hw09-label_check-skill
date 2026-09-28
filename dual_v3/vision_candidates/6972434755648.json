@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6972434755648",
+  "imageName": "6972434755648.jpg",
+  "imageSha256": "cd806ea9118c38ebd715fae13fca79f1da36f10a7e043258f6b7a4f3349a5db7",
+  "humanVerified": false,
+  "notes": "双栏续表；底边已截断，不能确认图片外是否还有行。",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:accurate:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_serving",
+        "raw": "每份(1.2g)",
+        "value": "per_serving",
+        "servingSize": {
+          "raw": "1.2g",
+          "value": "1.2",
+          "unit": "g"
+        }
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "17kJ",
+            "value": "17",
+            "unit": "kJ"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "1.0g",
+            "value": "1.0",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "0mg",
+            "value": "0",
+            "unit": "mg"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "维生素B1",
+            "value": "vitamin_b1"
+          },
+          "amount": {
+            "raw": "2.00mg",
+            "value": "2.00",
+            "unit": "mg"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "维生素B2",
+            "value": "vitamin_b2"
+          },
+          "amount": {
+            "raw": "1.40mg",
+            "value": "1.40",
+            "unit": "mg"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "维生素B6",
+            "value": "vitamin_b6"
+          },
+          "amount": {
+            "raw": "1.60mg",
+            "value": "1.60",
+            "unit": "mg"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "维生素B12",
+            "value": "vitamin_b12"
+          },
+          "amount": {
+            "raw": "2.40μg",
+            "value": "2.40",
+            "unit": "µg"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "烟酸",
+            "value": "niacin"
+          },
+          "amount": {
+            "raw": "16.00mg",
+            "value": "16.00",
+            "unit": "mg"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "叶酸",
+            "value": "folate"
+          },
+          "amount": {
+            "raw": "208μg",
+            "value": "208",
+            "unit": "µg"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "泛酸",
+            "value": "pantothenic_acid"
+          },
+          "amount": {
+            "raw": "5.60mg",
+            "value": "5.60",
+            "unit": "mg"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "生物素",
+            "value": "biotin"
+          },
+          "amount": {
+            "raw": "40.0μg",
+            "value": "40.0",
+            "unit": "µg"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "牛磺酸",
+            "value": "taurine"
+          },
+          "amount": {
+            "raw": "50mg",
+            "value": "50",
+            "unit": "mg"
+          },
+          "nrvPercent": null
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 1046,
+        "height": 1027
+      }
+    }
+  ]
+}

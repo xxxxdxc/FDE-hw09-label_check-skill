@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6916196410414",
+  "imageName": "6916196410414.jpg",
+  "imageSha256": "31378b983b9a5d2d797f7bac79bd71d3a13ae7263fe5bc86212d81c80e3883d4",
+  "humanVerified": false,
+  "notes": "",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:accurate:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100ml",
+        "raw": "每100mL",
+        "value": "per_100ml"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "158kJ",
+            "value": "158",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "2%",
+            "value": "2",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "1.0g",
+            "value": "1.0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "2%",
+            "value": "2",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "1.2g",
+            "value": "1.2",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "2%",
+            "value": "2",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "5.7g",
+            "value": "5.7",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "2%",
+            "value": "2",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "29mg",
+            "value": "29",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "1%",
+            "value": "1",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 1350,
+        "height": 1300
+      }
+    }
+  ]
+}

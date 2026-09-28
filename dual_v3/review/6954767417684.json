@@ -1,0 +1,24 @@
+[
+  {
+    "path": "facts.nutritionTables[0].rows[4].nutrient",
+    "raw": "糖",
+    "value": "sugar",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_ENGINE_DISAGREEMENT"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:16",
+        "imageId": "front",
+        "boxPx": {
+          "left": 308,
+          "top": 611,
+          "width": 88,
+          "height": 112
+        },
+        "ocrConfidence": null
+      }
+    ]
+  }
+]

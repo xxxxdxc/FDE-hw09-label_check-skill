@@ -1,0 +1,30 @@
+{
+  "documentId": "4891028720232",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\4891028720232.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_LAYOUT_RECOVERED",
+      "message": "Recovered 5 review-only rows from line positions; HEADER_DATA_MIXED; NUTRIENT_ROW_AMBIGUOUS; AMOUNT_MISSING_OR_UNREADABLE; V2_MISSING_NUTRIENT_ROWS; Table V2 returned no usable table; full-text OCR recovered 5 review-only candidate rows",
+      "imageId": "front",
+      "boxPx": {
+        "left": 43,
+        "top": 52,
+        "width": 552,
+        "height": 349
+      },
+      "evidenceRefs": [
+        "front:v2part:1:2:2",
+        "front:v2part:1:3:1",
+        "front:v2part:1:3:2",
+        "front:v2part:1:3:3",
+        "front:v2part:1:4:2",
+        "front:v2part:1:4:3",
+        "front:v2part:1:4:6",
+        "front:v2part:1:4:7",
+        "front:v2part:1:4:8",
+        "front:v2part:1:4:9"
+      ],
+      "tableId": null
+    }
+  ]
+}

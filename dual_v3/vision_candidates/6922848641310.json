@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6922848641310",
+  "imageName": "6922848641310.jpg",
+  "imageSha256": "928a0c4bc39d237c2170a93f957b8304fb8580942eb304eaaab709d9374ab9a4",
+  "humanVerified": false,
+  "notes": "冲泡后茶汤不能直接等同于2g干茶或假定最终体积250mL；现有basis契约无法完整表示制备方式，保留unknown待扩展。",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:accurate:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "unknown",
+        "raw": "每份*；每份指2克茶加250毫升热水冲泡所得的茶汤",
+        "value": "unknown"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "0千焦",
+            "value": "0",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "0克",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "0克",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "0克",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "0毫克",
+            "value": "0",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 3164,
+        "height": 2094
+      }
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+[
+  {
+    "path": "facts.nutritionTables[0].basis",
+    "raw": "Cada/Per/Pour 100g",
+    "value": "per_100g",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_TABLE_HEADER_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:2",
+        "imageId": "front",
+        "boxPx": {
+          "left": 811,
+          "top": 297,
+          "width": 256,
+          "height": 50
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:v2:1:1",
+        "imageId": "front",
+        "boxPx": {
+          "left": 111,
+          "top": 184,
+          "width": 595,
+          "height": 215
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:4",
+        "imageId": "front",
+        "boxPx": {
+          "left": 810,
+          "top": 299,
+          "width": 258,
+          "height": 47
+        },
+        "ocrConfidence": 0.9780919552
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].nutrient",
+    "raw": "Energia/Energy/Energie",
+    "value": "energy",
+    "unit": null,
+    "reviewReasons": [
+      "TABLE_STRUCTURE_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:3",
+        "imageId": "front",
+        "boxPx": {
+          "left": 184,
+          "top": 411,
+          "width": 455,
+          "height": 94
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:6",
+        "imageId": "front",
+        "boxPx": {
+          "left": 184,
+          "top": 413,
+          "width": 454,
+          "height": 88
+        },
+        "ocrConfidence": 0.9945952892
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].amount",
+    "raw": "720kj/172kcal",
+    "value": null,
+    "unit": null,
+    "reviewReasons": [
+      "MULTIPLE_QUANTITIES",
+      "UNIT_MISSING",
+      "NUMBER_OR_UNIT_UNREADABLE"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:4",
+        "imageId": "front",
+        "boxPx": {
+          "left": 861,
+          "top": 387,
+          "width": 177,
+          "height": 58
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:7",
+        "imageId": "front",
+        "boxPx": {
+          "left": 861,
+          "top": 389,
+          "width": 178,
+          "height": 54
+        },
+        "ocrConfidence": 0.991717577
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].nutrient",
+    "raw": "Grasas Fat/Graisses",
+    "value": "fat",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_ENGINE_DISAGREEMENT"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:5",
+        "imageId": "front",
+        "boxPx": {
+          "left": 213,
+          "top": 498,
+          "width": 394,
+          "height": 73
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].amount",
+    "raw": "10g",
+    "value": "10",
+    "unit": "g",
+    "reviewReasons": [
+      "TABLE_STRUCTURE_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:6",
+        "imageId": "front",
+        "boxPx": {
+          "left": 934,
+          "top": 454,
+          "width": 51,
+          "height": 48
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:8",
+        "imageId": "front",
+        "boxPx": {
+          "left": 933,
+          "top": 457,
+          "width": 51,
+          "height": 43
+        },
+        "ocrConfidence": 0.9981735349
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].nutrient",
+    "raw": "De las cuales Saturadas/ Of which\nsaturated/Dont matieres grasses saturees",
+    "value": "saturated_fat",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_ENGINE_DISAGREEMENT",
+      "MULTIPLE_NUTRIENTS_IN_CELL"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:7",
+        "imageId": "front",
+        "boxPx": {
+          "left": 132,
+          "top": 593,
+          "width": 280,
+          "height": 73
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].amount",
+    "raw": "0g",
+    "value": "0",
+    "unit": "g",
+    "reviewReasons": [
+      "TABLE_STRUCTURE_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:8",
+        "imageId": "front",
+        "boxPx": {
+          "left": 945,
+          "top": 557,
+          "width": 41,
+          "height": 50
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:15",
+        "imageId": "front",
+        "boxPx": {
+          "left": 944,
+          "top": 559,
+          "width": 41,
+          "height": 46
+        },
+        "ocrConfidence": 0.9835473299
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[3].nutrient",
+    "raw": "Catbohidratos/ Carbohydrates/Glucides",
+    "value": "carbohydrate",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_ENGINE_DISAGREEMENT"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:9",
+        "imageId": "front",
+        "boxPx": {
+          "left": 146,
+          "top": 735,
+          "width": 270,
+          "height": 28
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[3].amount",
+    "raw": "7g",
+    "value": "7",
+    "unit": "g",
+    "reviewReasons": [
+      "TABLE_STRUCTURE_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:10",
+        "imageId": "front",
+        "boxPx": {
+          "left": 950,
+          "top": 657,
+          "width": 44,
+          "height": 53
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:18",
+        "imageId": "front",
+        "boxPx": {
+          "left": 950,
+          "top": 660,
+          "width": 42,
+          "height": 47
+        },
+        "ocrConfidence": 0.9688101411
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[4].nutrient",
+    "raw": "De los cuales azucares/ Of which\nsugars/Dont sucres",
+    "value": "sugar",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_ENGINE_DISAGREEMENT",
+      "MULTIPLE_NUTRIENTS_IN_CELL"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:11",
+        "imageId": "front",
+        "boxPx": {
+          "left": 174,
+          "top": 827,
+          "width": 239,
+          "height": 86
+        },
+        "ocrConfidence": null
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[4].amount",
+    "raw": "4g",
+    "value": "4",
+    "unit": "g",
+    "reviewReasons": [
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:12",
+        "imageId": "front",
+        "boxPx": {
+          "left": 958,
+          "top": 757,
+          "width": 42,
+          "height": 47
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:20",
+        "imageId": "front",
+        "boxPx": {
+          "left": 957,
+          "top": 758,
+          "width": 41,
+          "height": 44
+        },
+        "ocrConfidence": 0.9155412912
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[5].nutrient",
+    "raw": "Proteina/ Protein/Proteines",
+    "value": "protein",
+    "unit": null,
+    "reviewReasons": [
+      "TABLE_STRUCTURE_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:13",
+        "imageId": "front",
+        "boxPx": {
+          "left": 214,
+          "top": 972,
+          "width": 205,
+          "height": 24
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:25",
+        "imageId": "front",
+        "boxPx": {
+          "left": 210,
+          "top": 949,
+          "width": 487,
+          "height": 103
+        },
+        "ocrConfidence": 0.9932028651
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[5].amount",
+    "raw": "10g",
+    "value": "10",
+    "unit": "g",
+    "reviewReasons": [
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:14",
+        "imageId": "front",
+        "boxPx": {
+          "left": 954,
+          "top": 843,
+          "width": 66,
+          "height": 59
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:22",
+        "imageId": "front",
+        "boxPx": {
+          "left": 956,
+          "top": 846,
+          "width": 60,
+          "height": 53
+        },
+        "ocrConfidence": 0.8568934798
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[6].nutrient",
+    "raw": "Sal/ Salt/Sel",
+    "value": "salt",
+    "unit": null,
+    "reviewReasons": [
+      "TABLE_STRUCTURE_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:15",
+        "imageId": "front",
+        "boxPx": {
+          "left": 298,
+          "top": 1059,
+          "width": 259,
+          "height": 76
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:26",
+        "imageId": "front",
+        "boxPx": {
+          "left": 298,
+          "top": 1061,
+          "width": 257,
+          "height": 70
+        },
+        "ocrConfidence": 0.9817109704
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[6].amount",
+    "raw": "8.9g",
+    "value": "8.9",
+    "unit": "g",
+    "reviewReasons": [
+      "TABLE_STRUCTURE_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:16",
+        "imageId": "front",
+        "boxPx": {
+          "left": 953,
+          "top": 914,
+          "width": 75,
+          "height": 57
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:24",
+        "imageId": "front",
+        "boxPx": {
+          "left": 956,
+          "top": 917,
+          "width": 70,
+          "height": 51
+        },
+        "ocrConfidence": 0.990177393
+      }
+    ]
+  }
+]

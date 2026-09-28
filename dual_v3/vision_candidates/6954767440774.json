@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6954767440774",
+  "imageName": "6954767440774.jpg",
+  "imageSha256": "f2de2234b626dbca10d2a7a5e61aea33de774443e1707f0c8cdc20a354b7c4b1",
+  "humanVerified": false,
+  "notes": "同一基准的左右两个面板合并为一张候选表，保留原图作复核依据。",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:accurate:1",
+    "table:accurate:2"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100ml",
+        "raw": "每100毫升",
+        "value": "per_100ml"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "81千焦",
+            "value": "81",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "1%",
+            "value": "1",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "0克",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "0克",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "0%",
+            "value": "0",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "4.6克",
+            "value": "4.6",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "2%",
+            "value": "2",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "糖",
+            "value": "sugar"
+          },
+          "amount": {
+            "raw": "4.6克",
+            "value": "4.6",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "17毫克",
+            "value": "17",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "1%",
+            "value": "1",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 2592,
+        "height": 4608
+      }
+    }
+  ]
+}

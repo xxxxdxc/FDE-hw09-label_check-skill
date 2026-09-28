@@ -1,0 +1,300 @@
+[
+  {
+    "path": "facts.nutritionTables[0].basis",
+    "raw": "每100毫升",
+    "value": "per_100ml",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_TABLE_HEADER_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:3",
+        "imageId": "front",
+        "boxPx": {
+          "left": 545,
+          "top": 1811,
+          "width": 325,
+          "height": 120
+        },
+        "ocrConfidence": 0.9973840117
+      },
+      {
+        "id": "front:4",
+        "imageId": "front",
+        "boxPx": {
+          "left": 893,
+          "top": 1818,
+          "width": 481,
+          "height": 123
+        },
+        "ocrConfidence": 0.997305274
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].nutrient",
+    "raw": "蛋白质",
+    "value": "protein",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:14",
+        "imageId": "front",
+        "boxPx": {
+          "left": 363,
+          "top": 2035,
+          "width": 168,
+          "height": 115
+        },
+        "ocrConfidence": 0.9981783032
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].amount",
+    "raw": "0克",
+    "value": "0",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:15",
+        "imageId": "front",
+        "boxPx": {
+          "left": 748,
+          "top": 2066,
+          "width": 125,
+          "height": 109
+        },
+        "ocrConfidence": 0.997930944
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[1].basis",
+    "raw": "每100毫升",
+    "value": "per_100ml",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_TABLE_HEADER_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:6",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1766,
+          "top": 1820,
+          "width": 346,
+          "height": 118
+        },
+        "ocrConfidence": 0.9985981584
+      },
+      {
+        "id": "front:5",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1447,
+          "top": 1827,
+          "width": 154,
+          "height": 115
+        },
+        "ocrConfidence": 0.9999882579
+      },
+      {
+        "id": "front:7",
+        "imageId": "front",
+        "boxPx": {
+          "left": 2125,
+          "top": 1819,
+          "width": 282,
+          "height": 114
+        },
+        "ocrConfidence": 0.9621195197
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[1].rows[0].nutrient",
+    "raw": "碳水化合物",
+    "value": "carbohydrate",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:11",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1443,
+          "top": 1958,
+          "width": 373,
+          "height": 116
+        },
+        "ocrConfidence": 0.9994844198
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[1].rows[0].amount",
+    "raw": "4.6克",
+    "value": "4.6",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:12",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1916,
+          "top": 1949,
+          "width": 184,
+          "height": 110
+        },
+        "ocrConfidence": 0.9829555154
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[1].rows[0].nrvPercent",
+    "raw": "2%",
+    "value": "2",
+    "unit": "%",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:13",
+        "imageId": "front",
+        "boxPx": {
+          "left": 2236,
+          "top": 1935,
+          "width": 105,
+          "height": 120
+        },
+        "ocrConfidence": 0.999920845
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[1].rows[1].nutrient",
+    "raw": "——糖",
+    "value": "sugar",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED",
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:17",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1438,
+          "top": 2082,
+          "width": 253,
+          "height": 108
+        },
+        "ocrConfidence": 0.9387102723
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[1].rows[1].amount",
+    "raw": "4.6克",
+    "value": "4.6",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:18",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1912,
+          "top": 2068,
+          "width": 184,
+          "height": 109
+        },
+        "ocrConfidence": 0.9906284213
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[1].rows[2].nutrient",
+    "raw": "钠",
+    "value": "sodium",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:21",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1435,
+          "top": 2194,
+          "width": 107,
+          "height": 127
+        },
+        "ocrConfidence": 0.9979528189
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[1].rows[2].amount",
+    "raw": "17毫克",
+    "value": "17",
+    "unit": "mg",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:22",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1865,
+          "top": 2185,
+          "width": 228,
+          "height": 119
+        },
+        "ocrConfidence": 0.9985739589
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[1].rows[2].nrvPercent",
+    "raw": "1%",
+    "value": "1",
+    "unit": "%",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:23",
+        "imageId": "front",
+        "boxPx": {
+          "left": 2231,
+          "top": 2154,
+          "width": 100,
+          "height": 130
+        },
+        "ocrConfidence": 0.9998258948
+      }
+    ]
+  }
+]

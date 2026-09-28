@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6940187266308",
+  "imageName": "6940187266308.jpg",
+  "imageSha256": "ff30ae68a08a9ef03ac1fec435c36409725c09171f5268665163b95384c32b61",
+  "humanVerified": false,
+  "notes": "维生素A/E保留当量单位，不得作为普通质量单位换算。",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:accurate:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100g",
+        "raw": "每100克",
+        "value": "per_100g"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "1998kJ",
+            "value": "1998",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "24%",
+            "value": "24",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "19.0g",
+            "value": "19.0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "32%",
+            "value": "32",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "19.4g",
+            "value": "19.4",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "32%",
+            "value": "32",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "56.3g",
+            "value": "56.3",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "19%",
+            "value": "19",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "396mg",
+            "value": "396",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "20%",
+            "value": "20",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "维生素A",
+            "value": "vitamin_a"
+          },
+          "amount": {
+            "raw": "450μg RE",
+            "value": null,
+            "unit": null
+          },
+          "nrvPercent": {
+            "raw": "56%",
+            "value": "56",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "维生素D",
+            "value": "vitamin_d"
+          },
+          "amount": {
+            "raw": "7.5μg",
+            "value": "7.5",
+            "unit": "µg"
+          },
+          "nrvPercent": {
+            "raw": "150%",
+            "value": "150",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "维生素E",
+            "value": "vitamin_e"
+          },
+          "amount": {
+            "raw": "11.25mg α-TE",
+            "value": null,
+            "unit": null
+          },
+          "nrvPercent": {
+            "raw": "80%",
+            "value": "80",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "维生素C",
+            "value": "vitamin_c"
+          },
+          "amount": {
+            "raw": "42.0mg",
+            "value": "42.0",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "42%",
+            "value": "42",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钙",
+            "value": "calcium"
+          },
+          "amount": {
+            "raw": "1002mg",
+            "value": "1002",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "125%",
+            "value": "125",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "铁",
+            "value": "iron"
+          },
+          "amount": {
+            "raw": "7.2mg",
+            "value": "7.2",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "48%",
+            "value": "48",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "锌",
+            "value": "zinc"
+          },
+          "amount": {
+            "raw": "4.09mg",
+            "value": "4.09",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "27%",
+            "value": "27",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "硒",
+            "value": "selenium"
+          },
+          "amount": {
+            "raw": "22.0μg",
+            "value": "22.0",
+            "unit": "µg"
+          },
+          "nrvPercent": {
+            "raw": "44%",
+            "value": "44",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 2982,
+        "height": 2403
+      }
+    }
+  ]
+}

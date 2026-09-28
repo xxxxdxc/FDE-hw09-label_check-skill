@@ -1,0 +1,33 @@
+{
+  "documentId": "6921317600711",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\6921317600711.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_LAYOUT_RECOVERED",
+      "message": "Recovered 5 review-only rows from line positions; Table V2 returned no usable table; full-text OCR recovered 3 review-only candidate rows; Full-image nutrient labels absent from structured rows: 碳水化合物, 钠",
+      "imageId": "front",
+      "boxPx": {
+        "left": 1512,
+        "top": 2293,
+        "width": 921,
+        "height": 597
+      },
+      "evidenceRefs": [
+        "front:20",
+        "front:19",
+        "front:22",
+        "front:24",
+        "front:23",
+        "front:28",
+        "front:26",
+        "front:30",
+        "front:31",
+        "front:33",
+        "front:37",
+        "front:38",
+        "front:36"
+      ],
+      "tableId": null
+    }
+  ]
+}

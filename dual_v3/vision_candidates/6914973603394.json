@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6914973603394",
+  "imageName": "6914973603394.jpg",
+  "imageSha256": "a8a89be8bbc87caf89a8a25ba460fb1758a487dd0a162b2414c9e7828b88ad0a",
+  "humanVerified": false,
+  "notes": "只恢复右侧每100g营养表；左侧另有每份51g图形表且受反光遮挡，尚未完整结构化，不能计整图成功。",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:accurate:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100g",
+        "raw": "每100克",
+        "value": "per_100g"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "2038kJ",
+            "value": "2038",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "24%",
+            "value": "24",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "8.6g",
+            "value": "8.6",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "14%",
+            "value": "14",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "23.9g",
+            "value": "23.9",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "40%",
+            "value": "40",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "饱和脂肪",
+            "value": "saturated_fat"
+          },
+          "amount": {
+            "raw": "8.8g",
+            "value": "8.8",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "44%",
+            "value": "44",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "反式脂肪",
+            "value": "trans_fat"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "57.8g",
+            "value": "57.8",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "19%",
+            "value": "19",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "229mg",
+            "value": "229",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "11%",
+            "value": "11",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 2014,
+        "height": 1050
+      }
+    }
+  ]
+}

@@ -1,0 +1,844 @@
+{
+  "imageSha256": "31378b983b9a5d2d797f7bac79bd71d3a13ae7263fe5bc86212d81c80e3883d4",
+  "source": "live_baidu_v2",
+  "response": {
+    "tables_result": [
+      {
+        "header": [],
+        "body": [
+          {
+            "col_end": 1,
+            "row_end": 1,
+            "cell_location": [
+              {
+                "x": 87,
+                "y": 254
+              },
+              {
+                "x": 349,
+                "y": 250
+              },
+              {
+                "x": 356,
+                "y": 418
+              },
+              {
+                "x": 95,
+                "y": 423
+              }
+            ],
+            "row_start": 0,
+            "col_start": 0,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 3,
+            "row_end": 1,
+            "cell_location": [
+              {
+                "x": 349,
+                "y": 249
+              },
+              {
+                "x": 752,
+                "y": 245
+              },
+              {
+                "x": 758,
+                "y": 410
+              },
+              {
+                "x": 356,
+                "y": 418
+              }
+            ],
+            "row_start": 0,
+            "col_start": 1,
+            "words": "项目每100mLNRV%",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 138,
+                    "y": 247
+                  },
+                  {
+                    "x": 970,
+                    "y": 240
+                  },
+                  {
+                    "x": 972,
+                    "y": 418
+                  },
+                  {
+                    "x": 140,
+                    "y": 425
+                  }
+                ],
+                "word": "项目每100mLNRV%"
+              }
+            ]
+          },
+          {
+            "col_end": 4,
+            "row_end": 1,
+            "cell_location": [
+              {
+                "x": 753,
+                "y": 245
+              },
+              {
+                "x": 1006,
+                "y": 241
+              },
+              {
+                "x": 1010,
+                "y": 405
+              },
+              {
+                "x": 758,
+                "y": 410
+              }
+            ],
+            "row_start": 0,
+            "col_start": 3,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 1,
+            "row_end": 2,
+            "cell_location": [
+              {
+                "x": 95,
+                "y": 423
+              },
+              {
+                "x": 356,
+                "y": 418
+              },
+              {
+                "x": 363,
+                "y": 590
+              },
+              {
+                "x": 102,
+                "y": 594
+              }
+            ],
+            "row_start": 1,
+            "col_start": 0,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 2,
+            "row_end": 2,
+            "cell_location": [
+              {
+                "x": 356,
+                "y": 418
+              },
+              {
+                "x": 488,
+                "y": 415
+              },
+              {
+                "x": 495,
+                "y": 588
+              },
+              {
+                "x": 363,
+                "y": 590
+              }
+            ],
+            "row_start": 1,
+            "col_start": 1,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 3,
+            "row_end": 2,
+            "cell_location": [
+              {
+                "x": 488,
+                "y": 415
+              },
+              {
+                "x": 758,
+                "y": 410
+              },
+              {
+                "x": 764,
+                "y": 583
+              },
+              {
+                "x": 495,
+                "y": 588
+              }
+            ],
+            "row_start": 1,
+            "col_start": 2,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 4,
+            "row_end": 2,
+            "cell_location": [
+              {
+                "x": 758,
+                "y": 410
+              },
+              {
+                "x": 1010,
+                "y": 405
+              },
+              {
+                "x": 1015,
+                "y": 579
+              },
+              {
+                "x": 764,
+                "y": 583
+              }
+            ],
+            "row_start": 1,
+            "col_start": 3,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 1,
+            "row_end": 3,
+            "cell_location": [
+              {
+                "x": 102,
+                "y": 594
+              },
+              {
+                "x": 363,
+                "y": 590
+              },
+              {
+                "x": 369,
+                "y": 745
+              },
+              {
+                "x": 110,
+                "y": 749
+              }
+            ],
+            "row_start": 2,
+            "col_start": 0,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 2,
+            "row_end": 3,
+            "cell_location": [
+              {
+                "x": 363,
+                "y": 590
+              },
+              {
+                "x": 495,
+                "y": 588
+              },
+              {
+                "x": 501,
+                "y": 743
+              },
+              {
+                "x": 369,
+                "y": 745
+              }
+            ],
+            "row_start": 2,
+            "col_start": 1,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 3,
+            "row_end": 3,
+            "cell_location": [
+              {
+                "x": 495,
+                "y": 588
+              },
+              {
+                "x": 764,
+                "y": 583
+              },
+              {
+                "x": 769,
+                "y": 739
+              },
+              {
+                "x": 501,
+                "y": 743
+              }
+            ],
+            "row_start": 2,
+            "col_start": 2,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 4,
+            "row_end": 3,
+            "cell_location": [
+              {
+                "x": 764,
+                "y": 583
+              },
+              {
+                "x": 1015,
+                "y": 579
+              },
+              {
+                "x": 1019,
+                "y": 735
+              },
+              {
+                "x": 769,
+                "y": 739
+              }
+            ],
+            "row_start": 2,
+            "col_start": 3,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 1,
+            "row_end": 4,
+            "cell_location": [
+              {
+                "x": 110,
+                "y": 749
+              },
+              {
+                "x": 369,
+                "y": 745
+              },
+              {
+                "x": 375,
+                "y": 897
+              },
+              {
+                "x": 117,
+                "y": 900
+              }
+            ],
+            "row_start": 3,
+            "col_start": 0,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 2,
+            "row_end": 4,
+            "cell_location": [
+              {
+                "x": 369,
+                "y": 745
+              },
+              {
+                "x": 501,
+                "y": 743
+              },
+              {
+                "x": 506,
+                "y": 895
+              },
+              {
+                "x": 375,
+                "y": 897
+              }
+            ],
+            "row_start": 3,
+            "col_start": 1,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 3,
+            "row_end": 4,
+            "cell_location": [
+              {
+                "x": 501,
+                "y": 743
+              },
+              {
+                "x": 769,
+                "y": 739
+              },
+              {
+                "x": 774,
+                "y": 891
+              },
+              {
+                "x": 506,
+                "y": 895
+              }
+            ],
+            "row_start": 3,
+            "col_start": 2,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 4,
+            "row_end": 4,
+            "cell_location": [
+              {
+                "x": 769,
+                "y": 739
+              },
+              {
+                "x": 1019,
+                "y": 735
+              },
+              {
+                "x": 1023,
+                "y": 887
+              },
+              {
+                "x": 774,
+                "y": 891
+              }
+            ],
+            "row_start": 3,
+            "col_start": 3,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 1,
+            "row_end": 5,
+            "cell_location": [
+              {
+                "x": 117,
+                "y": 900
+              },
+              {
+                "x": 375,
+                "y": 897
+              },
+              {
+                "x": 378,
+                "y": 984
+              },
+              {
+                "x": 122,
+                "y": 987
+              }
+            ],
+            "row_start": 4,
+            "col_start": 0,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 2,
+            "row_end": 5,
+            "cell_location": [
+              {
+                "x": 375,
+                "y": 897
+              },
+              {
+                "x": 506,
+                "y": 895
+              },
+              {
+                "x": 510,
+                "y": 983
+              },
+              {
+                "x": 378,
+                "y": 984
+              }
+            ],
+            "row_start": 4,
+            "col_start": 1,
+            "words": "碳水化合物",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 175,
+                    "y": 884
+                  },
+                  {
+                    "x": 505,
+                    "y": 885
+                  },
+                  {
+                    "x": 504,
+                    "y": 1071
+                  },
+                  {
+                    "x": 174,
+                    "y": 1069
+                  }
+                ],
+                "word": "碳水化合物"
+              }
+            ]
+          },
+          {
+            "col_end": 3,
+            "row_end": 5,
+            "cell_location": [
+              {
+                "x": 506,
+                "y": 895
+              },
+              {
+                "x": 774,
+                "y": 891
+              },
+              {
+                "x": 776,
+                "y": 980
+              },
+              {
+                "x": 510,
+                "y": 983
+              }
+            ],
+            "row_start": 4,
+            "col_start": 2,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 4,
+            "row_end": 5,
+            "cell_location": [
+              {
+                "x": 774,
+                "y": 891
+              },
+              {
+                "x": 1023,
+                "y": 887
+              },
+              {
+                "x": 1025,
+                "y": 977
+              },
+              {
+                "x": 776,
+                "y": 980
+              }
+            ],
+            "row_start": 4,
+            "col_start": 3,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 1,
+            "row_end": 6,
+            "cell_location": [
+              {
+                "x": 122,
+                "y": 987
+              },
+              {
+                "x": 378,
+                "y": 984
+              },
+              {
+                "x": 381,
+                "y": 1055
+              },
+              {
+                "x": 126,
+                "y": 1058
+              }
+            ],
+            "row_start": 5,
+            "col_start": 0,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 2,
+            "row_end": 6,
+            "cell_location": [
+              {
+                "x": 378,
+                "y": 984
+              },
+              {
+                "x": 510,
+                "y": 983
+              },
+              {
+                "x": 513,
+                "y": 1053
+              },
+              {
+                "x": 381,
+                "y": 1055
+              }
+            ],
+            "row_start": 5,
+            "col_start": 1,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 3,
+            "row_end": 6,
+            "cell_location": [
+              {
+                "x": 510,
+                "y": 983
+              },
+              {
+                "x": 776,
+                "y": 980
+              },
+              {
+                "x": 778,
+                "y": 1050
+              },
+              {
+                "x": 513,
+                "y": 1053
+              }
+            ],
+            "row_start": 5,
+            "col_start": 2,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 4,
+            "row_end": 6,
+            "cell_location": [
+              {
+                "x": 776,
+                "y": 980
+              },
+              {
+                "x": 1025,
+                "y": 977
+              },
+              {
+                "x": 1027,
+                "y": 1047
+              },
+              {
+                "x": 778,
+                "y": 1050
+              }
+            ],
+            "row_start": 5,
+            "col_start": 3,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 1,
+            "row_end": 7,
+            "cell_location": [
+              {
+                "x": 126,
+                "y": 1058
+              },
+              {
+                "x": 381,
+                "y": 1055
+              },
+              {
+                "x": 386,
+                "y": 1214
+              },
+              {
+                "x": 132,
+                "y": 1216
+              }
+            ],
+            "row_start": 6,
+            "col_start": 0,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 2,
+            "row_end": 7,
+            "cell_location": [
+              {
+                "x": 381,
+                "y": 1055
+              },
+              {
+                "x": 513,
+                "y": 1053
+              },
+              {
+                "x": 518,
+                "y": 1213
+              },
+              {
+                "x": 386,
+                "y": 1214
+              }
+            ],
+            "row_start": 6,
+            "col_start": 1,
+            "words": "",
+            "contents": []
+          },
+          {
+            "col_end": 3,
+            "row_end": 7,
+            "cell_location": [
+              {
+                "x": 513,
+                "y": 1053
+              },
+              {
+                "x": 778,
+                "y": 1050
+              },
+              {
+                "x": 783,
+                "y": 1210
+              },
+              {
+                "x": 518,
+                "y": 1213
+              }
+            ],
+            "row_start": 6,
+            "col_start": 2,
+            "words": "310125",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 514,
+                    "y": 387
+                  },
+                  {
+                    "x": 718,
+                    "y": 381
+                  },
+                  {
+                    "x": 744,
+                    "y": 1262
+                  },
+                  {
+                    "x": 540,
+                    "y": 1268
+                  }
+                ],
+                "word": "310125"
+              }
+            ]
+          },
+          {
+            "col_end": 4,
+            "row_end": 7,
+            "cell_location": [
+              {
+                "x": 778,
+                "y": 1050
+              },
+              {
+                "x": 1027,
+                "y": 1047
+              },
+              {
+                "x": 1031,
+                "y": 1207
+              },
+              {
+                "x": 783,
+                "y": 1210
+              }
+            ],
+            "row_start": 6,
+            "col_start": 3,
+            "words": "",
+            "contents": []
+          }
+        ],
+        "table_location": [
+          {
+            "x": 87,
+            "y": 241
+          },
+          {
+            "x": 1031,
+            "y": 241
+          },
+          {
+            "x": 1031,
+            "y": 1216
+          },
+          {
+            "x": 87,
+            "y": 1216
+          }
+        ],
+        "footer": [
+          {
+            "location": [
+              {
+                "x": 390,
+                "y": 75
+              },
+              {
+                "x": 759,
+                "y": 73
+              },
+              {
+                "x": 760,
+                "y": 245
+              },
+              {
+                "x": 392,
+                "y": 248
+              }
+            ],
+            "words": "营养成分表"
+          }
+        ]
+      }
+    ],
+    "table_num": 1,
+    "log_id": 2104188331975399557
+  },
+  "transform": {
+    "origin": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "inputSize": [
+      1350,
+      1300
+    ],
+    "cropBox": [
+      0,
+      0,
+      1350,
+      1300
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "path": "facts.nutritionTables[0].rows[1].amount",
+    "raw": "5.1克",
+    "value": "5.1",
+    "unit": "g",
+    "reviewReasons": [
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:8",
+        "imageId": "front",
+        "boxPx": {
+          "left": 832,
+          "top": 633,
+          "width": 182,
+          "height": 120
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:9",
+        "imageId": "front",
+        "boxPx": {
+          "left": 833,
+          "top": 636,
+          "width": 178,
+          "height": 109
+        },
+        "ocrConfidence": 0.9444290996
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[4].amount",
+    "raw": "328毫克\nNRV=营养素参考值",
+    "value": "328",
+    "unit": "mg",
+    "reviewReasons": [
+      "OCR_ENGINE_DISAGREEMENT"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:17",
+        "imageId": "front",
+        "boxPx": {
+          "left": 640,
+          "top": 963,
+          "width": 622,
+          "height": 254
+        },
+        "ocrConfidence": null
+      }
+    ]
+  }
+]

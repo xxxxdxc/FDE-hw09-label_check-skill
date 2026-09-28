@@ -1,0 +1,42 @@
+{
+  "documentId": "6954767430461",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\6954767430461.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_STRUCTURE_UNCERTAIN",
+      "message": "NRV_COLUMN_INFERRED_FROM_DATA",
+      "imageId": "front",
+      "boxPx": {
+        "left": 282,
+        "top": 1126,
+        "width": 2367,
+        "height": 2041
+      },
+      "evidenceRefs": [
+        "front:v2:1:1",
+        "front:v2:1:2",
+        "front:v2:1:5",
+        "front:v2:1:6",
+        "front:v2:1:8",
+        "front:v2:1:9",
+        "front:v2:1:10",
+        "front:v2:1:12",
+        "front:v2:1:13",
+        "front:v2:1:14",
+        "front:v2:1:16",
+        "front:v2:1:17",
+        "front:v2:1:18",
+        "front:v2:1:20",
+        "front:v2:1:21",
+        "front:v2:1:22",
+        "front:v2:1:25",
+        "front:v2:1:26",
+        "front:v2:1:28",
+        "front:v2:1:29",
+        "front:v2:1:30",
+        "front:v2:1:32"
+      ],
+      "tableId": "table:1"
+    }
+  ]
+}

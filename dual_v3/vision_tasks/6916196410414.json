@@ -1,0 +1,27 @@
+{
+  "documentId": "6916196410414",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\6916196410414.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_LAYOUT_RECOVERED",
+      "message": "Recovered 3 review-only rows from line positions; NRV_COLUMN_MISSING_IN_V2; AMOUNT_MISSING_OR_UNREADABLE; NUTRIENT_UNIT_MISMATCH; V2_MISSING_NUTRIENT_ROWS; Full-image nutrient labels absent from structured rows: 能量, 蛋白质, 脂肪",
+      "imageId": "front",
+      "boxPx": {
+        "left": 106,
+        "top": 55,
+        "width": 889,
+        "height": 879
+      },
+      "evidenceRefs": [
+        "front:1",
+        "front:2",
+        "front:3",
+        "front:4",
+        "front:5",
+        "front:6",
+        "front:7"
+      ],
+      "tableId": null
+    }
+  ]
+}

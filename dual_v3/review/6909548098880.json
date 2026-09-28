@@ -1,0 +1,35 @@
+[
+  {
+    "path": "facts.nutritionTables[0].rows[1].amount",
+    "raw": "0g",
+    "value": "0",
+    "unit": "g",
+    "reviewReasons": [
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:8",
+        "imageId": "front",
+        "boxPx": {
+          "left": 614,
+          "top": 399,
+          "width": 110,
+          "height": 117
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:9",
+        "imageId": "front",
+        "boxPx": {
+          "left": 610,
+          "top": 401,
+          "width": 118,
+          "height": 111
+        },
+        "ocrConfidence": 0.9526697993
+      }
+    ]
+  }
+]

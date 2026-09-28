@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6924743922570",
+  "imageName": "6924743922570.jpg",
+  "imageSha256": "5e290994c23378442206cb0b7aa67cde9bc759070f21d93a2afb11ef5a88ca91",
+  "humanVerified": false,
+  "notes": "",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_serving",
+        "raw": "每份30克",
+        "value": "per_serving",
+        "servingSize": {
+          "raw": "30g",
+          "value": "30",
+          "unit": "g"
+        }
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "能量",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "678kJ",
+            "value": "678",
+            "unit": "kJ"
+          },
+          "nrvPercent": {
+            "raw": "8%",
+            "value": "8",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "蛋白质",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "1.7g",
+            "value": "1.7",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "3%",
+            "value": "3",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "脂肪",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "10.0g",
+            "value": "10.0",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "17%",
+            "value": "17",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "饱和脂肪",
+            "value": "saturated_fat"
+          },
+          "amount": {
+            "raw": "1.6g",
+            "value": "1.6",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "8%",
+            "value": "8",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "碳水化合物",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "16.4g",
+            "value": "16.4",
+            "unit": "g"
+          },
+          "nrvPercent": {
+            "raw": "5%",
+            "value": "5",
+            "unit": "%"
+          }
+        },
+        {
+          "nutrient": {
+            "raw": "糖",
+            "value": "sugar"
+          },
+          "amount": {
+            "raw": "2.1g",
+            "value": "2.1",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "钠",
+            "value": "sodium"
+          },
+          "amount": {
+            "raw": "158mg",
+            "value": "158",
+            "unit": "mg"
+          },
+          "nrvPercent": {
+            "raw": "8%",
+            "value": "8",
+            "unit": "%"
+          }
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 4032,
+        "height": 3024
+      }
+    }
+  ]
+}

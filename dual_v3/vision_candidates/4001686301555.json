@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "4001686301555",
+  "imageName": "4001686301555.jpg",
+  "imageSha256": "bb9df3e98d907ad5a6ea7f911e4eb80a4bf673cd3405d54dab6ec7228f5b98cc",
+  "humanVerified": false,
+  "notes": "脂肪<0,5g含比较符，现有value无法表达上界，暂留null；RI为每份25g对应参考百分比，与每100g含量基准不同，不写入nrvPercent。RI原文仍保存在OCR evidence中。",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100g",
+        "raw": "pro 100 g",
+        "value": "per_100g"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "Energie",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "1459 kJ/343 kcal",
+            "value": "1459",
+            "unit": "kJ"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Fett",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "<0,5 g",
+            "value": null,
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "davon gesättigte Fettsäuren",
+            "value": "saturated_fat"
+          },
+          "amount": {
+            "raw": "0,1 g",
+            "value": "0.1",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Kohlenhydrate",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "77 g",
+            "value": "77",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "davon Zucker",
+            "value": "sugar"
+          },
+          "amount": {
+            "raw": "46 g",
+            "value": "46",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Eiweiß",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "6,9 g",
+            "value": "6.9",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Salz",
+            "value": "salt"
+          },
+          "amount": {
+            "raw": "0,07 g",
+            "value": "0.07",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 1898,
+        "height": 1005
+      }
+    }
+  ]
+}

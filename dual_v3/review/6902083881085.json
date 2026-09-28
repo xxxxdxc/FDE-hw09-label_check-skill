@@ -1,0 +1,324 @@
+[
+  {
+    "path": "facts.nutritionTables[0].basis",
+    "raw": "每/per/pour 100mL",
+    "value": "per_100ml",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_TABLE_HEADER_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:3",
+        "imageId": "front",
+        "boxPx": {
+          "left": 572,
+          "top": 57,
+          "width": 324,
+          "height": 44
+        },
+        "ocrConfidence": 0.9867138863
+      },
+      {
+        "id": "front:2",
+        "imageId": "front",
+        "boxPx": {
+          "left": 151,
+          "top": 61,
+          "width": 187,
+          "height": 40
+        },
+        "ocrConfidence": 0.9990457892
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].nutrient",
+    "raw": "Energy/Energie",
+    "value": "energy",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:4",
+        "imageId": "front",
+        "boxPx": {
+          "left": 152,
+          "top": 103,
+          "width": 248,
+          "height": 47
+        },
+        "ocrConfidence": 0.9997429848
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].amount",
+    "raw": "315 kJ/75 kcal",
+    "value": null,
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED",
+      "MULTIPLE_QUANTITIES",
+      "UNIT_MISSING"
+    ],
+    "evidence": [
+      {
+        "id": "front:5",
+        "imageId": "front",
+        "boxPx": {
+          "left": 676,
+          "top": 103,
+          "width": 207,
+          "height": 37
+        },
+        "ocrConfidence": 0.9924262166
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].nutrient",
+    "raw": "Fat / Matieres grasses",
+    "value": "fat",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED",
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:6",
+        "imageId": "front",
+        "boxPx": {
+          "left": 155,
+          "top": 154,
+          "width": 315,
+          "height": 35
+        },
+        "ocrConfidence": 0.959435463
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].amount",
+    "raw": "0.7g",
+    "value": "0.7",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:7",
+        "imageId": "front",
+        "boxPx": {
+          "left": 775,
+          "top": 147,
+          "width": 74,
+          "height": 35
+        },
+        "ocrConfidence": 0.9997448921
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].nutrient",
+    "raw": "-dont acides gras satures",
+    "value": "saturated_fat",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:8",
+        "imageId": "front",
+        "boxPx": {
+          "left": 198,
+          "top": 193,
+          "width": 360,
+          "height": 39
+        },
+        "ocrConfidence": 0.9992561936
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].amount",
+    "raw": "0.4g",
+    "value": "0.4",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:9",
+        "imageId": "front",
+        "boxPx": {
+          "left": 774,
+          "top": 189,
+          "width": 74,
+          "height": 36
+        },
+        "ocrConfidence": 0.9994439483
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[3].nutrient",
+    "raw": "Carbohydrate /Glucides",
+    "value": "carbohydrate",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:11",
+        "imageId": "front",
+        "boxPx": {
+          "left": 159,
+          "top": 235,
+          "width": 352,
+          "height": 42
+        },
+        "ocrConfidence": 0.9773376584
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[3].amount",
+    "raw": "14g",
+    "value": "14",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:12",
+        "imageId": "front",
+        "boxPx": {
+          "left": 773,
+          "top": 229,
+          "width": 64,
+          "height": 37
+        },
+        "ocrConfidence": 0.9995827675
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[4].nutrient",
+    "raw": "-dont sucres",
+    "value": "sugar",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:13",
+        "imageId": "front",
+        "boxPx": {
+          "left": 203,
+          "top": 284,
+          "width": 187,
+          "height": 31
+        },
+        "ocrConfidence": 0.9994969964
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[4].amount",
+    "raw": "13g",
+    "value": "13",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:14",
+        "imageId": "front",
+        "boxPx": {
+          "left": 768,
+          "top": 270,
+          "width": 64,
+          "height": 37
+        },
+        "ocrConfidence": 0.9996941686
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[5].nutrient",
+    "raw": "Protein/Proteines",
+    "value": "protein",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:15",
+        "imageId": "front",
+        "boxPx": {
+          "left": 163,
+          "top": 323,
+          "width": 268,
+          "height": 37
+        },
+        "ocrConfidence": 0.9962419868
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[6].nutrient",
+    "raw": "Salt/Sel",
+    "value": "salt",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:17",
+        "imageId": "front",
+        "boxPx": {
+          "left": 166,
+          "top": 368,
+          "width": 130,
+          "height": 34
+        },
+        "ocrConfidence": 0.9988794923
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[6].amount",
+    "raw": "0.28 g",
+    "value": "0.28",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:18",
+        "imageId": "front",
+        "boxPx": {
+          "left": 754,
+          "top": 352,
+          "width": 90,
+          "height": 35
+        },
+        "ocrConfidence": 0.9724995494
+      }
+    ]
+  }
+]

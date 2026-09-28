@@ -1,0 +1,101 @@
+[
+  {
+    "path": "facts.nutritionTables[0].rows[0].amount",
+    "raw": "666kJ",
+    "value": "666",
+    "unit": "kJ",
+    "reviewReasons": [
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:5",
+        "imageId": "front",
+        "boxPx": {
+          "left": 757,
+          "top": 291,
+          "width": 268,
+          "height": 126
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:6",
+        "imageId": "front",
+        "boxPx": {
+          "left": 753,
+          "top": 293,
+          "width": 271,
+          "height": 116
+        },
+        "ocrConfidence": 0.9293190837
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].amount",
+    "raw": "1.2g",
+    "value": "1.2",
+    "unit": "g",
+    "reviewReasons": [
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:8",
+        "imageId": "front",
+        "boxPx": {
+          "left": 779,
+          "top": 425,
+          "width": 225,
+          "height": 146
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:9",
+        "imageId": "front",
+        "boxPx": {
+          "left": 774,
+          "top": 427,
+          "width": 228,
+          "height": 134
+        },
+        "ocrConfidence": 0.9546070099
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].amount",
+    "raw": "8.8g",
+    "value": "8.8",
+    "unit": "g",
+    "reviewReasons": [
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:v2:1:11",
+        "imageId": "front",
+        "boxPx": {
+          "left": 778,
+          "top": 576,
+          "width": 228,
+          "height": 148
+        },
+        "ocrConfidence": null
+      },
+      {
+        "id": "front:12",
+        "imageId": "front",
+        "boxPx": {
+          "left": 773,
+          "top": 577,
+          "width": 231,
+          "height": 137
+        },
+        "ocrConfidence": 0.8965049386
+      }
+    ]
+  }
+]

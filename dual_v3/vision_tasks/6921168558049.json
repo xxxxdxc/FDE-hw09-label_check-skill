@@ -1,0 +1,40 @@
+{
+  "documentId": "6921168558049",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\6921168558049.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_LAYOUT_RECOVERED",
+      "message": "Recovered 6 review-only rows from line positions; NUTRIENT_ROW_AMBIGUOUS; NRV_RECOVERED_FROM_ACCURATE; CELL_SPAN_UNSUPPORTED; V2_MISSING_NUTRIENT_ROWS; Table V2 returned no usable table; full-text OCR recovered 6 review-only candidate rows",
+      "imageId": "front",
+      "boxPx": {
+        "left": 60,
+        "top": 229,
+        "width": 1897,
+        "height": 1010
+      },
+      "evidenceRefs": [
+        "front:v2part:1:1:1",
+        "front:v2part:1:1:2",
+        "front:v2part:1:2:1",
+        "front:v2part:1:3:1",
+        "front:v2part:1:3:2",
+        "front:v2part:1:4:1",
+        "front:v2part:1:5:1",
+        "front:v2part:1:5:2",
+        "front:v2part:1:6:1",
+        "front:v2part:1:7:1",
+        "front:v2part:1:7:2",
+        "front:v2part:1:8:1",
+        "front:v2part:1:9:1",
+        "front:v2part:1:9:2",
+        "front:v2part:1:10:1",
+        "front:v2part:1:11:1",
+        "front:v2part:1:11:2",
+        "front:v2part:1:12:1",
+        "front:v2part:1:12:2",
+        "front:v2part:1:12:3"
+      ],
+      "tableId": null
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import argparse
 import json
 import sys
 from copy import deepcopy
-from http.server import BaseHTTPRequestHandler, HTTPServer
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -15,6 +15,7 @@ sys.path.insert(0, str(SKILL / "src"))
 
 from label_check_v2.channel import ChannelStore  # noqa: E402
 from label_check_v2.engine import run  # noqa: E402
+from ocr_data import apply_review, catalog, checker_input, image_path, review_page, sample  # noqa: E402
 
 
 DEMO_DB = Path.home() / ".cache" / "label-check-v2" / "demo-channel.sqlite"
@@ -103,6 +104,45 @@ class Handler(BaseHTTPRequestHandler):
         path = urlsplit(self.path).path
         if path in ("/", "/index.html"):
             self._send(200, (HERE / "index.html").read_bytes(), "text/html; charset=utf-8")
+        elif path in ("/ocr", "/ocr.html"):
+            self._send(200, (HERE / "ocr.html").read_bytes(), "text/html; charset=utf-8")
+        elif path == "/api/ocr/flow-image":
+            self._send(200, (HERE.parent / "label-check" / "docs" / "ocr-review-flow.png").read_bytes(), "image/png")
+        elif path == "/api/ocr/samples":
+            try:
+                self._send(200, {"source": "dual_v3/final_candidates", "ocrLive": False,
+                                 "humanVerified": False, "items": catalog()})
+            except FileNotFoundError as exc:
+                self._send(503, {"error": str(exc)})
+        elif path.startswith("/api/ocr/sample/"):
+            try:
+                self._send(200, sample(path.rsplit("/", 1)[-1]))
+            except ValueError as exc:
+                self._send(404, {"error": str(exc)})
+        elif path.startswith("/api/ocr/image/"):
+            try:
+                image = image_path(path.rsplit("/", 1)[-1])
+                if not image.is_file():
+                    raise ValueError("原图不在本机数据包中")
+                self._send(200, image.read_bytes(), "image/jpeg")
+            except ValueError as exc:
+                self._send(404, {"error": str(exc)})
+        elif path.startswith("/api/ocr/review-page/"):
+            try:
+                self._send(200, review_page(path.rsplit("/", 1)[-1]).encode("utf-8"), "text/html; charset=utf-8")
+            except (ValueError, FileNotFoundError) as exc:
+                self._send(404, {"error": str(exc)})
+        elif path.startswith("/api/ocr/check/"):
+            try:
+                code = path.rsplit("/", 1)[-1]
+                payload, gate = checker_input(code)
+                if payload is None:
+                    self._send(409, {"gate": gate, "message": "OCR 门禁或计算口径尚未放行"})
+                else:
+                    self._send(200, {"gate": gate, "report": run(payload),
+                                     "notice": "仅检查缓存数据中已放行的营养字段；不代表人工验收或整张包装合规。"})
+            except ValueError as exc:
+                self._send(404, {"error": str(exc)})
         elif path == "/api/samples":
             self._send(200, samples())
         elif path == "/api/health":
@@ -111,6 +151,22 @@ class Handler(BaseHTTPRequestHandler):
             self._send(404, {"error": "页面不存在"})
 
     def do_POST(self):
+        if urlsplit(self.path).path.startswith("/api/ocr/review/"):
+            try:
+                length = int(self.headers.get("Content-Length", "0"))
+                if length <= 0 or length > 262144:
+                    raise ValueError("复核决定必须是256KB以内的JSON")
+                self.connection.settimeout(10)
+                decisions = json.loads(self.rfile.read(length).decode("utf-8"))
+                if not isinstance(decisions, dict):
+                    raise ValueError("复核决定必须是JSON对象")
+                self._send(200, apply_review(urlsplit(self.path).path.rsplit("/", 1)[-1], decisions))
+            except (ValueError, UnicodeError, TimeoutError, KeyError, TypeError, FileNotFoundError) as exc:
+                self._send(400, {"error": str(exc)})
+            return
+        if urlsplit(self.path).path == "/api/ocr/ingest":
+            self._send(501, {"error": "实时 OCR 接口已预留，当前演示只读取 dual_v3 缓存结果。"})
+            return
         if urlsplit(self.path).path != "/api/check":
             self._send(404, {"error": "接口不存在"})
             return
@@ -141,7 +197,7 @@ def main():
     parser.add_argument("--port", type=int, default=8000)
     args = parser.parse_args()
     prepare_demo_cards()
-    server = HTTPServer((args.host, args.port), Handler)
+    server = ThreadingHTTPServer((args.host, args.port), Handler)
     print("FDE09 demo listening on http://{}:{}".format(args.host, args.port), flush=True)
     server.serve_forever()
 

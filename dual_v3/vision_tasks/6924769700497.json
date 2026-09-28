@@ -1,0 +1,22 @@
+{
+  "documentId": "6924769700497",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\6924769700497.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_V2_NOT_FOUND",
+      "message": "Table V2 returned no usable table; full-text OCR recovered 5 review-only candidate rows",
+      "imageId": "front",
+      "boxPx": {
+        "left": 794,
+        "top": 61,
+        "width": 1352,
+        "height": 391
+      },
+      "evidenceRefs": [
+        "front:1",
+        "front:4"
+      ],
+      "tableId": null
+    }
+  ]
+}

@@ -1,0 +1,928 @@
+{
+  "imageSha256": "087ed9a1c260ebfb02170215b037470ebc2edd4f2f147b0535576c0614b6f416",
+  "source": "live_baidu_v2",
+  "response": {
+    "tables_result": [
+      {
+        "header": [
+          {
+            "location": [
+              {
+                "x": 109,
+                "y": 187
+              },
+              {
+                "x": 482,
+                "y": 125
+              },
+              {
+                "x": 353,
+                "y": 124
+              },
+              {
+                "x": 226,
+                "y": 144
+              }
+            ],
+            "words": "Informacion Nutricional/Nutritional Information/lnformations"
+          }
+        ],
+        "body": [
+          {
+            "col_end": 1,
+            "row_end": 1,
+            "cell_location": [
+              {
+                "x": 88,
+                "y": 294
+              },
+              {
+                "x": 796,
+                "y": 256
+              },
+              {
+                "x": 806,
+                "y": 388
+              },
+              {
+                "x": 99,
+                "y": 434
+              }
+            ],
+            "row_start": 0,
+            "col_start": 0,
+            "words": "Nutritionnelles\nValor energetico/Energetic value/Naleur\nénergétique",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 443,
+                    "y": 184
+                  },
+                  {
+                    "x": 706,
+                    "y": 184
+                  },
+                  {
+                    "x": 706,
+                    "y": 232
+                  },
+                  {
+                    "x": 443,
+                    "y": 232
+                  }
+                ],
+                "word": "Nutritionnelles"
+              },
+              {
+                "poly_location": [
+                  {
+                    "x": 111,
+                    "y": 306
+                  },
+                  {
+                    "x": 379,
+                    "y": 279
+                  },
+                  {
+                    "x": 289,
+                    "y": 286
+                  },
+                  {
+                    "x": 199,
+                    "y": 295
+                  }
+                ],
+                "word": "Valor energetico/Energetic value/Naleur"
+              },
+              {
+                "poly_location": [
+                  {
+                    "x": 262,
+                    "y": 344
+                  },
+                  {
+                    "x": 511,
+                    "y": 334
+                  },
+                  {
+                    "x": 513,
+                    "y": 389
+                  },
+                  {
+                    "x": 264,
+                    "y": 399
+                  }
+                ],
+                "word": "énergétique"
+              }
+            ]
+          },
+          {
+            "col_end": 2,
+            "row_end": 1,
+            "cell_location": [
+              {
+                "x": 796,
+                "y": 256
+              },
+              {
+                "x": 1059,
+                "y": 241
+              },
+              {
+                "x": 1070,
+                "y": 368
+              },
+              {
+                "x": 806,
+                "y": 388
+              }
+            ],
+            "row_start": 0,
+            "col_start": 1,
+            "words": "Cada/Per/Pour 100g",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 811,
+                    "y": 301
+                  },
+                  {
+                    "x": 1066,
+                    "y": 297
+                  },
+                  {
+                    "x": 1067,
+                    "y": 344
+                  },
+                  {
+                    "x": 812,
+                    "y": 347
+                  }
+                ],
+                "word": "Cada/Per/Pour 100g"
+              }
+            ]
+          },
+          {
+            "col_end": 1,
+            "row_end": 2,
+            "cell_location": [
+              {
+                "x": 99,
+                "y": 434
+              },
+              {
+                "x": 806,
+                "y": 388
+              },
+              {
+                "x": 810,
+                "y": 459
+              },
+              {
+                "x": 105,
+                "y": 515
+              }
+            ],
+            "row_start": 1,
+            "col_start": 0,
+            "words": "Energia/Energy/Energie",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 184,
+                    "y": 441
+                  },
+                  {
+                    "x": 635,
+                    "y": 411
+                  },
+                  {
+                    "x": 639,
+                    "y": 475
+                  },
+                  {
+                    "x": 188,
+                    "y": 505
+                  }
+                ],
+                "word": "Energia/Energy/Energie"
+              }
+            ]
+          },
+          {
+            "col_end": 2,
+            "row_end": 2,
+            "cell_location": [
+              {
+                "x": 806,
+                "y": 388
+              },
+              {
+                "x": 1070,
+                "y": 368
+              },
+              {
+                "x": 1077,
+                "y": 437
+              },
+              {
+                "x": 810,
+                "y": 459
+              }
+            ],
+            "row_start": 1,
+            "col_start": 1,
+            "words": "720kj/172kcal",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 861,
+                    "y": 397
+                  },
+                  {
+                    "x": 1035,
+                    "y": 387
+                  },
+                  {
+                    "x": 1038,
+                    "y": 435
+                  },
+                  {
+                    "x": 863,
+                    "y": 445
+                  }
+                ],
+                "word": "720kj/172kcal"
+              }
+            ]
+          },
+          {
+            "col_end": 1,
+            "row_end": 3,
+            "cell_location": [
+              {
+                "x": 105,
+                "y": 515
+              },
+              {
+                "x": 810,
+                "y": 459
+              },
+              {
+                "x": 814,
+                "y": 522
+              },
+              {
+                "x": 111,
+                "y": 580
+              }
+            ],
+            "row_start": 2,
+            "col_start": 0,
+            "words": "Grasas Fat/Graisses",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 213,
+                    "y": 522
+                  },
+                  {
+                    "x": 604,
+                    "y": 498
+                  },
+                  {
+                    "x": 607,
+                    "y": 547
+                  },
+                  {
+                    "x": 216,
+                    "y": 571
+                  }
+                ],
+                "word": "Grasas Fat/Graisses"
+              }
+            ]
+          },
+          {
+            "col_end": 2,
+            "row_end": 3,
+            "cell_location": [
+              {
+                "x": 810,
+                "y": 459
+              },
+              {
+                "x": 1077,
+                "y": 437
+              },
+              {
+                "x": 1082,
+                "y": 495
+              },
+              {
+                "x": 814,
+                "y": 522
+              }
+            ],
+            "row_start": 2,
+            "col_start": 1,
+            "words": "10g",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 934,
+                    "y": 455
+                  },
+                  {
+                    "x": 984,
+                    "y": 454
+                  },
+                  {
+                    "x": 985,
+                    "y": 501
+                  },
+                  {
+                    "x": 935,
+                    "y": 502
+                  }
+                ],
+                "word": "10g"
+              }
+            ]
+          },
+          {
+            "col_end": 1,
+            "row_end": 4,
+            "cell_location": [
+              {
+                "x": 111,
+                "y": 580
+              },
+              {
+                "x": 814,
+                "y": 522
+              },
+              {
+                "x": 824,
+                "y": 657
+              },
+              {
+                "x": 123,
+                "y": 734
+              }
+            ],
+            "row_start": 3,
+            "col_start": 0,
+            "words": "De las cuales Saturadas/ Of which\nsaturated/Dont matieres grasses saturees",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 151,
+                    "y": 600
+                  },
+                  {
+                    "x": 395,
+                    "y": 593
+                  },
+                  {
+                    "x": 313,
+                    "y": 598
+                  },
+                  {
+                    "x": 232,
+                    "y": 601
+                  }
+                ],
+                "word": "De las cuales Saturadas/ Of which"
+              },
+              {
+                "poly_location": [
+                  {
+                    "x": 132,
+                    "y": 652
+                  },
+                  {
+                    "x": 412,
+                    "y": 662
+                  },
+                  {
+                    "x": 318,
+                    "y": 666
+                  },
+                  {
+                    "x": 225,
+                    "y": 662
+                  }
+                ],
+                "word": "saturated/Dont matieres grasses saturees"
+              }
+            ]
+          },
+          {
+            "col_end": 2,
+            "row_end": 4,
+            "cell_location": [
+              {
+                "x": 814,
+                "y": 522
+              },
+              {
+                "x": 1082,
+                "y": 495
+              },
+              {
+                "x": 1093,
+                "y": 625
+              },
+              {
+                "x": 824,
+                "y": 657
+              }
+            ],
+            "row_start": 3,
+            "col_start": 1,
+            "words": "0g",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 946,
+                    "y": 557
+                  },
+                  {
+                    "x": 986,
+                    "y": 558
+                  },
+                  {
+                    "x": 985,
+                    "y": 607
+                  },
+                  {
+                    "x": 945,
+                    "y": 606
+                  }
+                ],
+                "word": "0g"
+              }
+            ]
+          },
+          {
+            "col_end": 1,
+            "row_end": 5,
+            "cell_location": [
+              {
+                "x": 123,
+                "y": 734
+              },
+              {
+                "x": 824,
+                "y": 657
+              },
+              {
+                "x": 830,
+                "y": 739
+              },
+              {
+                "x": 130,
+                "y": 824
+              }
+            ],
+            "row_start": 4,
+            "col_start": 0,
+            "words": "Catbohidratos/ Carbohydrates/Glucides",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 146,
+                    "y": 735
+                  },
+                  {
+                    "x": 416,
+                    "y": 761
+                  },
+                  {
+                    "x": 326,
+                    "y": 763
+                  },
+                  {
+                    "x": 237,
+                    "y": 752
+                  }
+                ],
+                "word": "Catbohidratos/ Carbohydrates/Glucides"
+              }
+            ]
+          },
+          {
+            "col_end": 2,
+            "row_end": 5,
+            "cell_location": [
+              {
+                "x": 824,
+                "y": 657
+              },
+              {
+                "x": 1093,
+                "y": 625
+              },
+              {
+                "x": 1099,
+                "y": 700
+              },
+              {
+                "x": 830,
+                "y": 739
+              }
+            ],
+            "row_start": 4,
+            "col_start": 1,
+            "words": "7g",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 950,
+                    "y": 659
+                  },
+                  {
+                    "x": 991,
+                    "y": 657
+                  },
+                  {
+                    "x": 994,
+                    "y": 709
+                  },
+                  {
+                    "x": 952,
+                    "y": 710
+                  }
+                ],
+                "word": "7g"
+              }
+            ]
+          },
+          {
+            "col_end": 1,
+            "row_end": 6,
+            "cell_location": [
+              {
+                "x": 130,
+                "y": 824
+              },
+              {
+                "x": 830,
+                "y": 739
+              },
+              {
+                "x": 839,
+                "y": 877
+              },
+              {
+                "x": 141,
+                "y": 976
+              }
+            ],
+            "row_start": 5,
+            "col_start": 0,
+            "words": "De los cuales azucares/ Of which\nsugars/Dont sucres",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 174,
+                    "y": 827
+                  },
+                  {
+                    "x": 413,
+                    "y": 850
+                  },
+                  {
+                    "x": 333,
+                    "y": 852
+                  },
+                  {
+                    "x": 254,
+                    "y": 842
+                  }
+                ],
+                "word": "De los cuales azucares/ Of which"
+              },
+              {
+                "poly_location": [
+                  {
+                    "x": 247,
+                    "y": 910
+                  },
+                  {
+                    "x": 406,
+                    "y": 910
+                  },
+                  {
+                    "x": 352,
+                    "y": 913
+                  },
+                  {
+                    "x": 299,
+                    "y": 913
+                  }
+                ],
+                "word": "sugars/Dont sucres"
+              }
+            ]
+          },
+          {
+            "col_end": 2,
+            "row_end": 6,
+            "cell_location": [
+              {
+                "x": 830,
+                "y": 739
+              },
+              {
+                "x": 1099,
+                "y": 700
+              },
+              {
+                "x": 1110,
+                "y": 825
+              },
+              {
+                "x": 839,
+                "y": 877
+              }
+            ],
+            "row_start": 5,
+            "col_start": 1,
+            "words": "4g",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 959,
+                    "y": 757
+                  },
+                  {
+                    "x": 1000,
+                    "y": 758
+                  },
+                  {
+                    "x": 998,
+                    "y": 804
+                  },
+                  {
+                    "x": 958,
+                    "y": 803
+                  }
+                ],
+                "word": "4g"
+              }
+            ]
+          },
+          {
+            "col_end": 1,
+            "row_end": 7,
+            "cell_location": [
+              {
+                "x": 141,
+                "y": 976
+              },
+              {
+                "x": 839,
+                "y": 877
+              },
+              {
+                "x": 844,
+                "y": 947
+              },
+              {
+                "x": 148,
+                "y": 1078
+              }
+            ],
+            "row_start": 6,
+            "col_start": 0,
+            "words": "Proteina/ Protein/Proteines",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 214,
+                    "y": 972
+                  },
+                  {
+                    "x": 419,
+                    "y": 996
+                  },
+                  {
+                    "x": 350,
+                    "y": 996
+                  },
+                  {
+                    "x": 283,
+                    "y": 986
+                  }
+                ],
+                "word": "Proteina/ Protein/Proteines"
+              }
+            ]
+          },
+          {
+            "col_end": 2,
+            "row_end": 7,
+            "cell_location": [
+              {
+                "x": 839,
+                "y": 877
+              },
+              {
+                "x": 1110,
+                "y": 825
+              },
+              {
+                "x": 1116,
+                "y": 893
+              },
+              {
+                "x": 844,
+                "y": 947
+              }
+            ],
+            "row_start": 6,
+            "col_start": 1,
+            "words": "10g",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 954,
+                    "y": 851
+                  },
+                  {
+                    "x": 1013,
+                    "y": 843
+                  },
+                  {
+                    "x": 1020,
+                    "y": 894
+                  },
+                  {
+                    "x": 961,
+                    "y": 902
+                  }
+                ],
+                "word": "10g"
+              }
+            ]
+          },
+          {
+            "col_end": 1,
+            "row_end": 8,
+            "cell_location": [
+              {
+                "x": 148,
+                "y": 1078
+              },
+              {
+                "x": 844,
+                "y": 947
+              },
+              {
+                "x": 850,
+                "y": 1023
+              },
+              {
+                "x": 153,
+                "y": 1144
+              }
+            ],
+            "row_start": 7,
+            "col_start": 0,
+            "words": "Sal/ Salt/Sel",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 298,
+                    "y": 1072
+                  },
+                  {
+                    "x": 553,
+                    "y": 1059
+                  },
+                  {
+                    "x": 557,
+                    "y": 1122
+                  },
+                  {
+                    "x": 301,
+                    "y": 1135
+                  }
+                ],
+                "word": "Sal/ Salt/Sel"
+              }
+            ]
+          },
+          {
+            "col_end": 2,
+            "row_end": 8,
+            "cell_location": [
+              {
+                "x": 844,
+                "y": 947
+              },
+              {
+                "x": 1116,
+                "y": 893
+              },
+              {
+                "x": 1123,
+                "y": 976
+              },
+              {
+                "x": 850,
+                "y": 1023
+              }
+            ],
+            "row_start": 7,
+            "col_start": 1,
+            "words": "8.9g",
+            "contents": [
+              {
+                "poly_location": [
+                  {
+                    "x": 953,
+                    "y": 928
+                  },
+                  {
+                    "x": 1019,
+                    "y": 914
+                  },
+                  {
+                    "x": 1028,
+                    "y": 957
+                  },
+                  {
+                    "x": 963,
+                    "y": 971
+                  }
+                ],
+                "word": "8.9g"
+              }
+            ]
+          }
+        ],
+        "table_location": [
+          {
+            "x": 88,
+            "y": 241
+          },
+          {
+            "x": 1123,
+            "y": 241
+          },
+          {
+            "x": 1123,
+            "y": 1144
+          },
+          {
+            "x": 88,
+            "y": 1144
+          }
+        ],
+        "footer": []
+      }
+    ],
+    "table_num": 1,
+    "log_id": 2104187888184989274
+  },
+  "transform": {
+    "origin": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "inputSize": [
+      1200,
+      1200
+    ],
+    "cropBox": [
+      0,
+      0,
+      1200,
+      1200
+    ]
+  }
+}

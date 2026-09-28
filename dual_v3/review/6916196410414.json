@@ -1,0 +1,125 @@
+[
+  {
+    "path": "facts.nutritionTables[0].basis",
+    "raw": "每100mLNRV%",
+    "value": "per_100ml",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_TABLE_HEADER_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:3",
+        "imageId": "front",
+        "boxPx": {
+          "left": 398,
+          "top": 246,
+          "width": 577,
+          "height": 162
+        },
+        "ocrConfidence": 0.9962304235
+      },
+      {
+        "id": "front:2",
+        "imageId": "front",
+        "boxPx": {
+          "left": 126,
+          "top": 251,
+          "width": 162,
+          "height": 175
+        },
+        "ocrConfidence": 0.9344768524
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].nutrient",
+    "raw": "能量",
+    "value": "energy",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED",
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:4",
+        "imageId": "front",
+        "boxPx": {
+          "left": 138,
+          "top": 416,
+          "width": 160,
+          "height": 191
+        },
+        "ocrConfidence": 0.9231140018
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].amount",
+    "raw": "158kJ",
+    "value": "158",
+    "unit": "kJ",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:5",
+        "imageId": "front",
+        "boxPx": {
+          "left": 500,
+          "top": 431,
+          "width": 216,
+          "height": 160
+        },
+        "ocrConfidence": 0.998467803
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].nutrient",
+    "raw": "蛋白质",
+    "value": "protein",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:6",
+        "imageId": "front",
+        "boxPx": {
+          "left": 153,
+          "top": 586,
+          "width": 211,
+          "height": 167
+        },
+        "ocrConfidence": 0.9819315076
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[2].nutrient",
+    "raw": "脂肪",
+    "value": "fat",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED",
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:7",
+        "imageId": "front",
+        "boxPx": {
+          "left": 153,
+          "top": 727,
+          "width": 158,
+          "height": 187
+        },
+        "ocrConfidence": 0.9004763365
+      }
+    ]
+  }
+]

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6920202888883",
+  "productId": "6920202888883",
+  "images": [
+    {
+      "id": "front",
+      "fileName": "6920202888883.jpg",
+      "widthPx": 1933,
+      "heightPx": 583
+    }
+  ],
+  "evidence": [
+    {
+      "id": "front:1",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "脂脂红、水",
+      "boxPx": {
+        "left": 101,
+        "top": 0,
+        "width": 438,
+        "height": 63
+      },
+      "ocrConfidence": 0.7616840601
+    },
+    {
+      "id": "front:2",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "【功效成分及含量】每罐含：牛磺酸125mg.",
+      "boxPx": {
+        "left": 100,
+        "top": 41,
+        "width": 1668,
+        "height": 196
+      },
+      "ocrConfidence": 0.9963431954
+    },
+    {
+      "id": "front:3",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "咖啡因50mg、肌醇50mg、赖氨酸50mg、",
+      "boxPx": {
+        "left": 106,
+        "top": 187,
+        "width": 1645,
+        "height": 197
+      },
+      "ocrConfidence": 0.982339859
+    },
+    {
+      "id": "front:4",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "烟酰胺10mg、维生素B61mg、维生素B23μg",
+      "boxPx": {
+        "left": 110,
+        "top": 330,
+        "width": 1628,
+        "height": 187
+      },
+      "ocrConfidence": 0.9612432718
+    },
+    {
+      "id": "front:5",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "【保健功能】本经动物实验评价，具有抗",
+      "boxPx": {
+        "left": 119,
+        "top": 474,
+        "width": 1615,
+        "height": 107
+      },
+      "ocrConfidence": 0.9737610221
+    }
+  ],
+  "facts": {
+    "productName": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "netContent": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "ingredientsText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "allergenText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "nutritionTables": [],
+    "claims": [],
+    "barcodes": []
+  },
+  "unassignedEvidenceIds": [
+    "front:1",
+    "front:2",
+    "front:3",
+    "front:4",
+    "front:5"
+  ],
+  "productIdSource": "provided",
+  "tableDiagnostics": [
+    {
+      "code": "NON_NUTRITION_TABLE",
+      "status": "needs_review",
+      "message": "Image describes functional ingredients, not a nutrition facts table; confirm sample applicability",
+      "imageId": "front",
+      "boxPx": {
+        "left": 80,
+        "top": 21,
+        "width": 1708,
+        "height": 236
+      },
+      "evidenceRefs": [
+        "front:2"
+      ],
+      "tableId": null
+    }
+  ]
+}

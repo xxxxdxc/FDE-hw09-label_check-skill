@@ -1,0 +1,29 @@
+{
+  "imageSha256": "d4fdf423c5ab490783c422180dc20776751b6f97ec34cde34135be6bd6619b41",
+  "source": "live_baidu_v2",
+  "response": {
+    "table_num": 0,
+    "log_id": 2104188090316712640,
+    "tables_result": []
+  },
+  "transform": {
+    "origin": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "inputSize": [
+      1595,
+      1465
+    ],
+    "cropBox": [
+      0,
+      0,
+      1595,
+      1465
+    ]
+  }
+}

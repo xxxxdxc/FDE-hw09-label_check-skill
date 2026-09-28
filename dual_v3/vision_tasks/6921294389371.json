@@ -1,0 +1,37 @@
+{
+  "documentId": "6921294389371",
+  "imageFile": "D:\\桌面\\工作\\FDE\\HW1\\场景09-包装标签\\label-check\\tests\\results\\market_labels_50\\images\\6921294389371.jpg",
+  "tasks": [
+    {
+      "code": "TABLE_LAYOUT_RECOVERED",
+      "message": "Recovered 5 review-only rows from line positions; AMOUNT_MISSING_OR_UNREADABLE; NUTRIENT_UNIT_MISMATCH",
+      "imageId": "front",
+      "boxPx": {
+        "left": 133,
+        "top": 65,
+        "width": 943,
+        "height": 923
+      },
+      "evidenceRefs": [
+        "front:2",
+        "front:3",
+        "front:4",
+        "front:5",
+        "front:6",
+        "front:7",
+        "front:8",
+        "front:9",
+        "front:10",
+        "front:11",
+        "front:12",
+        "front:14",
+        "front:15",
+        "front:16",
+        "front:19",
+        "front:20",
+        "front:21"
+      ],
+      "tableId": null
+    }
+  ]
+}

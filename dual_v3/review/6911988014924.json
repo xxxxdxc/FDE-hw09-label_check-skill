@@ -1,0 +1,158 @@
+[
+  {
+    "path": "facts.nutritionTables[0].basis",
+    "raw": "每100g",
+    "value": "per_100g",
+    "unit": null,
+    "reviewReasons": [
+      "OCR_TABLE_HEADER_UNCERTAIN"
+    ],
+    "evidence": [
+      {
+        "id": "front:3",
+        "imageId": "front",
+        "boxPx": {
+          "left": 726,
+          "top": 224,
+          "width": 292,
+          "height": 132
+        },
+        "ocrConfidence": 0.9637540579
+      },
+      {
+        "id": "front:2",
+        "imageId": "front",
+        "boxPx": {
+          "left": 144,
+          "top": 224,
+          "width": 208,
+          "height": 168
+        },
+        "ocrConfidence": 0.9804003239
+      },
+      {
+        "id": "front:4",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1166,
+          "top": 206,
+          "width": 285,
+          "height": 152
+        },
+        "ocrConfidence": 0.9972810745
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].nutrient",
+    "raw": "脂肪",
+    "value": "fat",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED",
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:8",
+        "imageId": "front",
+        "boxPx": {
+          "left": 158,
+          "top": 724,
+          "width": 188,
+          "height": 160
+        },
+        "ocrConfidence": 0.829212904
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].amount",
+    "raw": "20.0g",
+    "value": "20.0",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:9",
+        "imageId": "front",
+        "boxPx": {
+          "left": 721,
+          "top": 722,
+          "width": 240,
+          "height": 164
+        },
+        "ocrConfidence": 0.9972914457
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[0].nrvPercent",
+    "raw": "33%",
+    "value": "33",
+    "unit": "%",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED",
+      "OCR_LOW_CONFIDENCE"
+    ],
+    "evidence": [
+      {
+        "id": "front:10",
+        "imageId": "front",
+        "boxPx": {
+          "left": 1177,
+          "top": 714,
+          "width": 270,
+          "height": 140
+        },
+        "ocrConfidence": 0.7189385295
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].nutrient",
+    "raw": "反式脂肪",
+    "value": "trans_fat",
+    "unit": null,
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:11",
+        "imageId": "front",
+        "boxPx": {
+          "left": 250,
+          "top": 875,
+          "width": 364,
+          "height": 162
+        },
+        "ocrConfidence": 0.9991887212
+      }
+    ]
+  },
+  {
+    "path": "facts.nutritionTables[0].rows[1].amount",
+    "raw": "0g",
+    "value": "0",
+    "unit": "g",
+    "reviewReasons": [
+      "LAYOUT_FALLBACK_UNVERIFIED"
+    ],
+    "evidence": [
+      {
+        "id": "front:12",
+        "imageId": "front",
+        "boxPx": {
+          "left": 711,
+          "top": 871,
+          "width": 135,
+          "height": 179
+        },
+        "ocrConfidence": 0.9654742479
+      }
+    ]
+  }
+]

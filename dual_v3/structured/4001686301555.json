@@ -1,0 +1,1319 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "4001686301555",
+  "productId": "4001686301555",
+  "images": [
+    {
+      "id": "front",
+      "fileName": "4001686301555.jpg",
+      "widthPx": 1898,
+      "heightPx": 1005
+    }
+  ],
+  "evidence": [
+    {
+      "id": "front:1",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "Nahrwerte",
+      "boxPx": {
+        "left": 105,
+        "top": 149,
+        "width": 252,
+        "height": 58
+      },
+      "ocrConfidence": 0.9932205677
+    },
+    {
+      "id": "front:2",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "pro 100 g",
+      "boxPx": {
+        "left": 804,
+        "top": 120,
+        "width": 223,
+        "height": 66
+      },
+      "ocrConfidence": 0.9862879515
+    },
+    {
+      "id": "front:3",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "RI* pro Portion (25 g)",
+      "boxPx": {
+        "left": 1244,
+        "top": 98,
+        "width": 515,
+        "height": 67
+      },
+      "ocrConfidence": 0.9346223474
+    },
+    {
+      "id": "front:4",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "1 459 kJ/343 kcal",
+      "boxPx": {
+        "left": 808,
+        "top": 207,
+        "width": 405,
+        "height": 69
+      },
+      "ocrConfidence": 0.963334024
+    },
+    {
+      "id": "front:5",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "4%",
+      "boxPx": {
+        "left": 1250,
+        "top": 205,
+        "width": 97,
+        "height": 60
+      },
+      "ocrConfidence": 0.9999005795
+    },
+    {
+      "id": "front:6",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "Energie:",
+      "boxPx": {
+        "left": 105,
+        "top": 253,
+        "width": 193,
+        "height": 67
+      },
+      "ocrConfidence": 0.9996852279
+    },
+    {
+      "id": "front:7",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "<1%",
+      "boxPx": {
+        "left": 1257,
+        "top": 307,
+        "width": 137,
+        "height": 60
+      },
+      "ocrConfidence": 0.9998121262
+    },
+    {
+      "id": "front:8",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "Fett:",
+      "boxPx": {
+        "left": 102,
+        "top": 349,
+        "width": 109,
+        "height": 57
+      },
+      "ocrConfidence": 0.9924780726
+    },
+    {
+      "id": "front:9",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "<0,5g",
+      "boxPx": {
+        "left": 817,
+        "top": 315,
+        "width": 159,
+        "height": 69
+      },
+      "ocrConfidence": 0.9992867708
+    },
+    {
+      "id": "front:10",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "davon gesattigte Fettsauren:",
+      "boxPx": {
+        "left": 98,
+        "top": 422,
+        "width": 686,
+        "height": 98
+      },
+      "ocrConfidence": 0.9974294901
+    },
+    {
+      "id": "front:11",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "0,1g",
+      "boxPx": {
+        "left": 814,
+        "top": 416,
+        "width": 121,
+        "height": 69
+      },
+      "ocrConfidence": 0.9961221814
+    },
+    {
+      "id": "front:12",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "<1%",
+      "boxPx": {
+        "left": 1259,
+        "top": 406,
+        "width": 137,
+        "height": 61
+      },
+      "ocrConfidence": 0.9994704127
+    },
+    {
+      "id": "front:13",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "Kohlenhydrate:",
+      "boxPx": {
+        "left": 98,
+        "top": 539,
+        "width": 375,
+        "height": 73
+      },
+      "ocrConfidence": 0.9964541793
+    },
+    {
+      "id": "front:14",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "77g",
+      "boxPx": {
+        "left": 818,
+        "top": 515,
+        "width": 106,
+        "height": 71
+      },
+      "ocrConfidence": 0.9990293384
+    },
+    {
+      "id": "front:15",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "7%",
+      "boxPx": {
+        "left": 1256,
+        "top": 508,
+        "width": 97,
+        "height": 59
+      },
+      "ocrConfidence": 0.9999192953
+    },
+    {
+      "id": "front:16",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "davon Zucker:",
+      "boxPx": {
+        "left": 97,
+        "top": 638,
+        "width": 339,
+        "height": 66
+      },
+      "ocrConfidence": 0.9990266562
+    },
+    {
+      "id": "front:17",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "46 g",
+      "boxPx": {
+        "left": 822,
+        "top": 620,
+        "width": 103,
+        "height": 71
+      },
+      "ocrConfidence": 0.9224419594
+    },
+    {
+      "id": "front:18",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "13%",
+      "boxPx": {
+        "left": 1262,
+        "top": 610,
+        "width": 122,
+        "height": 59
+      },
+      "ocrConfidence": 0.9997596741
+    },
+    {
+      "id": "front:19",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "EiweiB:",
+      "boxPx": {
+        "left": 96,
+        "top": 747,
+        "width": 178,
+        "height": 62
+      },
+      "ocrConfidence": 0.9968206286
+    },
+    {
+      "id": "front:20",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "6,9g",
+      "boxPx": {
+        "left": 822,
+        "top": 722,
+        "width": 118,
+        "height": 70
+      },
+      "ocrConfidence": 0.998890996
+    },
+    {
+      "id": "front:21",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "3%",
+      "boxPx": {
+        "left": 1261,
+        "top": 712,
+        "width": 97,
+        "height": 60
+      },
+      "ocrConfidence": 0.9996079206
+    },
+    {
+      "id": "front:22",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "<1%",
+      "boxPx": {
+        "left": 1270,
+        "top": 814,
+        "width": 136,
+        "height": 60
+      },
+      "ocrConfidence": 0.9992194176
+    },
+    {
+      "id": "front:23",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "Salz:",
+      "boxPx": {
+        "left": 93,
+        "top": 850,
+        "width": 111,
+        "height": 64
+      },
+      "ocrConfidence": 0.9954434633
+    },
+    {
+      "id": "front:24",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "0,07 g",
+      "boxPx": {
+        "left": 823,
+        "top": 822,
+        "width": 147,
+        "height": 72
+      },
+      "ocrConfidence": 0.9584395885
+    },
+    {
+      "id": "front:25",
+      "imageId": "front",
+      "sourceType": "baidu_accurate",
+      "text": "R-Referenzmenge pro Tag.",
+      "boxPx": {
+        "left": 62,
+        "top": 942,
+        "width": 736,
+        "height": 61
+      },
+      "ocrConfidence": 0.9516716599
+    },
+    {
+      "id": "front:v2part:1:1:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Nahrwerte",
+      "boxPx": {
+        "left": 105,
+        "top": 145,
+        "width": 254,
+        "height": 66
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:2:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "pro 100 g",
+      "boxPx": {
+        "left": 804,
+        "top": 116,
+        "width": 224,
+        "height": 73
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:3:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "RI* pro Portion (25 g)",
+      "boxPx": {
+        "left": 1248,
+        "top": 96,
+        "width": 510,
+        "height": 72
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:4:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Energie:",
+      "boxPx": {
+        "left": 106,
+        "top": 248,
+        "width": 193,
+        "height": 77
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:5:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "1 459 kJ/343 kcal",
+      "boxPx": {
+        "left": 809,
+        "top": 204,
+        "width": 404,
+        "height": 76
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:6:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "4%",
+      "boxPx": {
+        "left": 1250,
+        "top": 203,
+        "width": 98,
+        "height": 66
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:7:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Fett:",
+      "boxPx": {
+        "left": 103,
+        "top": 347,
+        "width": 110,
+        "height": 63
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:8:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "<0,5g",
+      "boxPx": {
+        "left": 817,
+        "top": 312,
+        "width": 161,
+        "height": 77
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:9:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "<1%",
+      "boxPx": {
+        "left": 1257,
+        "top": 303,
+        "width": 138,
+        "height": 67
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:10:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "davon gesattigte Fettsauren:",
+      "boxPx": {
+        "left": 99,
+        "top": 417,
+        "width": 685,
+        "height": 110
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:11:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "0,1 g",
+      "boxPx": {
+        "left": 816,
+        "top": 411,
+        "width": 120,
+        "height": 79
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:12:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "<1%",
+      "boxPx": {
+        "left": 1259,
+        "top": 402,
+        "width": 140,
+        "height": 69
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:13:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Kohlenhydrate:",
+      "boxPx": {
+        "left": 99,
+        "top": 534,
+        "width": 374,
+        "height": 85
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:14:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "77g",
+      "boxPx": {
+        "left": 817,
+        "top": 511,
+        "width": 107,
+        "height": 80
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:15:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "7%",
+      "boxPx": {
+        "left": 1256,
+        "top": 504,
+        "width": 98,
+        "height": 68
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:16:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "davon Zucker:",
+      "boxPx": {
+        "left": 98,
+        "top": 634,
+        "width": 339,
+        "height": 73
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:17:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "46 g",
+      "boxPx": {
+        "left": 822,
+        "top": 615,
+        "width": 103,
+        "height": 80
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:18:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "13%",
+      "boxPx": {
+        "left": 1262,
+        "top": 606,
+        "width": 124,
+        "height": 68
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:19:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "EiweiB:",
+      "boxPx": {
+        "left": 96,
+        "top": 743,
+        "width": 179,
+        "height": 70
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:20:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "6,9g",
+      "boxPx": {
+        "left": 822,
+        "top": 718,
+        "width": 119,
+        "height": 79
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:21:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3%",
+      "boxPx": {
+        "left": 1261,
+        "top": 708,
+        "width": 98,
+        "height": 68
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:22:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Salz:",
+      "boxPx": {
+        "left": 93,
+        "top": 847,
+        "width": 113,
+        "height": 70
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:23:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "0,07 g",
+      "boxPx": {
+        "left": 822,
+        "top": 819,
+        "width": 149,
+        "height": 79
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2part:1:24:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "<1%",
+      "boxPx": {
+        "left": 1270,
+        "top": 810,
+        "width": 138,
+        "height": 67
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:1",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Nahrwerte",
+      "boxPx": {
+        "left": 105,
+        "top": 145,
+        "width": 254,
+        "height": 66
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:2",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "pro 100 g",
+      "boxPx": {
+        "left": 804,
+        "top": 116,
+        "width": 224,
+        "height": 73
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:3",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "RI* pro Portion (25 g)",
+      "boxPx": {
+        "left": 1248,
+        "top": 96,
+        "width": 510,
+        "height": 72
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:4",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Energie:",
+      "boxPx": {
+        "left": 106,
+        "top": 248,
+        "width": 193,
+        "height": 77
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:5",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "1 459 kJ/343 kcal",
+      "boxPx": {
+        "left": 809,
+        "top": 204,
+        "width": 404,
+        "height": 76
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:6",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "4%",
+      "boxPx": {
+        "left": 1250,
+        "top": 203,
+        "width": 98,
+        "height": 66
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:7",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Fett:",
+      "boxPx": {
+        "left": 103,
+        "top": 347,
+        "width": 110,
+        "height": 63
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:8",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "<0,5g",
+      "boxPx": {
+        "left": 817,
+        "top": 312,
+        "width": 161,
+        "height": 77
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:9",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "<1%",
+      "boxPx": {
+        "left": 1257,
+        "top": 303,
+        "width": 138,
+        "height": 67
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:10",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "davon gesattigte Fettsauren:",
+      "boxPx": {
+        "left": 99,
+        "top": 417,
+        "width": 685,
+        "height": 110
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:11",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "0,1 g",
+      "boxPx": {
+        "left": 816,
+        "top": 411,
+        "width": 120,
+        "height": 79
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:12",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "<1%",
+      "boxPx": {
+        "left": 1259,
+        "top": 402,
+        "width": 140,
+        "height": 69
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:13",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Kohlenhydrate:",
+      "boxPx": {
+        "left": 99,
+        "top": 534,
+        "width": 374,
+        "height": 85
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:14",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "77g",
+      "boxPx": {
+        "left": 817,
+        "top": 511,
+        "width": 107,
+        "height": 80
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:15",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "7%",
+      "boxPx": {
+        "left": 1256,
+        "top": 504,
+        "width": 98,
+        "height": 68
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:16",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "davon Zucker:",
+      "boxPx": {
+        "left": 98,
+        "top": 634,
+        "width": 339,
+        "height": 73
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:17",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "46 g",
+      "boxPx": {
+        "left": 822,
+        "top": 615,
+        "width": 103,
+        "height": 80
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:18",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "13%",
+      "boxPx": {
+        "left": 1262,
+        "top": 606,
+        "width": 124,
+        "height": 68
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:19",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "EiweiB:",
+      "boxPx": {
+        "left": 96,
+        "top": 743,
+        "width": 179,
+        "height": 70
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:20",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "6,9g",
+      "boxPx": {
+        "left": 822,
+        "top": 718,
+        "width": 119,
+        "height": 79
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:21",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "3%",
+      "boxPx": {
+        "left": 1261,
+        "top": 708,
+        "width": 98,
+        "height": 68
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:22",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "Salz:",
+      "boxPx": {
+        "left": 93,
+        "top": 847,
+        "width": 113,
+        "height": 70
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:23",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "0,07 g",
+      "boxPx": {
+        "left": 822,
+        "top": 819,
+        "width": 149,
+        "height": 79
+      },
+      "ocrConfidence": null
+    },
+    {
+      "id": "front:v2:1:24",
+      "imageId": "front",
+      "sourceType": "baidu_table_v2",
+      "text": "<1%",
+      "boxPx": {
+        "left": 1270,
+        "top": 810,
+        "width": 138,
+        "height": 67
+      },
+      "ocrConfidence": null
+    }
+  ],
+  "facts": {
+    "productName": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "netContent": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "ingredientsText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "allergenText": {
+      "raw": null,
+      "value": null,
+      "unit": null,
+      "sourceRefs": [],
+      "status": "missing",
+      "reviewReasons": []
+    },
+    "nutritionTables": [
+      {
+        "id": "table:1",
+        "basis": {
+          "kind": "per_100g",
+          "raw": "pro 100 g",
+          "sourceRefs": [
+            "front:v2:1:2",
+            "front:v2:1:1",
+            "front:v2:1:3",
+            "front:1",
+            "front:2",
+            "front:3"
+          ],
+          "status": "needs_review",
+          "servingSize": null
+        },
+        "rows": [
+          {
+            "nutrient": {
+              "raw": "Energie:",
+              "value": "energy",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:4",
+                "front:6"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "amount": {
+              "raw": "1 459 kJ/343 kcal",
+              "value": null,
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:5",
+                "front:4"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "MULTIPLE_QUANTITIES",
+                "UNIT_MISSING",
+                "NUMBER_OR_UNIT_UNREADABLE"
+              ]
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "Fett:",
+              "value": "fat",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:7",
+                "front:8"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "amount": {
+              "raw": "<0,5g",
+              "value": null,
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:8",
+                "front:9"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "UNSUPPORTED_COMPARATOR",
+                "UNIT_MISSING",
+                "NUMBER_OR_UNIT_UNREADABLE"
+              ]
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "davon gesattigte Fettsauren:",
+              "value": "saturated_fat",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:10",
+                "front:10"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "amount": {
+              "raw": "0,1 g",
+              "value": "0.1",
+              "unit": "g",
+              "sourceRefs": [
+                "front:v2:1:11",
+                "front:11"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "Kohlenhydrate:",
+              "value": "carbohydrate",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:13",
+                "front:13"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "amount": {
+              "raw": "77g",
+              "value": "77",
+              "unit": "g",
+              "sourceRefs": [
+                "front:v2:1:14",
+                "front:14"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "davon Zucker:",
+              "value": "sugar",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:16",
+                "front:16"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "amount": {
+              "raw": "46 g",
+              "value": "46",
+              "unit": "g",
+              "sourceRefs": [
+                "front:v2:1:17",
+                "front:17"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "OCR_LOW_CONFIDENCE"
+              ]
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "EiweiB:",
+              "value": "protein",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:19",
+                "front:19"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "amount": {
+              "raw": "6,9g",
+              "value": "6.9",
+              "unit": "g",
+              "sourceRefs": [
+                "front:v2:1:20",
+                "front:20"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "nrvPercent": null
+          },
+          {
+            "nutrient": {
+              "raw": "Salz:",
+              "value": "salt",
+              "unit": null,
+              "sourceRefs": [
+                "front:v2:1:22",
+                "front:23"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "TABLE_STRUCTURE_UNCERTAIN"
+              ]
+            },
+            "amount": {
+              "raw": "0,07 g",
+              "value": "0.07",
+              "unit": "g",
+              "sourceRefs": [
+                "front:v2:1:23",
+                "front:24"
+              ],
+              "status": "needs_review",
+              "reviewReasons": [
+                "OCR_LOW_CONFIDENCE"
+              ]
+            },
+            "nrvPercent": null
+          }
+        ],
+        "sourceRefs": [
+          "front:v2:1:1",
+          "front:v2:1:2",
+          "front:v2:1:3",
+          "front:1",
+          "front:2",
+          "front:3"
+        ]
+      }
+    ],
+    "claims": [],
+    "barcodes": []
+  },
+  "unassignedEvidenceIds": [
+    "front:5",
+    "front:7",
+    "front:12",
+    "front:15",
+    "front:18",
+    "front:21",
+    "front:22",
+    "front:25",
+    "front:v2part:1:1:1",
+    "front:v2part:1:2:1",
+    "front:v2part:1:3:1",
+    "front:v2part:1:4:1",
+    "front:v2part:1:5:1",
+    "front:v2part:1:6:1",
+    "front:v2part:1:7:1",
+    "front:v2part:1:8:1",
+    "front:v2part:1:9:1",
+    "front:v2part:1:10:1",
+    "front:v2part:1:11:1",
+    "front:v2part:1:12:1",
+    "front:v2part:1:13:1",
+    "front:v2part:1:14:1",
+    "front:v2part:1:15:1",
+    "front:v2part:1:16:1",
+    "front:v2part:1:17:1",
+    "front:v2part:1:18:1",
+    "front:v2part:1:19:1",
+    "front:v2part:1:20:1",
+    "front:v2part:1:21:1",
+    "front:v2part:1:22:1",
+    "front:v2part:1:23:1",
+    "front:v2part:1:24:1",
+    "front:v2:1:6",
+    "front:v2:1:9",
+    "front:v2:1:12",
+    "front:v2:1:15",
+    "front:v2:1:18",
+    "front:v2:1:21",
+    "front:v2:1:24"
+  ],
+  "productIdSource": "provided",
+  "tableDiagnostics": [
+    {
+      "code": "TABLE_STRUCTURE_UNCERTAIN",
+      "status": "needs_vision",
+      "message": "REFERENCE_BASIS_UNSUPPORTED; NRV_COLUMN_UNDETECTED; HEADER_DATA_MIXED; AMOUNT_MISSING_OR_UNREADABLE; NUTRIENT_UNIT_MISMATCH",
+      "imageId": "front",
+      "boxPx": {
+        "left": 71,
+        "top": 69,
+        "width": 1740,
+        "height": 867
+      },
+      "evidenceRefs": [
+        "front:v2:1:1",
+        "front:v2:1:2",
+        "front:v2:1:3",
+        "front:v2:1:4",
+        "front:v2:1:5",
+        "front:v2:1:6",
+        "front:v2:1:7",
+        "front:v2:1:8",
+        "front:v2:1:9",
+        "front:v2:1:10",
+        "front:v2:1:11",
+        "front:v2:1:12",
+        "front:v2:1:13",
+        "front:v2:1:14",
+        "front:v2:1:15",
+        "front:v2:1:16",
+        "front:v2:1:17",
+        "front:v2:1:18",
+        "front:v2:1:19",
+        "front:v2:1:20",
+        "front:v2:1:21",
+        "front:v2:1:22",
+        "front:v2:1:23",
+        "front:v2:1:24"
+      ],
+      "tableId": "table:1"
+    }
+  ]
+}

@@ -16,7 +16,7 @@ from src.shared.confidence import LOW_OCR_CONFIDENCE
 TEMPLATE = Path(__file__).with_name("template.html")
 
 
-def render_page(document_path: Path, image_path: Path) -> tuple[str, int]:
+def render_page(document_path: Path, image_path: Path, submit_url: str | None = None) -> tuple[str, int]:
     document = document_from_dict(json.loads(document_path.read_text(encoding="utf-8")))
     validate_document(document)
     if len(document.images) != 1:
@@ -50,7 +50,8 @@ def render_page(document_path: Path, image_path: Path) -> tuple[str, int]:
     rendered = (TEMPLATE.read_text(encoding="utf-8")
                 .replace("__TITLE__", html.escape(document.documentId))
                 .replace("__IMAGE_DATA__", f"data:{mime};base64,{base64.b64encode(image_bytes).decode('ascii')}")
-                .replace("__REVIEW_DATA__", payload))
+                .replace("__REVIEW_DATA__", payload)
+                .replace("__SUBMIT_URL__", json.dumps(submit_url or "").replace("<", "\\u003c")))
     return rendered, len(data["items"])
 
 

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "6907592000026",
+  "imageName": "6907592000026.jpg",
+  "imageSha256": "087ed9a1c260ebfb02170215b037470ebc2edd4f2f147b0535576c0614b6f416",
+  "humanVerified": false,
+  "notes": "能量同时印kJ和kcal，候选规范值选择kJ，原文保留两种单位；Salt为盐，不是钠。",
+  "replaceAllTables": true,
+  "supersedesTableIds": [
+    "table:1"
+  ],
+  "tables": [
+    {
+      "tableId": "table:vision:1",
+      "basis": {
+        "kind": "per_100g",
+        "raw": "Cada/Per/Pour 100g",
+        "value": "per_100g"
+      },
+      "rows": [
+        {
+          "nutrient": {
+            "raw": "Energia/Energy/Energie",
+            "value": "energy"
+          },
+          "amount": {
+            "raw": "720kJ/172kcal",
+            "value": "720",
+            "unit": "kJ"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Grasas/Fat/Graisses",
+            "value": "fat"
+          },
+          "amount": {
+            "raw": "10g",
+            "value": "10",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Saturadas/Of which saturated",
+            "value": "saturated_fat"
+          },
+          "amount": {
+            "raw": "0g",
+            "value": "0",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Carbohidratos/Carbohydrates/Glucides",
+            "value": "carbohydrate"
+          },
+          "amount": {
+            "raw": "7g",
+            "value": "7",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Of which sugars/Dont sucres",
+            "value": "sugar"
+          },
+          "amount": {
+            "raw": "4g",
+            "value": "4",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Proteina/Protein/Proteines",
+            "value": "protein"
+          },
+          "amount": {
+            "raw": "10g",
+            "value": "10",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        },
+        {
+          "nutrient": {
+            "raw": "Sal/Salt/Sel",
+            "value": "salt"
+          },
+          "amount": {
+            "raw": "8.9g",
+            "value": "8.9",
+            "unit": "g"
+          },
+          "nrvPercent": null
+        }
+      ],
+      "boxPx": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 1200
+      }
+    }
+  ]
+}

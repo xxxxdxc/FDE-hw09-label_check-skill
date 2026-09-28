@@ -1,0 +1,327 @@
+[
+  {
+    "code": "6906839615771",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6911988014924",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 2,
+    "note": "黑色叠印遮挡能量数值及部分NRV；能量不猜数字，钠NRV不作确定转写。需更清晰原图或人工确认。"
+  },
+  {
+    "code": "6920907808612",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6922848641310",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": "冲泡后茶汤不能直接等同于2g干茶或假定最终体积250mL；现有basis契约无法完整表示制备方式，保留unknown待扩展。"
+  },
+  {
+    "code": "6924769700497",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6928396000364",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6942404210064",
+    "rows": 7,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6954767420363",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6954767440774",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": "同一基准的左右两个面板合并为一张候选表，保留原图作复核依据。"
+  },
+  {
+    "code": "4891028720232",
+    "rows": 7,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6907592000026",
+    "rows": 7,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": "能量同时印kJ和kcal，候选规范值选择kJ，原文保留两种单位；Salt为盐，不是钠。"
+  },
+  {
+    "code": "4001686301555",
+    "rows": 7,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 1,
+    "note": "脂肪<0,5g含比较符，现有value无法表达上界，暂留null；RI为每份25g对应参考百分比，与每100g含量基准不同，不写入nrvPercent。RI原文仍保存在OCR evidence中。"
+  },
+  {
+    "code": "6902083881085",
+    "rows": 7,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6920202888883",
+    "classification": "non_nutrition_table",
+    "note": "图片为功效成分及含量段落，营养表验收不适用，不能伪造五大营养素行。"
+  },
+  {
+    "code": "4260290260010",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "4891028705949",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6905734301031",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6907992103051",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6909995103670",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6921168558049",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6921294389371",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6921317600711",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6922577704188",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6922577766124",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6923644287641",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6923644299774",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6924743915060",
+    "rows": 7,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6924743922570",
+    "rows": 7,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6946036500036",
+    "rows": 8,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6940187266308",
+    "rows": 13,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 2,
+    "note": "维生素A/E保留当量单位，不得作为普通质量单位换算。"
+  },
+  {
+    "code": "6954767400785",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6954767430461",
+    "rows": 7,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6974348720972",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6972434755648",
+    "rows": 14,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": "双栏续表；底边已截断，不能确认图片外是否还有行。"
+  },
+  {
+    "code": "3161712996153",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 2,
+    "note": "蛋白质印为18 0克、脂肪28 0克，小数点不清；不根据常识或NRV倒算补点。"
+  },
+  {
+    "code": "3502042113122",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "4710199087701",
+    "rows": 8,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6907992100272",
+    "rows": 6,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6914973603394",
+    "rows": 7,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": "只恢复右侧每100g营养表；左侧另有每份51g图形表且受反光遮挡，尚未完整结构化，不能计整图成功。"
+  },
+  {
+    "code": "6916196410414",
+    "rows": 5,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 0,
+    "note": ""
+  },
+  {
+    "code": "6902083922658",
+    "rows": 8,
+    "status": "needs_review",
+    "humanVerified": false,
+    "unknownFields": 1,
+    "note": "补回钠112mg/6%；维生素A为µg RE，当前契约不支持当量单位计算。"
+  }
+]
