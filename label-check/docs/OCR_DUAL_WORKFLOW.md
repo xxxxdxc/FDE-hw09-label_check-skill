@@ -2,6 +2,8 @@
 
 本文件是 `SKILL.md` 的 OCR 分支操作说明。当前只提取包装事实，不做营养计算或合规判定。
 
+![双路 OCR、视觉兜底与人工复核流程](ocr-review-flow.png)
+
 ## 运行与分流
 
 ```powershell
